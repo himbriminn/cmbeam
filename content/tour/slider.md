@@ -22,7 +22,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: coders.jpg
+        media: 6inserts_rs2.jpg
     - title: Lunch & Learn ☕️
       content: 'Share your knowledge with the group and explore exciting new topics together!'
       align: left
@@ -30,7 +30,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: contact.jpg
+        media: so_sat_rs.jpg
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
       align: right

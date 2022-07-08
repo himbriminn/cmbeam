@@ -7,7 +7,7 @@ widget: hero # See https://wowchemy.com/docs/page-builder/
 headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
 title: |
-  Wowchemy  
+  CMBeam  
   Research Group
 hero_media: welcome.jpg
 design:
@@ -20,4 +20,4 @@ design:
 
 <br>
 
-The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+The **CMBeam Research Group** is lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem 

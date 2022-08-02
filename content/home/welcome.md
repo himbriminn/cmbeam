@@ -20,4 +20,4 @@ design:
 
 <br>
 
-The **CMBeam Research Group** is lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem 
+The **CMBeam Research Group** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths

@@ -10,6 +10,8 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
+  - name: University of Iceland
+    url: 'https://www.hi.is/'
   - name: Stockholm University
     url: ''
 

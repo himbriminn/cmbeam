@@ -20,6 +20,7 @@ content:
   address:
     street: Hjarðarhagi 2
     city: Reykjavík
+    region: 
     postcode: '107'
     country: Iceland
     country_code: IS

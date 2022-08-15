@@ -19,7 +19,7 @@ content:
     - Principal Investigators
     - Researchers
     - PhD Students
-    - MA Students
+    - MSc Students
     - BSc Students
     - Administration
     - Visitors

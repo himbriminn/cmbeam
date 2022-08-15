@@ -15,16 +15,16 @@ design:
 
 content:
   slides:
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
+    - title: Cryogenic optics
+      content: 'We design, build, and characterize novel optical system for millimetre-wave applications'
       align: center
       background:
         position: right
         color: '#666'
         brightness: 0.7
         media: 6inserts_rs2.jpg
-    - title: Lunch & Learn ☕️
-      content: 'Share your knowledge with the group and explore exciting new topics together!'
+    - title: Time-domain simulations
+      content: 'We develop algorithms for time-domain simulations of optical non-idealities'
       align: left
       background:
         position: center

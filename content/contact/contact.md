@@ -27,7 +27,7 @@ content:
   coordinates:
     latitude: '64.13899'
     longitude: '-21.95352'
-  directions: Enter the building through the south entrance:
+  directions: Enter the building through the south entrance
     - 'Monday 10:00 to 13:00'
     - 'Wednesday 09:00 to 10:00'
   appointment_url: 'https://calendly.com'

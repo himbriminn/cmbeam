@@ -15,15 +15,14 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
 
-  email: test@example.org
+  email: jegudmunds@hi.is
   phone: 888 888 88 88
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
+    street: Hjarðarhagi 2
+    city: Reykjavík
+    postcode: '107'
+    country: Iceland
+    country_code: IS
   coordinates:
     latitude: '64.13899'
     longitude: '-21.95352'

@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Jón E. Guðmundsson
+title: Gaganpreet Singh
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Associate Professor
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:

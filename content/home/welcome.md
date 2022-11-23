@@ -20,6 +20,6 @@ design:
 
 <br>
 
-<p>The **CMBeam Research Group** at the University of Iceland focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths. Our primary goal is to advance our understanding of optical systems designed for applications in cosmology. Of particular interest is the study of the cosmic microwave background — the oldest light in the universe. </p>
+The **CMBeam Research Group** at the University of Iceland focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths. Our primary goal is to advance our understanding of optical systems designed for applications in cosmology. Of particular interest is the study of the cosmic microwave background — the oldest light in the universe.
 
-<p>We are grateful  funded by the European Research Council. </p>
+We are grateful for funding received by the European Research Council.

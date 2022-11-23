@@ -22,7 +22,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: 6inserts_rs2.jpg
+        media: 6inserts.jpg
     - title: Time-domain simulations
       content: 'We develop algorithms for time-domain simulations of optical non-idealities'
       align: left
@@ -30,15 +30,23 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: so_sat_rs.jpg
-    - title: World-Class Semiconductor Lab
-      content: 'Just opened last month!'
-      align: right
+        media: so_sat.jpg
+    - title: Metmaterials
+      content: 'We design metamaterials for applications in microwave optics'
+      align: left
       background:
         position: center
-        color: '#333'
-        brightness: 0.5
-        media: welcome.jpg
+        color: '#555'
+        brightness: 0.7
+        media: so_sat.jpg
+    - title: Cryogenics
+      content: 'We are experts in cryogenics'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.7
+        media: capillaries.jpg
       link:
         icon: graduation-cap
         icon_pack: fas

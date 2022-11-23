@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: '1'
   background:
-    image: capillaries_rs.jpg
+    image: capillaries.jpg
     image_darken: 0
     image_parallax: false
     image_position: center

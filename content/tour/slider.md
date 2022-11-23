@@ -31,14 +31,14 @@ content:
         color: '#555'
         brightness: 0.7
         media: so_sat.jpg
-    - title: Metmaterials
+    - title: Metamaterials
       content: 'We design metamaterials for applications in microwave optics'
       align: left
       background:
         position: center
         color: '#555'
         brightness: 0.7
-        media: so_sat.jpg
+        media: absorber.jpg
     - title: Cryogenics
       content: 'We are experts in cryogenics'
       align: left

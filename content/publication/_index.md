@@ -10,4 +10,9 @@ banner:
   image: ''
 ---
 
-Insert text. Insert text. Insert text. Insert text.
+The following list shows some key publications made by the group since the year 2019. For a more complete list, the following links should be useful:
+
+- Arxiv:
+- Nasa Ads:
+- Inspire:
+- Google Scholar

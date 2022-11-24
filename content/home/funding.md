@@ -21,8 +21,11 @@ design:
   columns: "1"
   background:
     image: funding_rs.jpg
-    image_size: actual
+    #  Options are `cover` (default), `contain`, or `actual` size.
+    image_size: cover
+    # Options include `left`, `center` (default), or `right`.
     image_position: center
+    # Use a fun parallax-like fixed background effect on desktop? true/false
     image_parallax: false
     color: 'white'
   spacing:

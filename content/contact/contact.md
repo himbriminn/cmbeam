@@ -54,4 +54,3 @@ design:
 ---
 
 We are always happy to chat!
-<!-- See also [teams page]({{< relref "/people/" >}}). -->

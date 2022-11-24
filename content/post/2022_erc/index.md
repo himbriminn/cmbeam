@@ -1,5 +1,5 @@
 ---
-title: Moving to the University of Iceland
+title: ERC Starting Grant Awarded
 date: 2020-09-01
 
 share: false

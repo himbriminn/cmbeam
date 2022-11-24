@@ -6,7 +6,7 @@ title: Vid Primožič
 superuser: false
 
 # Role/position
-role: BSc Student
+role: Alumni
 
 # Organizations/Affiliations
 organizations:

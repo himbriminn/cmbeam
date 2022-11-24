@@ -27,6 +27,6 @@ design:
     color: 'white'
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["300px", "0", "300px", "0"]
+    padding: ["100px", "0", "100px", "0"]
 ---
 

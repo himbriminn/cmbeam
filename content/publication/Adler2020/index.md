@@ -17,22 +17,24 @@ publishDate: '2021-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: Part of *SPIE Proceedings Volume 11453*, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy
+publication_short: In *SPIE*
 
 abstract: Accurate optical modeling is important for the design and characterisation of current and next-generation experiments studying the Cosmic Microwave Background (CMB). Geometrical Optics (GO) cannot model diffractive effects. In this work, we discuss two methods that incorporate diffraction, Physical Optics (PO) and the Geometrical Theory of Diffraction (GTD). We simulate the optical response of a ground-based two-lens refractor design shielded by a ground screen with time-reversed simulations. In particular, we use GTD to determine the interplay between the design of the refractor's forebaffle and the sidelobes caused by interaction with the ground screen.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We simulate the optical response of a ground-based two-lens refractor design shielded by a ground screen with time-reversed simulations.
 
 tags:
   - Source Themes
 featured: true
 
 links:
-  - name: Custom Link
-    url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+  - name: arXiv
+    url: https://arxiv.org/abs/2012.07613
+  - name: SPIE
+    url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11453/2576309/Modeling-sidelobe-response-for-ground-based-mm-wavelength-telescopes-with/10.1117/12.2576309.short?SSO=1
+url_pdf: https://arxiv.org/pdf/2012.07613.pdf
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
@@ -44,7 +46,7 @@ url_video: '#'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: **Fig 1**'
   focal_point: ''
   preview_only: false
 

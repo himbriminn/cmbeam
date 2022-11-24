@@ -1,13 +1,14 @@
 ---
-title: 'An example conference paper'
+title: 'Modeling sidelobe response for ground-based mm-wavelength telescopes with the geometrical theory of diffraction'
 authors:
+  - alex
   - admin
-  - Robert Ford
-date: '2013-07-01T00:00:00Z'
+
+date: '2020-12-14T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2021-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +20,7 @@ publication_types: ['1']
 publication: In *Source Themes Conference*
 publication_short: In *STC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Accurate optical modeling is important for the design and characterisation of current and next-generation experiments studying the Cosmic Microwave Background (CMB). Geometrical Optics (GO) cannot model diffractive effects. In this work, we discuss two methods that incorporate diffraction, Physical Optics (PO) and the Geometrical Theory of Diffraction (GTD). We simulate the optical response of a ground-based two-lens refractor design shielded by a ground screen with time-reversed simulations. In particular, we use GTD to determine the interplay between the design of the refractor's forebaffle and the sidelobes caused by interaction with the ground screen.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -67,4 +68,4 @@ slides:
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).
+<!-- Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/). -->

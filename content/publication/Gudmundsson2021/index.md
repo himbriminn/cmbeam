@@ -4,6 +4,7 @@ authors:
   - admin
   - alex
   - nadia
+  - et al.
 
 # author_notes:
 #   - 'Equal contribution'
@@ -50,7 +51,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: **Figure 2**'
+  caption: 'Image credit: **Figure 1**'
   focal_point: ''
   preview_only: false
 

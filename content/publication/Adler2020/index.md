@@ -35,13 +35,13 @@ links:
   - name: SPIE
     url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11453/2576309/Modeling-sidelobe-response-for-ground-based-mm-wavelength-telescopes-with/10.1117/12.2576309.short?SSO=1
 url_pdf: https://arxiv.org/pdf/2012.07613.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# url_code: '#'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -26,4 +26,6 @@ design:
     padding: ["200px", "0", "200px", "0"]
 ---
 
-![screen reader text](funding_rs.jpg "")
+<!-- ![screen reader text](funding_rs.jpg "") -->
+
+{{< figure src="funding_rs.jpg" caption="A caption" numbered="false" >}}

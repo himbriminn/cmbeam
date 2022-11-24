@@ -10,7 +10,7 @@ banner:
   image: ''
 ---
 
-The following list shows some key publications made by the group since the year 2019. For a more complete list, the following links should be useful:
+The following list shows some key publications made by the group since the year 2019. For a more complete list, including publications that predate the group, the following links should be useful:
 
 - Arxiv: [Link](https://arxiv.org/search/?searchtype=author&query=Gudmundsson%2C+J+E&abstracts=show&size=100&order=-announced_date_first)
 - Nasa Ads: [Link](https://ui.adsabs.harvard.edu/#/public-libraries/4rCZIMR5RoOgA4maALHmYQ)

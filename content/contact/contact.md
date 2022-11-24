@@ -53,4 +53,5 @@ design:
   columns: '1'
 ---
 
-We are always happy to chat! See also [teams page]({{< relref "/people/" >}}).
+We are always happy to chat!
+<!-- See also [teams page]({{< relref "/people/" >}}). -->

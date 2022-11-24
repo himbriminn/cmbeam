@@ -19,7 +19,7 @@ subtitle:
 design:
   # Use a 1-column layout
 
-  #view: compact
+  view: card
   columns: "1"
   background:
     color: 'white'

@@ -7,7 +7,7 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 14
+weight: 13
 
 # Section title
 title: ""
@@ -18,18 +18,21 @@ subtitle:
 # Section design
 design:
   # Use a 1-column layout
+
+  #view: compact
   columns: "1"
   background:
-    image: funding_rs.jpg
-    #  Options are `cover` (default), `contain`, or `actual` size.
-    image_size: contain
-    # Options include `left`, `center` (default), or `right`.
-    image_position: center
-    # Use a fun parallax-like fixed background effect on desktop? true/false
-    image_parallax: false
     color: 'white'
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["200px", "0", "200px", "0"]
+    padding: ["20px", "0", "200px", "0"]
 ---
 
+<!-- ![screen reader text](funding_rs.jpg "") -->
+
+
+<center>
+
+{{< figure src="funding_rs2.jpg" align="center" caption="" numbered="false" >}}
+
+</center>

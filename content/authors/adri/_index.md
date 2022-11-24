@@ -16,8 +16,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Insert text
 
-interests:
-  - The cosmic microwave background
+# interests:
+#   - The cosmic microwave background
 
 # education:
 #   courses:

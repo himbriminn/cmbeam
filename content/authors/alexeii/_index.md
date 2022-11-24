@@ -6,7 +6,7 @@ title: Alexeii Molin
 superuser: false
 
 # Role/position
-role: PhD Student
+role: MSc Student
 
 # Organizations/Affiliations
 organizations:

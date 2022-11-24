@@ -23,4 +23,4 @@ design:
     color: 'white'
 ---
 
-Insert text Insert text Insert text Insert text
+We are grateful for funding received by the European Research Council. Our group efforts at Stockholm University are funded by the Swedish National Space Agency, the Swedish Research Council, and the Knut and Allice Wallenberg Foundation.

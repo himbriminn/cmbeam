@@ -1,11 +1,9 @@
 ---
 title: 'The Simons Observatory: Modeling Optical Systematics in the Large Aperture Telescope'
 authors:
-  - adri
+  - admin
   - alex
   - nadia
-  - matteo
-  - admin
 
 # author_notes:
 #   - 'Equal contribution'

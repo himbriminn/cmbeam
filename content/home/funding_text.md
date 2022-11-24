@@ -10,7 +10,7 @@ headless: true
 weight: 11
 
 # Section title
-title: Funding
+title: Funding Acknowledgment
 
 # Section subtitle
 subtitle:

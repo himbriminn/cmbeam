@@ -1,8 +1,8 @@
 ---
-title: 'An example journal article'
+title: 'Probing frequency-dependent half-wave plate systematics for CMB experiments with full-sky beam convolution simulations'
 authors:
   - admin
-  - Robert Ford
+  - Adriaan Duivenvoorden
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
@@ -10,7 +10,7 @@ date: '2015-09-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2021-02-06T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -22,19 +22,19 @@ publication_types: ['2']
 publication: '*Journal of Source Themes, 1*(1)'
 publication_short: ''
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We study systematic effects from half-wave plates (HWPs) for cosmic microwave background (CMB) experiments using full-sky time-domain beam convolution simulations. Using an optical model for a fiducial spaceborne two-lens refractor telescope, we investigate how different HWP configurations optimized for dichroic detectors centred at 95 and 150 GHz impact the reconstruction of primordial B-mode polarization. We pay particular attention to possible biases arising from the interaction of frequency dependent HWP non-idealities with polarized Galactic dust emission and the interaction between the HWP and the instrumental beam. To produce these simulations, we have extended the capabilities of the publicly available beamconv code. To our knowledge, we produce the first time-domain simulations that include both HWP non-idealities and realistic full-sky beam convolution. Our analysis shows how certain achromatic HWP configurations produce significant systematic polarization angle offsets that vary for sky components with different frequency dependence. Our analysis also demonstrates that once we account for interactions with HWPs, realistic beam models with non-negligible cross-polarization and sidelobes will cause significant B-mode residuals that will have to be extensively modelled in some cases.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We study systematic effects from half-wave plates (HWPs) for cosmic microwave background (CMB) experiments using full-sky time-domain beam convolution simulations.
 
 tags:
   - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+links:
+- name: ArXiV
+  url: https://arxiv.org/abs/2012.10437
+url_pdf: http://arxiv.org/pdf/2012.10437
 url_code: ''
 url_dataset: ''
 url_poster: ''

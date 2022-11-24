@@ -28,8 +28,8 @@ tags:
 featured: true
 
 links:
-  - name: Custom Link
-    url: http://example.org
+  - name: ArXiV
+    url: http://arxiv.org/abs/1512.04133v1
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: '#'
 # url_dataset: '#'
@@ -44,7 +44,7 @@ url_pdf: http://arxiv.org/pdf/1512.04133v1
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

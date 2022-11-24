@@ -23,6 +23,7 @@ design:
     image: funding.jpg
     image_size: actual
     image_position: center
+    image_parallax: false
     color: 'white'
 
 ---

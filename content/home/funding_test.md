@@ -19,7 +19,7 @@ subtitle:
 design:
   # Use a 1-column layout
 
-  view: compact
+  #view: compact
   columns: "1"
   background:
     color: 'white'
@@ -30,4 +30,4 @@ design:
 
 <!-- ![screen reader text](funding_rs.jpg "") -->
 
-{{< figure src="funding_rs2.jpg" caption="A caption (v4)" numbered="false" >}}
+{{< figure src="funding_rs2.jpg" align="center" caption="A caption (v4)" numbered="false" >}}

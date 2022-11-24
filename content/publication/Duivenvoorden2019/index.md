@@ -1,12 +1,16 @@
 ---
 title: 'Probing frequency-dependent half-wave plate systematics for CMB experiments with full-sky beam convolution simulations'
 authors:
+  - adri
+  - alex
+  - nadia
+  - matteo
   - admin
-  - Adriaan Duivenvoorden
+
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-date: '2015-09-01T00:00:00Z'
+date: '2021-02-06T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).

@@ -20,7 +20,7 @@ design:
   # Use a 1-column layout
   columns: "1"
   background:
-    image: funding.jpg
+    image: funding_rs.jpg
     image_size: actual
     image_position: center
     image_parallax: false

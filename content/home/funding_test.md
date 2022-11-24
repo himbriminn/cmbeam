@@ -30,4 +30,9 @@ design:
 
 <!-- ![screen reader text](funding_rs.jpg "") -->
 
+
+<center>
+
 {{< figure src="funding_rs2.jpg" align="center" caption="A caption (v4)" numbered="false" >}}
+
+</center>

@@ -12,6 +12,6 @@ banner:
 
 List of useful links that are relevant to our group's activities:
 
- - Link 1 
- - Link 2
- - Link 3
+ - [The AxionDM Research Environment](https://axiondm.fysik.su.se/)
+ - [Useful information for international researchers coming to the University of Iceland](https://english.hi.is/international_staff_services)
+ - [Student housing at the University of Iceland](https://www.fs.is/en/student-housing/)

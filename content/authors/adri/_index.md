@@ -10,28 +10,26 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-  - name: Stockholm University
+  - name: Princeton University and the CCA
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio:
 
 interests:
   - The cosmic microwave background
-  - Optics and 
-  - Instrument systematics
 
-education:
-  courses:
-    - course: PhD 
-      institution: Princeton University
-      year: 2014
-    - course: MA in Artificial Intelligence
-      institution: Princeton University
-      year: 2011
-    - course: BSc in Physics
-      institution: University of Iceland
-      year: 2008
+# education:
+#   courses:
+#     - course: PhD
+#       institution: Princeton University
+#       year: 2014
+#     - course: MA in Artificial Intelligence
+#       institution: Princeton University
+#       year: 2011
+#     - course: BSc in Physics
+#       institution: University of Iceland
+#       year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -41,15 +39,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/jegudmunds
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/jegudmunds
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/AdriJD
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

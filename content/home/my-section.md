@@ -10,7 +10,7 @@ headless: true
 weight: 11
 
 # Section title
-title: Hello
+title: Funding
 
 # Section subtitle
 subtitle:
@@ -19,10 +19,8 @@ subtitle:
 design:
   # Use a 1-column layout
   columns: "1"
-  # Use a dark navy background with light text.
   background:
     color: 'white'
-    text_color_light: true
 ---
 
 Insert text Insert text Insert text Insert text

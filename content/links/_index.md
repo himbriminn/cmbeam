@@ -15,9 +15,10 @@ List of useful links that are relevant to our group's activities:
 ## Active Research Collaborations
  - [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html)
  - [Simons Observator](https://simonsobservatory.org/)
- - [SPIDER balloon borne expierment]()
- - [Taurus]()
+ - [SPIDER balloon borne expierment](https://spider.princeton.edu/)
+ - Taurus - Web page work in progress
  - [The AxionDM Research Environment](https://axiondm.fysik.su.se/)
+ - ALPHA - Web page work in progress
 
 ## Useful information about the University of Iceland
 
@@ -29,3 +30,6 @@ List of useful links that are relevant to our group's activities:
 
 ## Other
  - [The old group web page](http://www.jon.fysik.su.se/)
+
+## Fun science Twitter handles
+ - [SPIDER]()

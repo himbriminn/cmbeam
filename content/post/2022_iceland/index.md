@@ -6,6 +6,6 @@ share: false
 
 ---
 
-Members of the group to build up efforts at the University of Iceland
+Members of the group to build up efforts at the University of Iceland.
 
 <!--more-->

@@ -7,7 +7,7 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 1
+weight: 11
 
 # Section title
 title: Hello
@@ -21,7 +21,7 @@ design:
   columns: "1"
   # Use a dark navy background with light text.
   background:
-    color: 'navy'
+    color: 'white'
     text_color_light: true
 ---
 

@@ -15,3 +15,5 @@ List of useful links that are relevant to our group's activities:
  - [The AxionDM Research Environment](https://axiondm.fysik.su.se/)
  - [Useful information for international researchers coming to the University of Iceland](https://english.hi.is/international_staff_services)
  - [Student housing at the University of Iceland](https://www.fs.is/en/student-housing/)
+ - [The Oskar Klein Centre](http://www.okc.albanova.se/)
+ - [The old group web page](http://www.jon.fysik.su.se/)

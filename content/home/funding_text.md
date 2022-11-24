@@ -7,7 +7,7 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 11
+weight: 12
 
 # Section title
 title: Funding Acknowledgment

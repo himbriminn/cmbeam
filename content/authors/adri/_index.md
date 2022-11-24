@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-# bio:
+bio: Insert text
 
 interests:
   - The cosmic microwave background
@@ -36,9 +36,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:test@example.org'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/jegudmunds

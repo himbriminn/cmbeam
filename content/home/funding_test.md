@@ -30,4 +30,4 @@ design:
 
 <!-- ![screen reader text](funding_rs.jpg "") -->
 
-{{< figure src="funding_rs.jpg" caption="A caption (v4)" numbered="false" >}}
+{{< figure src="funding_rs2.jpg" caption="A caption (v4)" numbered="false" >}}

@@ -23,8 +23,8 @@ publishDate: '2021-02-06T00:00:00Z'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Journal of Source Themes, 1*(1)'
-publication_short: ''
+publication: 'Monthly Notices of the Royal Astronomical Society'
+publication_short: 'MNRAS'
 
 abstract: We study systematic effects from half-wave plates (HWPs) for cosmic microwave background (CMB) experiments using full-sky time-domain beam convolution simulations. Using an optical model for a fiducial spaceborne two-lens refractor telescope, we investigate how different HWP configurations optimized for dichroic detectors centred at 95 and 150 GHz impact the reconstruction of primordial B-mode polarization. We pay particular attention to possible biases arising from the interaction of frequency dependent HWP non-idealities with polarized Galactic dust emission and the interaction between the HWP and the instrumental beam. To produce these simulations, we have extended the capabilities of the publicly available beamconv code. To our knowledge, we produce the first time-domain simulations that include both HWP non-idealities and realistic full-sky beam convolution. Our analysis shows how certain achromatic HWP configurations produce significant systematic polarization angle offsets that vary for sky components with different frequency dependence. Our analysis also demonstrates that once we account for interactions with HWPs, realistic beam models with non-negligible cross-polarization and sidelobes will cause significant B-mode residuals that will have to be extensively modelled in some cases.
 

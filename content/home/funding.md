@@ -22,7 +22,7 @@ design:
   background:
     image: funding_rs.jpg
     #  Options are `cover` (default), `contain`, or `actual` size.
-    image_size: cover
+    image_size: contain
     # Options include `left`, `center` (default), or `right`.
     image_position: center
     # Use a fun parallax-like fixed background effect on desktop? true/false

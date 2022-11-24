@@ -7,9 +7,9 @@ authors:
   - matteo
   - admin
 
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 date: '2021-02-06T00:00:00Z'
 doi: ''
 

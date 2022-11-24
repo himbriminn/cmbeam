@@ -39,6 +39,14 @@ content:
         color: '#555'
         brightness: 0.7
         media: absorber.jpg
+    - title: Haloscopes
+      content: 'We are advancing metamaterial resonantors for axion dark matter searches'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.7
+        media: resonators.jpg
     - title: Cryogenics
       content: 'We are experts in cryogenics'
       align: left

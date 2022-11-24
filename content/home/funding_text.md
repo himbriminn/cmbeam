@@ -20,8 +20,7 @@ design:
   # Use a 1-column layout
   columns: "1"
   background:
-    color: 'grey'
-
+    color: 'white'
     image_position: cover
 
   spacing:

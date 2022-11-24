@@ -32,4 +32,4 @@ List of useful links that are relevant to our group's activities:
  - [The old group web page](http://www.jon.fysik.su.se/)
 
 ## Fun science Twitter handles
- - [SPIDER]()
+ - [SPIDER](https://twitter.com/SPIDER_CMB)

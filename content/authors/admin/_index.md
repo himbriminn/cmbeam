@@ -13,22 +13,23 @@ organizations:
   - name: University of Iceland
     url: 'https://www.hi.is/'
   - name: Stockholm University
-    url: ''
+    url: 'https://www.su.se/fysikum/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Insert text
 
 interests:
   - The cosmic microwave background
-  - Optics and 
+  - Optics and RF simulations
+  - Metamaterials
   - Instrument systematics
 
 education:
   courses:
-    - course: PhD 
+    - course: PhD in Physics
       institution: Princeton University
       year: 2014
-    - course: MA in Artificial Intelligence
+    - course: MA in Physics
       institution: Princeton University
       year: 2011
     - course: BSc in Physics

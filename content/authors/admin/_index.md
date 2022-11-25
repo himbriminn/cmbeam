@@ -11,9 +11,9 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: University of Iceland
-    url: 'https://www.hi.is/'
+    url: 'https://english.hi.is/staff/jegudmunds'
   - name: Stockholm University
-    url: 'https://www.su.se/fysikum/'
+    url: 'https://www.su.se/english/profiles/jgudm-1.253495'
 
 # Short bio (displayed in user profile at end of posts)
 bio: Insert text

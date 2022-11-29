@@ -14,24 +14,27 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research focuses on how to best model beam-related systematics for various experiments.
 
 interests:
-  - The cosmic microwave background
-  - Optics and 
-  - Instrument systematics
+  - The Cosmic Microwave Background
+  - Ground Microwave Emission
+  - Timestream filtering
 
 education:
   courses:
-    - course: PhD 
-      institution: Princeton University
-      year: 2014
-    - course: MA in Artificial Intelligence
-      institution: Princeton University
-      year: 2011
+    - course: PhD in Physics
+      institution: Stockholm University
+      year: 2024
+    - course: MSc in Astronomy and Astrophysics
+      institution: Université Paris-Cité
+      year: 2019
+    - course: MSc in Physics
+      institution: Imperial College London
+      year: 2018
     - course: BSc in Physics
-      institution: University of Iceland
-      year: 2008
+      institution: Ecole Polytechinque Fédérale de Lausanne
+      year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -40,16 +43,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:alexandre.adler@fysik.su.se'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/jegudmunds
+    link: https://twitter.com/BachPropagate
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/AERAdler
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,4 +71,4 @@ user_groups:
   - PhD Students
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+Beam there, done that. 

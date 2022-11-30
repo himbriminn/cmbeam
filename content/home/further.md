@@ -10,7 +10,7 @@ headless: true
 weight: 11
 
 # Section title
-#title: Funding Acknowledgment
+title: More specifically
 
 # Section subtitle
 subtitle:
@@ -18,9 +18,9 @@ subtitle:
 # Section design
 design:
   # Use a 1-column layout
-  columns: "1"
+  columns: "2"
   background:
-    color: 'grey'
+    color: 'Gainsboro'
     image_position: cover
 
   spacing:

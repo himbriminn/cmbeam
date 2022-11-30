@@ -23,8 +23,14 @@ design:
     # color: 'Gainsboro'
     image_position: cover
 
-    gradient_start: '#4bb4e3'
-    gradient_end: '#2b94c3'
+    # gradient_start: '#4bb4e3'
+    # gradient_end: '#2b94c3'
+
+    gradient_start: '#7c9ea4'
+    gradient_end: '#4b6468'
+
+    # B0E0E6
+
     # The gradient angle from 0-360 degrees
     gradient_angle: 180
     # Text color (true=light, false=dark, or remove for the dynamic theme color).

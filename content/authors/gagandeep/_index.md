@@ -26,10 +26,10 @@ education:
     - course: PhD (Thesis Submitted)
       institution: Indian Institute of Technology, Kanpur, India
       year: 2022
-    - course: MSc in Physics Honours 
+    - course: MSc in Physics 
       institution: Guru Nanak Dev University, Amritsar 
       year: 2015
-    - course: BSc in Physics Honours
+    - course: BSc in Physics
       institution: Guru Nanak Dev University, Amritsar 
       year: 2013
 

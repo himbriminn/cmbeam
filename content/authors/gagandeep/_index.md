@@ -26,10 +26,10 @@ education:
     - course: PhD (Thesis Submitted)
       institution: Indian Institute of Technology, Kanpur, India
       year: 2022
-    - course: MSc (Hon. School) in Physics 
+    - course: MSc (Hons.) in Physics 
       institution: Guru Nanak Dev University, Amritsar 
       year: 2015
-    - course: BSc (Hon. School) in Physics
+    - course: BSc (Hons.) in Physics
       institution: Guru Nanak Dev University, Amritsar 
       year: 2013
 
@@ -46,7 +46,7 @@ social:
     link: https://scholar.google.com/citations?user=q1q1qksAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/kaurgagan169
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

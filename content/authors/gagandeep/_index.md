@@ -14,12 +14,12 @@ organizations:
     url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include photonic bandgap materials, metamaterials, integrated optics
 
 interests:
-  - The cosmic microwave background
-  - Optics and 
-  - Instrument systematics
+  - Quantum Mechanics 
+  - Photonics
+  - Optics
 
 education:
   courses:

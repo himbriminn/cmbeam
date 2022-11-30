@@ -41,5 +41,7 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-A key aspect of our research at **the University of Iceland** and **Stockholm University** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths **and** the development of novel metamaterial resonators. Our primary goal is to advance our understanding of optical systems designed for applications in cosmology. Of particular interest is the study of the cosmic microwave background — the oldest light in the universe — and the search for dark matter axions.
+A key aspect of our research at **the University of Iceland** and **Stockholm University** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths **and** the development of novel metamaterial resonators.
+
+<!-- Our primary goal is to advance our understanding of optical systems designed for applications in cosmology. Of particular interest is the study of the cosmic microwave background — the oldest light in the universe — and the search for dark matter axions. -->
 

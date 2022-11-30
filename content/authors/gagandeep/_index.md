@@ -11,7 +11,7 @@ role: Research intern
 # Organizations/Affiliations
 organizations:
   - name: Stockholm University
-    url: ''
+    url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -23,15 +23,15 @@ interests:
 
 education:
   courses:
-    - course: PhD 
-      institution: Princeton University
-      year: 2014
-    - course: MA in Artificial Intelligence
-      institution: Princeton University
-      year: 2011
-    - course: BSc in Physics
-      institution: University of Iceland
-      year: 2008
+    - course: PhD (Thesis Submitted)
+      institution: Indian Institute of Technology, Kanpur, India
+      year: 2022
+    - course: MSc in Physics Honours 
+      institution: Guru Nanak Dev University, Amritsar 
+      year: 2015
+    - course: BSc in Physics Honours
+      institution: Guru Nanak Dev University, Amritsar 
+      year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -40,13 +40,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/jegudmunds
+    link: 'gagandeep.kaur@fysik.su.se'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=q1q1qksAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen

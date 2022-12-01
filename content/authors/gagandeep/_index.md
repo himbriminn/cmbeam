@@ -14,12 +14,13 @@ organizations:
     url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include photonic bandgap materials, metamaterials, integrated optics
+bio: I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. My current research interests include periodic structures such as metamaterials, waveguide/cavity based devices designed in such structures for myriad applcations.
 
 interests:
-  - Quantum Mechanics 
+  - Photonic crystals
+  - Metamaterials
   - Photonics
-  - Optics
+  - Integrated Optics
 
 education:
   courses:

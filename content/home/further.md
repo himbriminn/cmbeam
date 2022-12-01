@@ -10,7 +10,7 @@ headless: true
 weight: 11
 
 # Section title
-title: More specifically
+title: Optics and Telescopes
 
 # Section subtitle
 subtitle:

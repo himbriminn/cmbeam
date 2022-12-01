@@ -21,14 +21,14 @@ design:
     # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["20px", "20px", "20px", "20px"]
 
-cta:
-  url: '../tour/'
-  label: Take the tour
-  icon_pack: fas
-  icon: download
-cta_alt:
-  url: '../contact/'
-  label: or get in touch
+# cta:
+#   url: '../tour/'
+#   label: Take the tour
+#   icon_pack: fas
+#   icon: download
+# cta_alt:
+#   url: '../contact/'
+#   label: or get in touch
 
 ---
 

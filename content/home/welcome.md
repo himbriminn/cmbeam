@@ -20,6 +20,16 @@ design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["20px", "20px", "20px", "20px"]
+
+cta:
+  url: '../tour/'
+  label: Take the tour
+  icon_pack: fas
+  icon: download
+cta_alt:
+  url: '../contact/'
+  label: or get in touch
+
 ---
 
 The primary focus of our research group is to test theories describing the beginning of the universe, the nature of elusive dark matter, and the birth of the first stars. For this purpose, we work on novel aspects of cryogenic and optical instrument design, simulations, and data analysis.

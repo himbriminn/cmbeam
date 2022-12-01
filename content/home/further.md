@@ -38,16 +38,6 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: false
 
-cta:
-  url: 'https://wowchemy.com'
-  label: Get Started
-  icon_pack: fas
-  icon: download
-cta_alt:
-  url: 'https://wowchemy.com'
-  label: View Documentation
-
-
 spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
   padding: ["20px", "0", "20px", "0"]

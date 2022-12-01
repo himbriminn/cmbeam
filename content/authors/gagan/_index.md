@@ -11,45 +11,43 @@ role: Postdoc
 # Organizations/Affiliations
 organizations:
   - name: Stockholm University
-    url: ''
+    url: 'https://www.fysik.su.se/english/cops-division'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 interests:
-  - The cosmic microwave background
-  - Optics and 
-  - Instrument systematics
-
+  - Laser micromachining 
+  - 3D printing 
+  - Manufacturing of Metamaterial structures such as absorbers and lenses
+  - Robot Machining 
+  
 education:
   courses:
     - course: PhD 
-      institution: Princeton University
+      institution: Indian institute of Technology, Kanpur, India 
+      year: 2021
+    - course: Master of Technology in Mechanical Engineering
+      institution: Indian institute of Technology, Kanpur, India 
+      year: 2018
+    - course: Bachelor of Technology in Mechanical Engineering
+      institution: Baba Banda Singh Bahadur Engineering College, Fatehgarh Sahib
       year: 2014
-    - course: MA in Artificial Intelligence
-      institution: Princeton University
-      year: 2011
-    - course: BSc in Physics
-      institution: University of Iceland
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/jegudmunds
+    link: 'mailto:gaganpreet.singh@fysik.su.se'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=weAa-GEAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/Gaganpreet21
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,7 +55,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'gaganpreet.singh@fysik.su.se'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

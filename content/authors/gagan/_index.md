@@ -14,12 +14,12 @@ organizations:
     url: 'https://www.fysik.su.se/english/cops-division'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: In my PhD I have  developed various machining techniques for fabrication of large area metamaterial absorbers. Currently, as a Post Doctorate Researcher, I am working on manufacturing and characterization techniques for metamaterial millimeter wave absorbers. I am interested in developing/improving manufacturing techniques to realize real-life applications in the field of Applied Physics. 
 
 interests:
-  - Laser micromachining 
+  - Laser Micromachining 
   - 3D printing 
-  - Manufacturing of Metamaterial structures such as absorbers and lenses
+  - Metamaterial Strucutres
   - Robot Machining 
   
 education:

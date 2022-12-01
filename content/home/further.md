@@ -30,7 +30,7 @@ design:
     # gradient_end: '#4b6468'
 
     gradient_start: '#dcdad8'
-    gradient_end: '#c1c1be'
+    gradient_end: '#eeeeee'
 
     # B0E0E6
 

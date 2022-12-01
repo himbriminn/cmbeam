@@ -14,7 +14,7 @@ organizations:
     url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. My current research interests include periodic structures such as metamaterials, waveguide/cavity based devices designed in such structures for myriad applcations.
+bio: I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. I am interested in numerical and experimental study of periodic structures, waveguide/cavity based devices designed in such structures for myriad applcations. I am currently working on a prototype of Plasma Haloscope based on wired metamaterials for Axion detection. 
 
 interests:
   - Photonic crystals

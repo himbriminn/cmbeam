@@ -38,9 +38,15 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: false
 
-  spacing:
-    # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["20px", "0", "20px", "0"]
+cta:
+  url: '#courses'
+  label: Explore our courses
+  icon_pack: fas
+  icon: user-graduate
+
+spacing:
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding: ["20px", "0", "20px", "0"]
 ---
 
 A key aspect of our research at **the University of Iceland** and **Stockholm University** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths **and** the development of novel metamaterial resonators. Take a [quick tour]({{< relref "../tour/" >}}) of our efforts and please don't hesitate to [get in touch]({{< relref "../contact/" >}}). {{< cta cta_text="👉 Check out the tour" cta_link="machine-learning" >}}

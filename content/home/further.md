@@ -40,7 +40,7 @@ design:
 
 spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding: ["100px", "0", "100px", "0"]
+  padding: ["300px", "0", "300px", "0"]
 ---
 
 A key aspect of our research at **the University of Iceland** and **Stockholm University** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths **and** the development of novel metamaterial resonators. Take a [quick tour]({{< relref "../tour/" >}}) of our efforts and please don't hesitate to [get in touch]({{< relref "../contact/" >}}).

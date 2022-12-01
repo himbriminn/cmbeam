@@ -39,10 +39,14 @@ design:
     text_color_light: false
 
 cta:
-  url: '#courses'
-  label: Explore our courses
+  url: 'https://wowchemy.com'
+  label: Get Started
   icon_pack: fas
-  icon: user-graduate
+  icon: download
+cta_alt:
+  url: 'https://wowchemy.com'
+  label: View Documentation
+
 
 spacing:
   # Customize the section spacing. Order is top, right, bottom, left.

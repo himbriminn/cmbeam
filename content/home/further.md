@@ -45,5 +45,7 @@ design:
 
 A key aspect of our research at **the University of Iceland** and **Stockholm University** focuses on optics design, characterization, and technology development for telescopes operating at millimetre wavelengths **and** the development of novel metamaterial resonators. Take a [quick tour]({{< relref "../tour/" >}}) of our efforts and please don't hesitate to [get in touch]({{< relref "../contact/" >}}).
 
+{{< cta cta_text="👉 Check out the tour" cta_link="machine-learning" >}}
+
 <!-- Our primary goal is to advance our understanding of optical systems designed for applications in cosmology. Of particular interest is the study of the cosmic microwave background — the oldest light in the universe — and the search for dark matter axions. -->
 

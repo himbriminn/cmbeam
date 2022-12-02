@@ -17,9 +17,9 @@ organizations:
 bio: 
 
 interests:
-  - Laser micromachining 
+  - Laser Micromachining 
   - 3D printing 
-  - Manufacturing of Metamaterial structures such as absorbers and lenses
+  - Metamaterial Strucutres
   - Robot Machining 
   
 education:
@@ -66,4 +66,4 @@ user_groups:
   - Researchers
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+In my PhD, I have  developed various machining techniques for fabrication of large area metamaterial absorbers. Currently, as a Post Doctorate Researcher, I am working on manufacturing and characterization techniques for metamaterial millimeter wave absorbers. I am interested in developing/improving manufacturing techniques to realize real-life applications in the field of Applied Physics. 

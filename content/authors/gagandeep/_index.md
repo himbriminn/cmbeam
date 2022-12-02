@@ -14,12 +14,13 @@ organizations:
     url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include photonic bandgap materials, metamaterials, integrated optics
+bio: I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. I am interested in numerical and experimental study of periodic structures, waveguide/cavity based devices designed in such structures for myriad applcations. I am currently working on a prototype of Plasma Haloscope based on wired metamaterials for Axion detection. 
 
 interests:
-  - Quantum Mechanics 
+  - Photonic crystals
+  - Metamaterials
   - Photonics
-  - Optics
+  - Integrated Optics
 
 education:
   courses:
@@ -65,4 +66,4 @@ user_groups:
   - Researchers
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. I am interested in numerical and experimental study of periodic structures, waveguide/cavity based devices designed in such structures for myriad applcations. I am currently working on a prototype of Plasma Haloscope based on wired metamaterials for Axion detection. 

@@ -20,5 +20,9 @@ content:
   page_type: post
 design:
   view: 3
-  columns: '1'
+  columns: '1'  
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["20px", "0", "20px", "0"]
+  
 ---

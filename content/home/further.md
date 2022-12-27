@@ -18,7 +18,7 @@ subtitle:
 # Section design
 design:
   # Use a 1-column layout
-  columns: "1"
+  columns: "2"
   background:
     # color: 'Gainsboro'
     image_position: cover

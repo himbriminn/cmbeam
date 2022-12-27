@@ -29,7 +29,7 @@ design:
 #   label: or get in touch
 
 ---
-...to our group site 👋
+to our group site 👋
 
 The primary focus of our research group is to test theories describing the beginning of the universe, the nature of elusive dark matter, and the birth of the first stars. For this purpose, we work on novel aspects of cryogenic and optical instrument design, simulations, and data analysis.
 

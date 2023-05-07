@@ -6,7 +6,7 @@ title: Gagandeep Kaur
 superuser: false
 
 # Role/position
-role: Research intern
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:

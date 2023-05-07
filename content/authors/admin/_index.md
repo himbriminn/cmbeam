@@ -16,7 +16,7 @@ organizations:
     url: 'https://www.su.se/english/profiles/jgudm-1.253495'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert text
+bio: Assistant professor at the University of Iceland and senior research scientist at Stockholm University.
 
 interests:
   - The cosmic microwave background
@@ -71,4 +71,4 @@ user_groups:
   - Principal Investigator
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+My research background includes working on the design, construction, characterization, and deployment of the world's most advanced stratospheric science instrument, SPIDER. Through this work, I have tackled a wide array of experimental efforts, including challenges related to cryogenics, optics, electronics, rigging, logistics, and software. I designed and built a novel capillary assembly that provides a steady supply of superfluid helium to a 1.8 Kelvin temperature stage in the SPIDER flight cryostat, critical for a successful flight. I am the leading cryogenic expert on SPIDER and I oversaw the successful 2015-deployment of the largest cryostat ever to fly on a stratospheric balloon. 

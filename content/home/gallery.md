@@ -18,7 +18,7 @@ subtitle: A collection of photos from our group's activities over the last few y
   image: IMG_0038.jpg
   caption: Group hike to Reykjadalur in 2023
 - album: front_page
-  image: team22_rs.jpg.jpg
+  image: team22_rs.jpg
   caption: Group BBQ in 2022
 ---
 

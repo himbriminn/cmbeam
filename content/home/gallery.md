@@ -23,5 +23,5 @@ subtitle: A collection of photos from our group's activities over the last few y
   
 ---
 
-{{< gallery album="group_trip" >}}
-<!-- {{< gallery album="front_page" >}} -->
+<!-- {{< gallery album="group_trip" >}} -->
+{{< gallery album="front_page" >}}

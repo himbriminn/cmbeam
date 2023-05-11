@@ -12,7 +12,7 @@ headless: true
 weight: 19
 
 title: Gallery
-subtitle:
+subtitle: Insert text
 
 ---
 

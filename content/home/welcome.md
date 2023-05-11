@@ -31,7 +31,8 @@ design:
 ---
 <!-- to our group site 👋 -->
 Welcome 👋 <BR> 
-We work on novel instruments designs that support experiments probing the early universe, the nature of dark matter, and the birth of the first stars.
+We work on novel instruments designs that support experiments probing the early universe, the nature of dark matter, and the birth of the first stars. Please take a [quick tour]({{< relref "../tour/" >}}) of our efforts and please don't hesitate to [get in touch]({{< relref "../contact/" >}}).
+
 <!-- The primary focus of our research group is to test theories describing the beginning of the universe, the nature of elusive dark matter, and the birth of the first stars. For this purpose, we work on novel aspects of cryogenic and optical instrument design, simulations, and data analysis.  -->
 
 <!--From here you can take a [quick tour]({{< relref "../tour/" >}}) of our efforts or [get in touch]({{< relref "../contact/" >}}) 🖖 -->

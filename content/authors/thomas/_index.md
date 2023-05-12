@@ -10,28 +10,27 @@ role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-  - name: Stockholm University
-    url: 'https://www.su.se/english/profiles/kaga6622-1.626538'
+  - name: University of Iceland (Háskóli Íslands)
+    url: 'https://english.hi.is/staff/thomasgascard'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include photonic bandgap materials, metamaterials, integrated optics
+bio: In the hope to contribute to the current efforts of the Cosmology comunity to unveil the early stages of the Universe and its evolution, I did a PhD. in instrumentation for cosmology applications at Cardiff University, which covers design methods, fabrication and experimental characterisation of a Metamaterial-based Lenslet (MetaL) prototype coupled to an antenna fed detector plane. I then joined the CMBeam group to carry on experimental characterisation and qualification of optics for futur cosmology experiments.
 
 interests:
-  - Quantum Mechanics 
-  - Photonics
-  - Optics
+  - Instrumentation & Experimental Physics
+  - Metamaterial develoments
+  - Optics for mm/sub-mm/FIR
+  - Low temperature physics, cryogenics and detector developments
+  - Astrophysics and astronomy
 
 education:
   courses:
-    - course: PhD (Thesis Submitted)
-      institution: Indian Institute of Technology, Kanpur, India
+    - course: PhD. (Thesis Submitted)
+      institution: Cardiff University, Wales, UK
       year: 2022
-    - course: MSc (Hons.) in Physics 
-      institution: Guru Nanak Dev University, Amritsar 
-      year: 2015
-    - course: BSc (Hons.) in Physics
-      institution: Guru Nanak Dev University, Amritsar 
-      year: 2013
+    - course: BSc. & MSc. in Applied Physics
+      institution: ELISA Aerospace, France
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -40,18 +39,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'gagandeep.kaur@fysik.su.se'
+    link: 'mailto:thomasgascard@hi.is'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=q1q1qksAAAAJ&hl=en&oi=ao
+    link: https://scholar.google.com/citations?hl=en&user=psNhmP8AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/kaurgagan169
+    link: https://github.com/ThomasGascard
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/cv_tg.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -64,5 +63,3 @@ highlight_name: false
 user_groups:
   - Researchers
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.

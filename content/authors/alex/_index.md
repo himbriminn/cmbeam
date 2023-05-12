@@ -57,7 +57,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf
+#   link: files/alexcv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -71,4 +71,4 @@ user_groups:
   - PhD Students
 ---
 
-Beam there, done that. 
+My research focuses on how to best model beam-related systematics for various experiments. I've modelled how non-ideal behavior of polarisation  modulators impact B-mode searches. I've also simulated scan-synchronous signal for ground and balloon-based experiments. Currently, my work is divided between working on Simons Observatory, LiteBIRD and a balloon-borne experiment called Taurus. 

@@ -7,7 +7,7 @@ widget: hero # See https://wowchemy.com/docs/page-builder/
 headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
 title: #Welcome... 
-hero_media: welcome4.png
+hero_media: welcome5.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
@@ -31,7 +31,8 @@ design:
 ---
 <!-- to our group site 👋 -->
 Welcome 👋 <BR> 
-We work on novel instruments designs that support experiments probing the early universe, the nature of dark matter, and the birth of the first stars.
+We work on novel instruments designs that support experiments probing the early universe, the nature of dark matter, and the birth of the first stars. Please take a [quick tour]({{< relref "../tour/" >}}) of our efforts and please don't hesitate to [get in touch]({{< relref "../contact/" >}}).
+
 <!-- The primary focus of our research group is to test theories describing the beginning of the universe, the nature of elusive dark matter, and the birth of the first stars. For this purpose, we work on novel aspects of cryogenic and optical instrument design, simulations, and data analysis.  -->
 
 <!--From here you can take a [quick tour]({{< relref "../tour/" >}}) of our efforts or [get in touch]({{< relref "../contact/" >}}) 🖖 -->

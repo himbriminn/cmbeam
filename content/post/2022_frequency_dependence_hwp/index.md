@@ -1,5 +1,5 @@
 ---
-title: Lightweight metameterial absorbers
+title: Half-wave plante non-idealities and realistic beams
 date: 2021-02-01
 ---
 

@@ -1,4 +1,4 @@
----
+
 # Display name
 title: Rustam Balafendiev
 
@@ -14,21 +14,23 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include...
+bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021.
+His current research interests include novel applications of wire metamaterials and holography experiments.
 
 interests:
-  - Insert text
-  - Insert text
-  - Insert text
+  - Metamaterials
+  - Axion Haloscopes
+  - UHF MRI
+  - Holography
 
 education:
   courses:
-    - course: Msc in Quantum Physics
-      institution: University of Copenhagen
+    - course: Msc in Radiophysics
+      institution: ITMO University
+      year: 2021
+    - course: BSc in Radiophysics
+      institution: Peter the Great St.Petersburg Polytechnic University
       year: 2019
-    - course: BSc in Physics
-      institution: National and Kapodistrian University of Athens
-      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -37,15 +39,33 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'nadia.dachlythra@fysik.su.se'
+    link: 'rub8@hi.is'
+  - icon: envelope
+    icon_pack: fas
+    link: 'rustam.balafendiev@metalab.ifmo.ru'
+  - icon: orcid
+    icon_pack: ai
+    link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
+  - icon: elseveir
+    icon_pack: ai
+    link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
+  - icon: ResearcherID
+    icon_pack: ai
+    link: [AAS-4785-2021](https://publons.com/researcher/4322529/rustam-balafendiev/)
+  - icon: GoogleScholar
+    icon_pack: ai
+    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
+  - icon: ResearchGate
+    icon_pack: ai
+    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)
   - icon: github
     icon_pack: fab
-    link: https://github.com/nad-dch
+    link: [Giguv](https://github.com/Giguv)
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+ - icon: cv
+   icon_pack: ai
+   link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

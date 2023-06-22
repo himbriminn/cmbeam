@@ -38,7 +38,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'rub8@hi.is'
+    link: 'mailto:rub8@hi.is'
   - icon: orcid
     icon_pack: ai
     link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)

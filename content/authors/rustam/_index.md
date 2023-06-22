@@ -73,6 +73,4 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - PhD Students
-
-My main focus is beam modelling for CMB telescopes such as the Simons Observatory Small Aperture Telescopes (SATs).
 ---

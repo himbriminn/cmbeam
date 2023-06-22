@@ -36,27 +36,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:rub8@hi.is'
-  - icon: orcid
-    icon_pack: ai
-    link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
-  - icon: elseveir
-    icon_pack: ai
-    link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
-  - icon: ResearcherID
-    icon_pack: ai
-    link: [AAS-4785-2021](https://publons.com/researcher/4322529/rustam-balafendiev/)
-  - icon: GoogleScholar
-    icon_pack: ai
-    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
-  - icon: ResearchGate
-    icon_pack: ai
-    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)
-  - icon: github
-    icon_pack: fab
-    link: [Giguv](https://github.com/Giguv)
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  - icon: cv

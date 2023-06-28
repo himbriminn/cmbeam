@@ -39,10 +39,9 @@ social:
  - icon: cv
    icon_pack: ai
    link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
-   
-#   - icon: envelope
-#     icon_pack: fas
-#     link: 'mailto:rub8@hi.is'
+ - icon: envelope
+   icon_pack: fas
+   link: 'mailto:rub8@hi.is'
 #   - icon: orcid
 #     icon_pack: ai
 #     link: https://orcid.org/0000-0001-5081-5257

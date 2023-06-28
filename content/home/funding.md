@@ -25,7 +25,7 @@ design:
     color: 'white'
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["40px", "0", "40px", "0"]
+    padding: ["20px", "0", "20px", "0"]
 ---
 
 <!-- ![screen reader text](funding_rs.jpg "") -->
@@ -33,6 +33,6 @@ design:
 
 <center>
 
-{{< figure src="funding_rs2.jpg" width=800px align="center" caption="" numbered="false" >}}
+{{< figure src="funding_rs2.jpg" width=1000px align="center" caption="" numbered="false" >}}
 
 </center>

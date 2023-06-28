@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021. His current research interests include novel applications of wire metamaterials and holography experiments..
+bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021. His current research interests include novel applications of wire metamaterials and holography experiments.
 
 interests:
   - Metamaterials
@@ -35,7 +35,11 @@ education:
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
+social:
+ - icon: cv
+   icon_pack: ai
+   link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
+   
 #   - icon: envelope
 #     icon_pack: fas
 #     link: 'mailto:rub8@hi.is'
@@ -60,9 +64,8 @@ education:
 #    link: [Giguv](https://github.com/Giguv)
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- - icon: cv
-   # icon_pack: ai
-   # link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
+ 
+   # 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021. His current research interests include novel applications of wire metamaterials and holography experiments.
+bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021. His current research interests include novel applications of wire metamaterials and holography experiments..
 
 interests:
   - Metamaterials

@@ -14,6 +14,12 @@ weight: 19
 title: Gallery
 subtitle: A collection of photos from our group's activities over the last few years.
 
+design:
+  # Use a 1-column layout
+  
+  background:
+    color: '#eeeeee'
+
 # - album: front_page
 #   image: IMG_0038.jpg
 #   caption: Group hike to Reykjadalur in 2023

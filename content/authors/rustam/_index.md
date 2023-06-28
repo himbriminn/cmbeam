@@ -42,10 +42,12 @@ social:
  - icon: envelope
    icon_pack: fas
    link: 'mailto:rub8@hi.is'
- - icon: elseveir
-   icon_pack: ai
-   link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
-
+ - icon: github
+   icon_pack: fab
+   link: https://github.com/Giguv
+# - icon: elseveir
+#   icon_pack: ai
+#   link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
 # - icon: orcid
 #   icon_pack: ai
 #   link: https://orcid.org/0000-0001-5081-5257
@@ -59,9 +61,6 @@ social:
 #  - icon: ResearchGate
 #    icon_pack: ai
 #    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)
-#  - icon: github
-#    icon_pack: fab
-#    link: [Giguv](https://github.com/Giguv)
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  

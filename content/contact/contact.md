@@ -53,4 +53,4 @@ design:
   columns: '1'
 ---
 
-We are always happy to chat!
+If you find some of our projects interesting and would like to know more, please do not hestiate to get in touch :) We are always happy to chat!

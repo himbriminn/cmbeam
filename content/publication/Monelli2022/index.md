@@ -10,11 +10,11 @@ authors:
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
-date: '2021-02-06T00:00:00Z'
+date: '2022-10-10T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2021-02-06T00:00:00Z'
+publishDate: '2022-19-10T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -23,13 +23,13 @@ publishDate: '2021-02-06T00:00:00Z'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Monthly Notices of the Royal Astronomical Society'
-publication_short: 'MNRAS'
+publication: 'Journal of Cosmology and Astroparticle Physics'
+publication_short: 'JCAP'
 
-abstract: We study systematic effects from half-wave plates (HWPs) for cosmic microwave background (CMB) experiments using full-sky time-domain beam convolution simulations. Using an optical model for a fiducial spaceborne two-lens refractor telescope, we investigate how different HWP configurations optimized for dichroic detectors centred at 95 and 150 GHz impact the reconstruction of primordial B-mode polarization. We pay particular attention to possible biases arising from the interaction of frequency dependent HWP non-idealities with polarized Galactic dust emission and the interaction between the HWP and the instrumental beam. To produce these simulations, we have extended the capabilities of the publicly available beamconv code. To our knowledge, we produce the first time-domain simulations that include both HWP non-idealities and realistic full-sky beam convolution. Our analysis shows how certain achromatic HWP configurations produce significant systematic polarization angle offsets that vary for sky components with different frequency dependence. Our analysis also demonstrates that once we account for interactions with HWPs, realistic beam models with non-negligible cross-polarization and sidelobes will cause significant B-mode residuals that will have to be extensively modelled in some cases.
+abstract: Polarization of the cosmic microwave background (CMB) can probe new parity-violating physics such as cosmic birefringence (CB), which requires exquisite control over instrumental systematics. The non-idealities of the half-wave plate (HWP) represent a source of systematics when used as a polarization modulator. We study their impact on the CMB angular power spectra, which is partially degenerate with CB and miscalibration of the polarization angle. We use full-sky beam convolution simulations including HWP to generate mock noiseless time-ordered data, process them through a bin averaging map-maker, and calculate the power spectra including TB and  EB correlations. We also derive analytical formulae which accurately model the observed spectra. For our choice of HWP parameters, the HWP-induced angle amounts to a few degrees, which could be misinterpreted as CB. Accurate knowledge of the HWP is required to mitigate this. Our simulation and analytical formulae will be useful for deriving requirements for the accuracy of HWP calibration.
 
 # Summary. An optional shortened abstract.
-summary: We study systematic effects from half-wave plates (HWPs) for cosmic microwave background (CMB) experiments using full-sky time-domain beam convolution simulations.
+summary: We study how systematic effects from half-wave plates (HWPs) impact our ability to probe parity-violating physics such as cosmic birefringence (CB).
 
 tags:
   - Source Themes
@@ -37,8 +37,8 @@ featured: false
 
 links:
 - name: ArXiV
-  url: https://arxiv.org/abs/2012.10437
-url_pdf: http://arxiv.org/pdf/2012.10437
+  url: https://arxiv.org/abs/2211.05685
+url_pdf: http://arxiv.org/pdf/2211.05685
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -50,7 +50,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: **Figure 2**'
+  caption: 'Image credit: **Figure 3**'
   focal_point: ''
   preview_only: false
 

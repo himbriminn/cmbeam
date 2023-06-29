@@ -2,8 +2,8 @@
 title: 'Searching For Dark Matter with Plasma Haloscopes'
 authors: 
   - Alexander J. Millar
-  - and others 
   - admin
+  - and others   
 
 # author_notes:
 #   - 'Equal contribution'

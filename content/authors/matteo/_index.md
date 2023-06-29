@@ -10,28 +10,20 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-  - name: Stockholm University
+  - name: University of Bologna
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Insert text
 
 interests:
   - The cosmic microwave background
-  - Optics and 
-  - Instrument systematics
-
+  
 education:
   courses:
     - course: PhD 
-      institution: Princeton University
-      year: 2014
-    - course: MA in Artificial Intelligence
-      institution: Princeton University
-      year: 2011
-    - course: BSc in Physics
-      institution: University of Iceland
-      year: 2008
+      institution: University of Bologna
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

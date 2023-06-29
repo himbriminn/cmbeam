@@ -38,6 +38,9 @@ featured: false
 links:
 - name: ArXiV
   url: https://arxiv.org/abs/2012.10437
+- name: MNRAS
+  url: https://academic.oup.com/mnras/article-abstract/502/3/4526/6129795?redirectedFrom=fulltext
+
 url_pdf: http://arxiv.org/pdf/2012.10437
 url_code: ''
 url_dataset: ''

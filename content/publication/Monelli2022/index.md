@@ -42,6 +42,8 @@ featured: false
 links:
 - name: ArXiV
   url: https://arxiv.org/abs/2211.05685
+- name: JCAP
+  url: https://iopscience.iop.org/article/10.1088/1475-7516/2023/03/034
 url_pdf: http://arxiv.org/pdf/2211.05685
 url_code: ''
 url_dataset: ''

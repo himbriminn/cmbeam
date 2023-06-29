@@ -6,7 +6,7 @@ title: Matteo Billi
 superuser: false
 
 # Role/position
-role: PhD Student
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:

@@ -1,6 +1,6 @@
 ---
 title: 'Impact of half-wave plate systematics on the measurement of cosmic birefringence from CMB polarization'
-authors:
+authors: [Marta Monelli]
   - adri
   - alex
   - nadia

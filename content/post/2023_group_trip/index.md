@@ -5,10 +5,16 @@ date: 2023-04-01
 gallery_item:
 - album: group_trip
   image: IMG_0038.jpg
-  caption: Write your image 1 caption here
+  caption: Hike into Reykjadalur
 - album: group_trip
   image: IMG_0070.jpg
-  caption: Write your image 2 caption here
+  caption: Sunset
+- album: group_trip
+  image: IMG_0075.jpg
+  caption: Stayed the night at Reynivellir
+- album: group_trip
+  image: IMG_0078.jpg
+  caption: Group photo
 
 ---
 

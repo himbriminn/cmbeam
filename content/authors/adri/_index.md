@@ -6,7 +6,7 @@ title: Adriaan Duivenvoorden
 superuser: false
 
 # Role/position
-role: PhD Student
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert text
+bio: PhD from Stockholm University in 2019. Now a Flatiron Research Fellow at the CCA.
 
 # interests:
 #   - The cosmic microwave background

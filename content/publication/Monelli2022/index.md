@@ -1,5 +1,5 @@
 ---
-title: 'Probing frequency-dependent half-wave plate systematics for CMB experiments with full-sky beam convolution simulations'
+title: 'Impact of half-wave plate systematics on the measurement of cosmic birefringence from CMB polarization'
 authors:
   - adri
   - alex

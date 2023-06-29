@@ -4,7 +4,7 @@ authors:
   - nadia 
   - adri  
   - admin
-  - et al
+  - Et al
 
 # author_notes:
 #   - 'Equal contribution'

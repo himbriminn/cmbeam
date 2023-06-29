@@ -2,11 +2,14 @@
 title: 'Impact of half-wave plate systematics on the measurement of cosmic birefringence from CMB polarization'
 authors: 
   - Marta Monelli
-  - adri
+  - Eiichiro Komatsu
   - alex
-  - nadia
   - matteo
+  - Paolo Campeti
+  - nadia 
+  - adri  
   - admin
+  - Martin Reinecke
 
 # author_notes:
 #   - 'Equal contribution'

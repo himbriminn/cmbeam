@@ -16,7 +16,7 @@ List of useful links that are relevant to our group's activities:
  - ALPHA - Web page work in progress
  - [The AxionDM Research Environment](https://axiondm.fysik.su.se/)
  - [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html)
- - [Simons Observator](https://simonsobservatory.org/)
+ - [Simons Observatory](https://simonsobservatory.org/)
  - [SPIDER balloon borne expierment](https://spider.princeton.edu/)
  - Taurus - Web page work in progress
 

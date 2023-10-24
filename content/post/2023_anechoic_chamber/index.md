@@ -2,19 +2,6 @@
 title: Anechoic chamber is completed
 date: 2023-06-20
 
-gallery_item:
-- album: group_trip
-  image: IMG_0038.jpg
-  caption: Hike into Reykjadalur
-- album: group_trip
-  image: IMG_0070.jpg
-  caption: Sunset
-- album: group_trip
-  image: IMG_0075.jpg
-  caption: Stayed the night at Reynivellir
-- album: group_trip
-  image: IMG_0078.jpg
-  caption: Group photo
 
 ---
 

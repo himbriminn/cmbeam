@@ -18,4 +18,4 @@ We are developing algorithms and code libraries for the calibration of the Simon
 
 In work funded by the Swedish Space Agency, we are conducting R&D development of metamaterial microwave absorbers. We are using state-of-the art Terahertz laser systems to design materials that absorber 99.999% of all incoming microwave radiation. As part of this work, we are trying to understand how design features such chemical composition, metamaterial antireflection coatings, etc. impact the integrated reflectivity of our materials.
 
-At Stockholm University, we are working on tuneable resonators prototypes for future axion dark matter haloscopes. This is work related to the ALPHA Experiment (white paper: https://arxiv.org/abs/2210.00017).
+At Stockholm University, we are working on tuneable resonators prototypes for future axion dark matter haloscopes. This is work related to the ALPHA Experiment ([white paper](https://arxiv.org/abs/2210.00017)).

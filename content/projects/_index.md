@@ -12,6 +12,8 @@ banner:
 
 Our research group is engaged in multiple projects:
 
+## Lab efforts
+
 Through funding from the European Research Council and the University of Iceland (HÍ), we are setting up a new research infrastructure at HÍ. This includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), and a custom cryostat that accommdates small to medium-size refractor telescopes and reimaging optics. This hardware infrastructure is being devloped with current and future-generation CMB experiments in mind, including experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These experimental efforts are leading to multiple projects in design and testing of novel optical components.
 
 {{< figure src="lab.jpg" caption="Thomas and Rustam getting things set up in the lab.">}}
@@ -28,7 +30,7 @@ We are also working on tuneable resonators prototypes for future axion dark matt
 
 {{< figure src="resonators.jpg" caption="A top-down view of a resonator prototype.">}}
 
-
+### Science Motivation
 
 We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the cosmic microwave background (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe. In particular, theories within the cosmic inflation paradigm — a set of models that aspire to describe the earliest epochs in the history of our universe — predict a faint global background of gravitational waves. These gravitational waves should have left a swirly imprint in the polarization of the CMB that is known as primordial B-mode polarization. Many experimental efforts are focused on detecting or putting upper limits on the amplitude of this signal.
 

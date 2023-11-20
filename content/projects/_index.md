@@ -9,7 +9,7 @@ banner:
   caption: ''
   image: ''
 ---
-{style="color: gray"}
+
 _We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the cosmic microwave background (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe. In particular, theories within the cosmic inflation paradigm — a set of models that aspire to describe the earliest epochs in the history of our universe — predict a faint global background of gravitational waves. These gravitational waves should have left a swirly imprint in the polarization of the CMB that is known as primordial B-mode polarization. Many experimental efforts are focused on detecting or putting upper limits on the amplitude of this signal._
 
 **Motivated these fundamental science themes, our research group is engaged in multiple projects:**
@@ -20,7 +20,7 @@ Through funding from the European Research Council and the University of Iceland
 
 We are developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a [paper](/post/2023_nadias_paper/) that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland.
 
-We maintain an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Our group has recently written a few papers on this topic (see [1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)). Our work would be classified somewhere between experiment, instrument design, and data analysis.
+We maintain an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Our group has recently written a few papers on this topic (see [arXiV:1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)).
 
 In work funded by the Swedish Space Agency, we are conducting R&D development of metamaterial microwave absorbers. We are using state-of-the art Terahertz laser systems to design materials that absorbe 99.999% of all incoming microwave radiation. As part of this work, we are working to understand how design features such chemical composition, metamaterial antireflection coatings, etc. impact the integrated reflectivity of our materials.
 

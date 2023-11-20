@@ -18,7 +18,7 @@ Through funding from the European Research Council and the University of Iceland
 
 We are developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a [paper](/post/2023_nadias_paper/) that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland.
 
-We maintain an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)). The code has led to multiple publications.
+We maintain an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Our group has recently written a few papers on this topic (see [1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)). Our work would be classified somewhere between experiment, instrument design, and data analysis.
 
 In work funded by the Swedish Space Agency, we are conducting R&D development of metamaterial microwave absorbers. We are using state-of-the art Terahertz laser systems to design materials that absorbe 99.999% of all incoming microwave radiation. As part of this work, we are trying to understand how design features such chemical composition, metamaterial antireflection coatings, etc. impact the integrated reflectivity of our materials.
 
@@ -34,7 +34,7 @@ We study cosmology, astrophysics, and fundamental physics through observations o
 
 The science goals of future CMB experiments, in particular 4th-generation satellites planning to supersede Planck, call for an unprecedented control of systematic effects. A significant population of potential systematics effects is related to optics. The CMB community is therefore particularly interested in understanding how best to design mm-wavelength telescopes that can observe the CMB without generating false B-mode signals that would prevent us from reaching our science goals.
 
-A large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Our group has recently written a few papers on this topic (see [1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)). Our work would be classified somewhere between experiment, instrument design, and data analysis.
+
 
 The faint cosmological signals that we want to probe call for mind-boggling detector sensitivities. These receiver sensitivity goals cannot be achieved without strong research and development efforts that combine models of cryogenics, optics, detectors, and readout. This leads to nice synergies with next-generation ultra sensitive dark matter, neutrino, and axion detection experiments. I am co-I of a VR Research Environment to develop new ideas to search for axion dark matter (see http://axiondm.fysik.su.se/).
 

@@ -12,9 +12,9 @@ banner:
 
 Our research group is engaged in multiple projects:
 
-We are setting up a new research infrastructure at the University of Iceland. This includes development and testing of various coherent microwave sources in the 40-400 GHz frequency range. We also recently installed a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)). Finally, we are working on the design for a custom cryostat that accommdates small to medium-size refractor telescopes and reimaging optics. This hardware infrastructure is being devloped with current and future-generation CMB experiments in mind, including experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These experimental efforts are leading to multiple projects in design and testing of novel optical components.
+Through funding from the European Research Council and the University of Iceland (HÍ), we are setting up a new research infrastructure at HÍ. This includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), and a custom cryostat that accommdates small to medium-size refractor telescopes and reimaging optics. This hardware infrastructure is being devloped with current and future-generation CMB experiments in mind, including experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These experimental efforts are leading to multiple projects in design and testing of novel optical components.
 
-{{< figure src="resonators.jpg" >}}
+{{< figure src="lab.jpg" caption="Thomas and Rustam getting things set up in the lab.">}}
 
 We are developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a [paper](/post/2023_nadias_paper/) that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland.
 
@@ -22,7 +22,13 @@ We maintain an advanced beam convolution algorithm called beamconv ([github link
 
 In work funded by the Swedish Space Agency, we are conducting R&D development of metamaterial microwave absorbers. We are using state-of-the art Terahertz laser systems to design materials that absorbe 99.999% of all incoming microwave radiation. As part of this work, we are trying to understand how design features such chemical composition, metamaterial antireflection coatings, etc. impact the integrated reflectivity of our materials.
 
+{{< figure src="absorber.jpg" caption="A 3D printed metamaterial absorber prototype.">}}
+
 We are also working on tuneable resonators prototypes for future axion dark matter haloscopes. This is work related to the ALPHA Experiment ([white paper](https://arxiv.org/abs/2210.00017)).
+
+{{< figure src="resonators.jpg" caption="A top-down view of a resonator prototype.">}}
+
+
 
 We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the cosmic microwave background (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe. In particular, theories within the cosmic inflation paradigm — a set of models that aspire to describe the earliest epochs in the history of our universe — predict a faint global background of gravitational waves. These gravitational waves should have left a swirly imprint in the polarization of the CMB that is known as primordial B-mode polarization. Many experimental efforts are focused on detecting or putting upper limits on the amplitude of this signal.
 

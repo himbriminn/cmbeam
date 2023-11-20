@@ -9,7 +9,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 19
 
 title: Gallery
 subtitle: A collection of photos from our group's activities over the last few years.

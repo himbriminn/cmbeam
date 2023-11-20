@@ -12,7 +12,7 @@ banner:
 
 Our research group is engaged in multiple projects:
 
-We are setting up a new research infrastructure at the University of Iceland. This includes development and testing of various coherent microwave sources in the 40-400 GHz frequency range. We also recently installed a custom anechoic chamber [link](../content/post/2023_anechoic_chamber). This hardware infrastructure is being devloped with current and future-generation CMB experiments in mind, including experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These experimental efforts are leading to multiple projects in design and testing of novel optical components.
+We are setting up a new research infrastructure at the University of Iceland. This includes development and testing of various coherent microwave sources in the 40-400 GHz frequency range. We also recently installed a custom anechoic chamber [link](post/2023_anechoic_chamber). This hardware infrastructure is being devloped with current and future-generation CMB experiments in mind, including experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These experimental efforts are leading to multiple projects in design and testing of novel optical components.
 
 We are developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a paper that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland.
 

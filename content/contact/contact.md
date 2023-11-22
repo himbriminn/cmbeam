@@ -21,11 +21,10 @@ content:
     street: VR-III, Hjarðarhagi 2
     city: 107 Reykjavík
     country: Iceland
-    country_code: IS
   coordinates:
     latitude: '64.13899'
     longitude: '-21.95352'
-  directions: For easiest acces, enter the building through the south or east.
+  directions: For easiest acces, enter the VR-III through the south or east.
     # - 'Monday 10:00 to 13:00'
     # - 'Wednesday 09:00 to 10:00'
   # appointment_url: 'https://calendly.com'

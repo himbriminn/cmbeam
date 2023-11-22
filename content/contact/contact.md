@@ -18,6 +18,7 @@ content:
   email: jegudmunds@hi.is
   phone: +354 525 4625
   address:
+    building: VR-III
     street: Hjarðarhagi 2
     city: Reykjavík
     region: 

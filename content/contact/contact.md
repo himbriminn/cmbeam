@@ -19,10 +19,9 @@ content:
   phone: +354 525 4625
   address:
     building: VR-III
-    street: Hjarðarhagi 2
-    city: Reykjavík
-    region: 
-    postcode: '107'
+    street: VR-III, Hjarðarhagi 2
+    city: 107 Reykjavík
+    region:
     country: Iceland
     country_code: IS
   coordinates:

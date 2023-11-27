@@ -13,5 +13,5 @@ These efforts can be developed in the context of existing CMB experiments that g
 
 Please do not hesitate to contact us with any questions.
 
-_The featured image was generated with the Dall-E engine using the prompt: A charcoal drawing of a radio telescope with Icelandic mountains in the background._
+_The featured image was generated with the DALL·E engine using the prompt: A charcoal drawing of a radio telescope with Icelandic mountains in the background._
 <!--more-->

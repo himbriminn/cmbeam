@@ -30,5 +30,5 @@ In work funded by the Swedish Space Agency, we are conducting R&D development of
 
 {{< figure src="absorber.jpg" caption="A 3D printed metamaterial absorber prototype. Note: we make lots of absorbers that are also black at optical wavelengths, but they are frankly less fun to look at 😊">}}
 
-If you are a student at the University of Iceland want to discuss the science of the cosmic microwave background, or any other science topic for that matter, please do not hesitate to come find us.
+**If you are a student at the University of Iceland want to discuss the science of the cosmic microwave background, or any other science topic for that matter, please do not hesitate to come find us.**
 

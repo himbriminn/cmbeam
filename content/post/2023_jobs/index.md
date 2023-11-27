@@ -1,6 +1,7 @@
 ---
 title: Job advertisements
 date: 2023-11-27
+caption: Insert text
 
 ---
 We are looking for new people to join our lab at the University of Iceland. We have 1 postdoc and 1 PhD student positions open. Both are 3-year positions funded by a Starting Grant from the European Research Council to work on the CMBeam project.

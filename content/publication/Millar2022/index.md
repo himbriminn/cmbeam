@@ -2,6 +2,7 @@
 title: 'Searching For Dark Matter with Plasma Haloscopes'
 authors: 
   - Alexander J. Millar
+  - rustam
   - admin
   - and others   
 

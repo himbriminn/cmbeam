@@ -7,7 +7,7 @@ view: compact
 # Optional header image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: ''
+  image: 'projects.jpg'
 ---
 
 _We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB)._

@@ -1,8 +1,8 @@
 ---
 title: 'Thermal and mechanical study of a parametrised cryostat model for optical characterisation of upcoming CMB experiments'
 authors: 
-  - rustam  
   - thomas
+  - rustam  
   - admin
 
 # author_notes:

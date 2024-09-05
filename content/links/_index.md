@@ -34,6 +34,8 @@ List of useful links that are relevant to our group's activities:
  - [Science Institute](https://raunvisindastofnun.hi.is/the_science_institute)
 
 ## Other
+ - [Our group wiki](https://cmbeam.atlassian.net/wiki/home)
+ - [The Icelandic Astronmical Society](https://stjarnvisindi.is/)
  - [The old group web page](http://www.jon.fysik.su.se/)
 
 ## Twitter handles

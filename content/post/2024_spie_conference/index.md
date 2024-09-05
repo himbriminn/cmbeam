@@ -7,6 +7,6 @@ Members of the CMBeam team visited Yokohama, Japan, to participate in the SPIE c
 
 Here are some photos from the meeting:
 
- {{ < gallery album="spie2024" >}}
+ {{ < gallery album="spie2024"}}
 
 <!--more-->

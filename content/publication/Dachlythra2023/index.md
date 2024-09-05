@@ -19,11 +19,13 @@ publishDate: '2023-04-18T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
 #publication: 'Journal of Cosmology and Astroparticle Physics'
 #publication_short: 'JCAP'
+publication: Astrophysical Journal
+publication_short: ApJ
 
 abstract: We use time-domain simulations of Jupiter observations to test and develop a beam reconstruction pipeline for the Simons Observatory Small Aperture Telescopes. The method relies on a map maker that estimates and subtracts correlated atmospheric noise and a beam fitting code designed to compensate for the bias caused by the map maker. We test our reconstruction performance for four different frequency bands against various algorithmic parameters, atmospheric conditions and input beams. We additionally show the reconstruction quality as function of the number of available observations and investigate how different calibration strategies affect the beam uncertainty. For all of the cases considered, we find good agreement between the fitted results and the input beam model within a ~1.5% error for a multipole range l = 30 - 700.
 

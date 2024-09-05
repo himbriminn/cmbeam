@@ -37,9 +37,9 @@ tags:
 featured: false
 
 links:
-- name: ArXiV
-  url: https://arxiv.org/abs/2304.08995
-url_pdf: http://arxiv.org/pdf/2304.08995
+- name: ApJ
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad0969
+url_pdf: https://iopscience.iop.org/article/10.3847/1538-4357/ad0969/pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

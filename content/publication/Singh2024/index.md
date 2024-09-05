@@ -1,8 +1,12 @@
 ---
 title: 'Reflectance measurements of mm-wave absorbers using frequency-domain continuous wave THz spectroscopy'
 authors: 
-  - rustam  
+  - gagan
+  - gagandeep
+  - rustam
   - thomas
+  - zeshen
+  - vid
   - admin
 
 # author_notes:

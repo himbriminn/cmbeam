@@ -33,6 +33,6 @@ design:
 
 <center>
 
-{{< figure src="funding_rs2.jpg" width=1000px align="center" caption="" numbered="false" >}}
+{{< figure src="funding_rs3.jpg" width=1000px align="center" caption="" numbered="false" >}}
 
 </center>

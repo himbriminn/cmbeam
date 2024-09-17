@@ -32,13 +32,13 @@ bio:  Ashesh Abhisek Khatua received the M.Sc. degree in physics from IISER Tiru
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
+social:
 #  - icon: cv
 #    icon_pack: ai
 #    link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
-#  - icon: envelope
-#    icon_pack: fas
-#    link: 'mailto:rub8@hi.is'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:asheshak16@gmail.com'
 #  - icon: github
 #    icon_pack: fab
 #    link: https://github.com/Giguv

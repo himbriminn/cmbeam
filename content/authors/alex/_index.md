@@ -68,7 +68,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 My research focuses on how to best model beam-related systematics for various experiments. I've modelled how non-ideal behavior of polarisation  modulators impact B-mode searches. I've also simulated scan-synchronous signal for ground and balloon-based experiments. Currently, my work is divided between working on Simons Observatory, LiteBIRD and a balloon-borne experiment called Taurus. 

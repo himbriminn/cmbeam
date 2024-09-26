@@ -24,6 +24,7 @@ publishDate: '2024-07-07T00:00:00Z'
 # 7 = Thesis; 8 = Patent
 publication_types: ['3']
 
+#
 # Publication name and optional abbreviated publication name.
 #publication: 'Journal of Cosmology and Astroparticle Physics'
 #publication_short: 'JCAP'

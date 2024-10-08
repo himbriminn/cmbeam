@@ -2,7 +2,9 @@
 
 title: 'In-Flight Performance of Spider''s 280 GHz Receivers'
 authors: 
+  - Elle C. Shaw
   - admin
+  - and others   
 
 # author_notes:
 #   - 'Equal contribution'

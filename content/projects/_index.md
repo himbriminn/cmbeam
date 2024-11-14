@@ -10,7 +10,7 @@ banner:
   image: 'projects.jpg'
 ---
 
-Motivated by various science goals in observational cosmology, we are engaged in projects that involve (in no particular order) high-performance computing, data analysis, optical calibration techniques, cryogenics, optical modeling, RF simulations, and material development. New research members joining the group are free to tailor project involvement based on their interests and experties
+Motivated by various science goals in observational cosmology, we are engaged in projects that involve (in no particular order) high-performance computing, data analysis, optical calibration techniques, cryogenics, optical modeling, RF simulations, and material development. We tailor project involvement for new members joining the group based on their interests, experties, and desired career paths. 
 
 ## Preamble
 
@@ -23,8 +23,6 @@ Future experiments mapping the cosmic microwave background are designed to revol
 <!--
 _In particular, theories within the cosmic inflation paradigm — a set of models that aspire to describe the earliest epochs in the history of our universe — predict a faint global background of gravitational waves. These gravitational waves should have left a swirly imprint in the polarization of the CMB that is known as primordial B-mode polarization. Many experimental efforts are focused on detecting or putting upper limits on the amplitude of this signal._
 -->
-
-## Introduction
 
 **Motivated by these fundamental science themes, our research group is engaged in multiple experimental projects, including experimental collaborations such as [SPIDER2](https://spider.princeton.edu/), [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), and the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html):**
 

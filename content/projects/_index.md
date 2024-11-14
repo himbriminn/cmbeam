@@ -28,6 +28,8 @@ _In particular, theories within the cosmic inflation paradigm — a set of model
 
 **Motivated by these fundamental science themes, our research group is engaged in multiple experimental projects, including experimental collaborations such as [SPIDER2](https://spider.princeton.edu/), [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), and the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html):**
 
+## Optical calibration and cryogenic testing
+
 Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms, a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
 
 {{< figure src="lab.jpg" caption="Thomas and Rustam getting things set up in the lab.">}}

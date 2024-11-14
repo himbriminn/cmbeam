@@ -36,19 +36,21 @@ Through funding from the European Research Council, the Icelandic Research Counc
 
 The science goals of future CMB experiments, in particular 4th-generation satellites planning to supersede Planck, call for an unprecedented control of systematic effects. A significant population of potential systematics effects is related to optics. The CMB community is therefore particularly interested in understanding how best to design mm-wavelength telescopes that can observe the CMB without generating false B-mode signals that would prevent us from reaching our science goals.
 
-## Time-domain simulations
+## Time-domain simulations using HPC
 
-For this purpose, our group develops and maintains an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Members of our group have recently written a few papers on this topic (see [arXiv:1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)).
+For this purpose, our group develops and maintains an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Members of our group have recently written a few papers on this topic (see [arXiv:1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)). Alexandre Adler, a recent PhD graduate from our group, is now working at Berkeley to advance a code called TOAST, which is motivated by similar goals.
 
 ## Data analysis
 
-We are also developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a [paper](/post/2023_nadias_paper/) that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland.
+We are also developing algorithms and code libraries for the calibration of the Simons Observatory (SO) which is currently being deployed in the Atacama Desert. Nadia Dachlythra recently wrote a [paper](/post/2023_nadias_paper/) that summarizes our efforts to calibrate the SO Small Aperture Telescopes. We are continung this calibration work from the University of Iceland. 
 
 ## Material development
 
 In work funded by the Swedish Space Agency, we are conducting R&D development of metamaterial microwave absorbers. We are using state-of-the-art continuous wave Terahertz spectroscopy systems to design materials that absorb 99.999% of all incoming microwave radiation. As part of this effort, we are working to understand how design features such chemical composition, metamaterial antireflection coatings, etc. impact the integrated reflectivity of our materials.
 
-{{< figure src="absorber.jpg" caption="A 3D printed metamaterial absorber prototype. Note: we make lots of absorbers that are also black at optical wavelengths, but they are frankly less fun to look at 😊">}}
+Our first results from that work are summarized in [2407.05512](https://arxiv.org/abs/2407.05512). Stay tuned for further results.
+
+{{< figure src="absorber.jpg" caption="A 3D printed metamaterial absorber prototype inspired by Matthew Petroff. Note: we make lots of absorbers that are also black at optical wavelengths, but they are frankly less fun to look at 😊">}}
 
 **If you are a student at the University of Iceland want to discuss the science of the cosmic microwave background, or any other science topic for that matter, please do not hesitate to come find us.**
 

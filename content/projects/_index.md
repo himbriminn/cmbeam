@@ -32,9 +32,9 @@ Through funding from the European Research Council, the Icelandic Research Counc
 
 {{< figure src="lab.jpg" caption="Thomas and Rustam getting things set up in the lab.">}}
 
-The science goals of future CMB experiments, in particular 4th-generation satellites planning to supersede Planck, call for an unprecedented control of systematic effects. A significant population of potential systematics effects is related to optics. The CMB community is therefore particularly interested in understanding how best to design mm-wavelength telescopes that can observe the CMB without generating false B-mode signals that would prevent us from reaching our science goals.
-
 ## Time-domain simulations using HPC
+
+The science goals of future CMB experiments, in particular 4th-generation satellites planning to supersede Planck, call for an unprecedented control of systematic effects. A significant population of potential systematics effects is related to optics. The CMB community is therefore particularly interested in understanding how best to design mm-wavelength telescopes that can observe the CMB without generating false B-mode signals that would prevent us from reaching our science goals.
 
 For this purpose, our group develops and maintains an advanced beam convolution algorithm called beamconv ([github link](https://github.com/AdriJD/beamconv)) and a large component of our work is devoted to the development of realistic optical models for mm-wavelength telescopes. With accurate models, we can understand how optical non-idealities limit our ability to study minute polarization signals in the cosmic microwave background. Members of our group have recently written a few papers on this topic (see [arXiv:1809.05034](https://arxiv.org/abs/1809.05034), [1911.13153](https://arxiv.org/abs/1911.13153), and [2012.10437](https://arxiv.org/abs/2012.10437)), but there are lots of directions that we have yet to explore. Alexandre Adler, a recent PhD graduate from our group, is now working at Berkeley to advance a code called [TOAST](https://toast-cmb.readthedocs.io/en/latest/), which is motivated by similar goals.
 

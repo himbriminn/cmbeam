@@ -12,7 +12,11 @@ banner:
 
 _We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB)._
 
+## Preamble
+
 _During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe. In particular, theories within the cosmic inflation paradigm — a set of models that aspire to describe the earliest epochs in the history of our universe — predict a faint global background of gravitational waves. These gravitational waves should have left a swirly imprint in the polarization of the CMB that is known as primordial B-mode polarization. Many experimental efforts are focused on detecting or putting upper limits on the amplitude of this signal._
+
+### Intro
 
 **Motivated by these fundamental science themes, our research group is engaged in multiple experimental projects, including experimental collaborations such as [SPIDER2](https://spider.princeton.edu/), [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), and the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html):**
 

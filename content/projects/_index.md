@@ -10,7 +10,7 @@ banner:
   image: 'projects.jpg'
 ---
 
-Motivated by various science goals in observational cosmology, we are engaged in projects that involve high-performance computing, data analysis, optical calibration techniques, cryogenics, RF simulations, and material development. New research members joining the group are free to tailor project involvement based on their interests and experties
+Motivated by various science goals in observational cosmology, we are engaged in projects that involve (in no particular order) high-performance computing, data analysis, optical calibration techniques, cryogenics, optical modeling, RF simulations, and material development. New research members joining the group are free to tailor project involvement based on their interests and experties
 
 ## Preamble
 

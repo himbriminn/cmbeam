@@ -14,9 +14,7 @@ Motivated by various science goals in observational cosmology, we are engaged in
 
 ## Preamble
 
-We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB).
-
-During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe.
+We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe.
 
 Future experiments mapping the cosmic microwave background are designed to revolutionize our understanding of the infant universe, the standard model of particle physics, structure formation, and the nature of dark matter. A key effort involves constraining or detecting the energy scale of cosmic inflation.  A detection would mark a watershed moment in cosmology and high-energy physics, but in order to push constraints significantly past current limits, we need a dramatic change in instrument characterization capabilities — the primary focus of CMBeam.
 

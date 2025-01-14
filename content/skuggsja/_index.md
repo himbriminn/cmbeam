@@ -7,7 +7,7 @@ view: compact
 # Optional header image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: 'projects.jpg'
+  image: 'skuggsja.jpg'
 ---
 
 Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunastofan, sem er að hluta til fjármögnuð af svokölluðu CMBeam-verkefni sem nýtur stuðnings Evrópska rannsóknaráðsins, er notuð við hönnun og kvörðun á örbylgjusjónaukum framtíðarinnar, sjónaukum sem ætlað er að fræða okkur meira um sögu alheimsins. Skuggsjá býr jafnframt yfir tækjabúnaði sem opnar nýjar víddir í kennslu í tilraunaeðlisfræði, rafsegulfræði og vélaverkfræði.

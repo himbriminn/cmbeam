@@ -32,7 +32,9 @@ design:
 <!-- to our group site 👋 -->
 Velkomin / Welcome 👋 <BR>
 _Þessi síða er á ensku en hægt er að lesa um tilraunastofuna okkar [hér](/skuggsja)_ <BR>
-We work on experiments probing the early universe, the nature of dark matter, and the birth of the first stars. From here you can take a [quick tour](/tour/) of our efforts, read about our [projects](/projects/), or [get in touch](/contact/). **We are [recruiting](https://english.hi.is/university/vacancies),** so please contact us if you are looking for jobs in experimental astrophysics!
+We work on experiments probing the early universe, the nature of dark matter, and the birth of the first stars. From here you can take a [quick tour](/tour/) of our efforts, read about our [projects](/projects/), or [get in touch](/contact/).
+
+<!-- **We are [recruiting](https://english.hi.is/university/vacancies),** so please contact us if you are looking for jobs in experimental astrophysics! -->
 
 <!-- The primary focus of our research group is to test theories describing the beginning of the universe, the nature of elusive dark matter, and the birth of the first stars. For this purpose, we work on novel aspects of cryogenic and optical instrument design, simulations, and data analysis.  -->
 

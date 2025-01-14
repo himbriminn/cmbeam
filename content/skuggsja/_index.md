@@ -12,6 +12,12 @@ banner:
 
 Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunastofan, sem er að hluta til fjármögnuð af svokölluðu CMBeam-verkefni sem nýtur stuðnings Evrópska rannsóknaráðsins, er notuð við hönnun og kvörðun á örbylgjusjónaukum framtíðarinnar, sjónaukum sem ætlað er að fræða okkur meira um sögu alheimsins. Skuggsjá býr jafnframt yfir tækjabúnaði sem opnar nýjar víddir í kennslu í tilraunaeðlisfræði, rafsegulfræði og vélaverkfræði.
 
+Mælingar á örbylgjukliðnum — elsta ljósinu í alheiminum — hafa leikið veigamikið hlutverk í myndun hins staðlaða heimsfræðilíkans. Ýmsar tækninýjungar gera örbylgjusjónaukum framtíðarinnar kleift að gjörbreyta skilningi okkar á frumbernsku alheimsins, hinu viðtekna líkani öreindafræðinnar, þróun vetrarbrauta og vetrarbrautaþyrpinga og jafnvel hugmyndum um hulduefni. Stór þáttur þessara rannsókna snýr að myndun fyrstu stjarnanna en það ferli, sem átti sér stað fyrir rúmum 13 milljörðum ára, hefur jafnframt áhrif á getu okkar til að skorða eiginleika fiseinda.
+
+Taurus loftbelgstilrauninni mun gera nákvæmar og áhrifamiklar mælingar á skautun örbylgjukliðsins yfir stóran hluta himinsins. Gögnin frá Taurus munu hjálpa okkur að skilja betur stórmerkilegar niðurstöður Planck gervitunglsins varðandi sögu fyrstu stjarnanna og ryðja jafnframt brautina fyrir háþróuðustu örbylgjusjónauka sögunnar sem verið er að smíða í Atacama eyðimörkinni í Chile.
+
+Í þessu Rannís verkefni munum við hanna, smiða og kvarða sjónauka fyrir Taurus tilraunina og þar með stuðla að því að þessari NASA tilraun takist að fletta ofan af leyndardómum fyrstu stjarnanna.
+
 Við fluttum inn á tilraunastofuna sumarið 2023 og hófumst stuttu seinna handa við að smíða endurvarpslaust rými (sjá YouTube myndband).
 
 Íslensk umfjöllun um rannsóknir okkar má meðal annars finna hér:

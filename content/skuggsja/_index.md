@@ -16,3 +16,10 @@ Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunast
  * [Leitin að elsta ljósinu í alheiminum](https://www.hi.is/visindin/leitin_ad_elsta_ljosi_alheimsins)
  * [Oppnun Skuggsjár](https://www.hi.is/frettir/ny_tilraunastofa_fyrir_stjarnedlisfraedi_opnud)
  * [Umfjöllun um tilraunastofuna á Vísir.is](https://www.visir.is/g/20232470392d/skoda-elsta-ljos-al-heims-i-nyrri-til-rauna-stofu?fbclid=IwAR062_982AQvKzRqcajVbE2MN-rc1MbtwwtASOvgsM2ABB3y7cpD_qdX3VU)
+
+ Hvað er örbylgjukliðurinn?
+ * [Umfjöllun á Stjörnufræðivefnum](https://www.stjornufraedi.is/alheimurinn/orbylgjuklidurinn/)
+ * [Umfjöllun á Vísindavefnum](https://www.visindavefur.is/svar.php?id=5051)
+
+ Hvað vitum við um upphaf alheimsin?
+ * [Umfjöllun um Miklahvell á is.Wikipedia.org](https://is.wikipedia.org/wiki/Miklihvellur)

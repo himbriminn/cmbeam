@@ -19,8 +19,8 @@ main:
   - name: Links
     url: links
     weight: 40    
-  - name: Skuggsja
-    url: skuggja
+  - name: Skuggsjá
+    url: skuggsja
     weight: 42
   - name: Projects
     url: projects

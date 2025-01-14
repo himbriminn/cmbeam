@@ -12,7 +12,7 @@ banner:
 
 Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunastofan, sem er að hluta til fjármögnuð af svokölluðu CMBeam-verkefni sem nýtur stuðnings Evrópska rannsóknaráðsins, er notuð við hönnun og kvörðun á örbylgjusjónaukum framtíðarinnar, sjónaukum sem ætlað er að fræða okkur meira um sögu alheimsins. Skuggsjá býr jafnframt yfir tækjabúnaði sem opnar nýjar víddir í kennslu í tilraunaeðlisfræði, rafsegulfræði og vélaverkfræði.
 
-_Nafnið Skuggsjá vísar í tvennt: Við erum að vinna með ósýnilegt ljós — örbylgjur. Svo má meðal annars nota þetta ljós til þess að fræðast um sögu alheimsins, þar á meðal um hlutverk hulduorka og hulduefnis í þeirri þróun._
+_Nafnið Skuggsjá vísar í tvennt: Við erum að vinna með ósýnilegt ljós — örbylgjur. Svo má meðal annars nota þetta ljós til þess að fræðast um sögu alheimsins, þar á meðal um hlutverk hulduorka og hulduefnis í þeirri þróun. Svo má geta þess að orðið skuggsjá er notað til að tákna spegil í [riti um eðlisfræði eftir J. G. Fisher](https://baekur.is/bok/09ecd1f4-127a-4cef-906d-ab3c60e347bb/0/306/Edlisfraedi#page/n305/mode/2up) sem var gefið út á íslensku árið 1852._
 {style="color: #17557e"}
 
 Mælingar á örbylgjukliðnum — elsta ljósinu í alheiminum — hafa leikið veigamikið hlutverk í myndun hins staðlaða heimsfræðilíkans. Ýmsar tækninýjungar gera örbylgjusjónaukum framtíðarinnar kleift að gjörbreyta skilningi okkar á frumbernsku alheimsins, hinu viðtekna líkani öreindafræðinnar, þróun vetrarbrauta og vetrarbrautaþyrpinga og jafnvel hugmyndum um hulduefni. Stór þáttur þessara rannsókna snýr að myndun fyrstu stjarnanna en það ferli, sem átti sér stað fyrir rúmum 13 milljörðum ára, hefur jafnframt áhrif á getu okkar til að skorða eiginleika fiseinda.

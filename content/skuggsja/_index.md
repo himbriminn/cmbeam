@@ -10,7 +10,9 @@ banner:
   image: 'projects.jpg'
 ---
 
-Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunastofan, sem er að hluta til fjármögnuð af svokölluðu CMBeam-verkefni sem nýtur stuðnings Evrópska rannsóknaráðsins, verður notuð við hönnun og kvörðun á örbylgjusjónaukum framtíðarinnar, sjónaukum sem ætlað er að fræða okkur meira um sögu alheimsins. Skuggsjá býr jafnframt yfir tækjabúnaði sem opnar nýjar víddir í kennslu í tilraunaeðlisfræði, rafsegulfræði og vélaverkfræði.
+Skuggsjá er nafnið á nýrri tilraunastofu við Háskóla Íslands. Tilraunastofan, sem er að hluta til fjármögnuð af svokölluðu CMBeam-verkefni sem nýtur stuðnings Evrópska rannsóknaráðsins, er notuð við hönnun og kvörðun á örbylgjusjónaukum framtíðarinnar, sjónaukum sem ætlað er að fræða okkur meira um sögu alheimsins. Skuggsjá býr jafnframt yfir tækjabúnaði sem opnar nýjar víddir í kennslu í tilraunaeðlisfræði, rafsegulfræði og vélaverkfræði.
+
+Við fluttum inn á tilraunastofuna sumarið 2023 og hófumst stuttu seinna handa við að smíða endurvarpslaust rými (sjá YouTube myndband).
 
 Íslensk umfjöllun um rannsóknir okkar má meðal annars finna hér:
  * [Leitin að elsta ljósinu í alheiminum](https://www.hi.is/visindin/leitin_ad_elsta_ljosi_alheimsins)

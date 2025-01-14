@@ -19,7 +19,7 @@ Mælingar á örbylgjukliðnum — elsta ljósinu í alheiminum — hafa leikið
 
 Vísindamenn sem starfa í Skuggsjá eru að meðal annars að hanna sjónauka fyrir Taurus loftbelgstilraunina. Sú tilraun mun gera nákvæmar og áhrifamiklar mælingar á skautun örbylgjukliðsins yfir stóran hluta himinsins. Gögnin frá Taurus munu hjálpa okkur að skilja betur stórmerkilegar niðurstöður Planck gervitunglsins varðandi sögu fyrstu stjarnanna og ryðja jafnframt brautina fyrir háþróuðustu örbylgjusjónauka sögunnar sem verið er að smíða í Atacama eyðimörkinni í Chile.
 
-Við fluttum inn á tilraunastofuna sumarið 2023 og hófumst stuttu seinna handa við að smíða endurvarpslaust rými (sjá YouTube myndband).
+Við fluttum inn á tilraunastofuna sumarið 2023 og hófumst stuttu seinna handa við að smíða endurvarpslaust rými (sjá [YouTube myndband](https://www.youtube.com/watch?v=KCIHcDA8q_o)).
 
 Íslensk umfjöllun um rannsóknir okkar má meðal annars finna hér:
  * [Leitin að elsta ljósinu í alheiminum](https://www.hi.is/visindin/leitin_ad_elsta_ljosi_alheimsins)

@@ -31,7 +31,7 @@ design:
 ---
 <!-- to our group site 👋 -->
 Velkomin / Welcome 👋 <BR>
-_Þessi síða er á ensku en hægt er að lesa um tilraunastofuna okkar [hér](/skuggsja)_ <BR>
+_Síðan er á ensku en hægt er að lesa um Skuggsjá [hér](/skuggsja)_ <BR>
 We work on experiments probing the early universe, the nature of dark matter, and the birth of the first stars. From here you can take a [quick tour](/tour/) of our efforts, read about our [projects](/projects/), or [get in touch](/contact/).
 
 <!-- **We are [recruiting](https://english.hi.is/university/vacancies),** so please contact us if you are looking for jobs in experimental astrophysics! -->

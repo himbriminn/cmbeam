@@ -29,4 +29,5 @@ Við fluttum inn á tilraunastofuna sumarið 2023 og hófumst stuttu seinna hand
 
  Hvað vitum við um upphaf alheimsin?
  * [Umfjöllun um Miklahvell á is.Wikipedia.org](https://is.wikipedia.org/wiki/Miklihvellur)
+ * [Umfjöllun á Vísindavefnum um Nóbelsverðlaunin í eðlisfræði árið 2019](https://www.visindavefur.is/svar.php?id=78160)
  * [Umfjöllun um Nóbelsverðlaunin í eðlisfræði árið 2019](https://www.visir.is/g/2019356776d/huldir-hlutar-alheimsins-spruttu-upp-ur-greinum-nobelsverdlaunahafans)

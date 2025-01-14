@@ -4,6 +4,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: Skuggsjá
+    url: skuggsja
+    weight: 8
   - name: Tour
     url: tour
     weight: 10
@@ -18,10 +21,7 @@ main:
 #    weight: 40
   - name: Links
     url: links
-    weight: 40    
-  - name: Skuggsjá
-    url: skuggsja
-    weight: 42
+    weight: 40
   - name: Projects
     url: projects
     weight: 42

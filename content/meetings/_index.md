@@ -18,8 +18,8 @@ banner:
  * May 9  --- Round table update
  * May 16 --- Stockholm packing week
  * May 23 --- Telescope unboxing event
- * May 30 --- 
- * June 6 --- 
+ * May 30 --- The art of the research proposal 
+ * June 6 --- Discussion of science from the South Pole following Kovac visit
  * June 13 --- 
  * June 20 --- 
  * June 27 --- 

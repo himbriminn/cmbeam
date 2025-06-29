@@ -6,7 +6,7 @@ title: Jón E. Guðmundsson
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: Professor
 
 # Organizations/Affiliations
 organizations:
@@ -16,7 +16,7 @@ organizations:
     url: 'https://www.su.se/english/profiles/jgudm-1.253495'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Assistant professor at the University of Iceland and senior research scientist at Stockholm University.
+bio: Professor of astrophysics at the University of Iceland and senior research scientist at Stockholm University.
 
 interests:
   - The cosmic microwave background

@@ -20,8 +20,8 @@ banner:
  * May 23 --- Telescope unboxing event
  * May 30 --- The art of the research proposal 
  * June 6 --- Discussion of science from the South Pole following Kovac visit
- * June 13 --- 
- * June 20 --- 
- * June 27 --- 
+ * June 13 --- Discussion of TOPTICA system
+ * June 20 --- Cancelled due to vacations
+ * June 27 --- Round table discussion and planning for July
 
 

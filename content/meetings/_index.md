@@ -23,5 +23,6 @@ banner:
  * June 13 --- Discussion of TOPTICA system
  * June 20 --- Cancelled due to vacations
  * June 27 --- Round table discussion and planning for July
+ * July 4 --- Round table discussion 
 
 

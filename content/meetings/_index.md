@@ -13,7 +13,6 @@ banner:
 ## Group meetings
 
 ### 2025
-
  * April 25 --- Polarization angle defintions
  * May 9  --- Round table update
  * May 16 --- Stockholm packing week
@@ -24,5 +23,8 @@ banner:
  * June 20 --- Cancelled due to vacations
  * June 27 --- Round table discussion and planning for July
  * July 4 --- Round table discussion 
-
+ * July 11 -  Aug 8 --- Summer vacation period
+ * August 15 --- Project summaries from Ásrún and Katrín Hekla
+ * August 22 --- Review of lessens learned from Taurus meeting
+ * Agust 29 --- Planning for the fall semester
 

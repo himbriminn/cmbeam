@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Alumni
 ---
 
 I have worked on spatial mode engineering in periodic photonic bandgap materials such as photonic crystals during my PhD. I am interested in numerical and experimental study of periodic structures, waveguide/cavity based devices designed in such structures for myriad applcations. I am currently working on a prototype of Plasma Haloscope based on wired metamaterials for Axion detection. 

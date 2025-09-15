@@ -11,7 +11,7 @@ role: Postdoc
 # Organizations/Affiliations
 organizations:
   - name: University of Iceland (Háskóli Íslands)
-    url: 'https://english.hi.is/staff/thomasgascard'
+    url: 'https://english.hi.is/staff/miranda'
 
 # Short bio (displayed in user profile at end of posts)
 bio: Insert short bio text.
@@ -28,9 +28,9 @@ education:
     - course: PhD
       institution: Harvard University, Cambridge, USA
       year: 2025
-    - course: BSc. & MSc. in Applied Physics
-      institution: ELISA Aerospace, France
-      year: 2017
+    - course: University of Massachussets
+      institution: ELISA Aerospace, USA
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -39,18 +39,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:thomasgascard@hi.is'
-  - icon: google-scholar
+    link: 'mailto:miranda@hi.is'
+  - icon: arxiv
     icon_pack: ai
-    link: https://scholar.google.com/citations?hl=en&user=psNhmP8AAAAJ
+    link: https://arxiv.org/search/astro-ph?searchtype=author&query=Eiben,+M
   - icon: github
     icon_pack: fab
-    link: https://github.com/ThomasGascard
+    link: https://github.com/mirandaeiben 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: files/cv_tg.pdf
+#  - icon: cv
+#    icon_pack: ai
+#    link: files/cv_tg.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

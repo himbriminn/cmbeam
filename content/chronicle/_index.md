@@ -1,5 +1,5 @@
 ---
-title: Meetings
+title: Chronicle
 
 # Listing view
 view: compact
@@ -10,7 +10,8 @@ banner:
   image: 'chronicle.jpg'
 ---
 
-## Group meetings
+## Reverse chronological list of posts
+Links direct to a p#ssw##d proteced directory.
 
 ### 2025
  * Sep 23 --- [Name of post (Rustam)](http://130.208.168.150/chronicle/rustam/cmb-fundamental-concepts.pdf)

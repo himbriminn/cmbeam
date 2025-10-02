@@ -29,7 +29,7 @@ banner:
  * August 22 --- Review of lessens learned from Taurus meeting
  * Agust 29 --- Planning for the fall semester
  * Sep 5 --- Update on simulation results from Ashesh and Xiaodong
- * Sep 12 --- Cancelled due to sheep roundup 
+ * Sep 12 --- Cancelled due to sheep roundup duties (réttir) :ewe: 
  * Sep 19 --- Organization of group efforts for the school year, discussion of cryostat design work
  * Sep 26 --- Update on finite-structure simulations of AR coatings from Rustam
  * Oct 3 --- Discussion of new wiki structure and an update from Ashesh on FDTD simulations

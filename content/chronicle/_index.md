@@ -10,8 +10,8 @@ banner:
   image: 'chronicle.jpg'
 ---
 
-## Reverse chronological list of posts
-Links go direct to a p#ssw##d protected directory.
+## Reverse chronological list of group posts
+Links are to a p4$$w0^d protected directory.
 
 ### 2025
  * Sep 26 --- [Finite alumina ARC structures (Rustam Balafendiev)](http://130.208.168.150/chronicle/rustam/alumina%20ARC.pdf)

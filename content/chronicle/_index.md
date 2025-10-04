@@ -11,7 +11,7 @@ banner:
 ---
 
 ## Reverse chronological list of posts
-Links direct to a p#ssw##d proteced directory.
+Links go direct to a p#ssw##d protected directory.
 
 ### 2025
  * Sep 26 --- [Finite alumina ARC structures (Rustam Balafendiev)](http://130.208.168.150/chronicle/rustam/alumina%20ARC.pdf)

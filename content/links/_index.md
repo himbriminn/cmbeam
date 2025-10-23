@@ -37,6 +37,7 @@ List of useful links that are relevant to our group's activities:
  - [Our group wiki](https://cmbeam.atlassian.net/wiki/home)
  - [The Icelandic Astronmical Society](https://stjarnvisindi.is/)
  - [The old group web page](http://www.jon.fysik.su.se/)
+ - [SÍSS lecture series](https://docs.google.com/presentation/d/1h11UxXZ8deawQIf8772sJ-fsiRxfprZ2_5B_B0zy4o8/edit?usp=sharing) 
 
 ## Twitter handles
  - [SPIDER](https://twitter.com/SPIDER_CMB)

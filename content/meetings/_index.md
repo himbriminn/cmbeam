@@ -13,6 +13,12 @@ banner:
 ## Group meetings
 
 ### 2025
+ * Nov 28 --- Round table update
+ * Nov 21 --- SPIE abstract hackathon
+ * Nov 14 --- Cancelled due to travel
+ * Nov 7 ---  Round table update
+ * Oct 31 --- Discussion of holography setup in the lab
+ * Oct 24 --- Cancelled due to fall break
  * Oct 17 --- Planning meeting for SPIE conference
  * Oct 10 --- Review of upcoming funding calls
  * Oct 3 --- Discussion of new wiki structure and an update from Ashesh on FDTD simulations

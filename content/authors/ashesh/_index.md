@@ -6,7 +6,7 @@ title: Ashesh Abhisek Khatua
 superuser: false
 
 # Role/position
-role: 2nd Year PhD Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

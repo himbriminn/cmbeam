@@ -43,9 +43,9 @@ social:
 # - icon: elseveir
 #   icon_pack: ai
 #   link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
- - icon: orcid
-   icon_pack: ai
-   link: https://orcid.org/0009-0004-5916-1500
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0004-5916-1500
 #   link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
 #  - icon: ResearcherID
 #    icon_pack: ai
@@ -56,10 +56,6 @@ social:
 #  - icon: ResearchGate
 #    icon_pack: ai
 #    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- 
-   # 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'aak25@hi.is'

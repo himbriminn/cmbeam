@@ -6,7 +6,7 @@ title: Ashesh Abhisek Khatua
 superuser: false
 
 # Role/position
-role: PhD Student
+role: 2nd Year PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -19,6 +19,7 @@ bio:
 interests:
    - CMB Telescope Instrumentation
    - Optics for sub-millilmeter wavelength
+   - FDTD Simulations
   
 education:
    courses:
@@ -68,4 +69,4 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
-Ashesh Abhisek Khatua received the M.Sc. degree in physics from IISER Tirupai in 2024. 
+With research experience spanning multiple domains of astrophysics during my undergraduate and master’s studies, I am currently transitioning my research focus toward Cosmic Microwave Background (CMB) instrumentation. In the past one year, my work has centered on developing novel analysis framework using Finite-difference time domain simulations for studying the optical systematics in CMB Telescopes. Building on my computational background, I aim to expand these efforts to include hardware development and experimental implementation in the coming years of my PhD.

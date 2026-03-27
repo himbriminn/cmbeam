@@ -41,7 +41,7 @@ education:
 social:
  - icon: cv
    icon_pack: ai
-   link: content/authors/rustam/Rustam_Balafendiev_CV-4-1.pdf
+   link: static/files/cv-rb.pdf
  - icon: envelope
    icon_pack: fas
    link: 'mailto:rub8@hi.is'

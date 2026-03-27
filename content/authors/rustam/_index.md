@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021. His current research interests include novel applications of wire metamaterials and holography experiments.
+bio:  Rustam Balafendiev received the M.Sc. degree in radiophysics from the School of Physics and Engineering, ITMO University, Saint Petersburg, Russia, in 2021 and his first PhD degree at the same university in 2025. His current research interests include metamaterial applications in CMB instrumentation as well as the use of wire metamaterials in holography experiments.
 
 interests:
   - Metamaterials
@@ -24,6 +24,9 @@ interests:
 
 education:
   courses:
+    - course: PhD in Radiophysics
+      institution: ITMO University
+      year: 2025
     - course: Msc in Radiophysics
       institution: ITMO University
       year: 2021
@@ -48,16 +51,16 @@ social:
 # - icon: elseveir
 #   icon_pack: ai
 #   link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
-# - icon: orcid
-#   icon_pack: ai
-#   link: https://orcid.org/0000-0001-5081-5257
-#   link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
+ - icon: orcid
+   icon_pack: ai
+   link: https://orcid.org/0000-0001-5081-5257
+   link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
 #  - icon: ResearcherID
 #    icon_pack: ai
 #    link: [AAS-4785-2021](https://publons.com/researcher/4322529/rustam-balafendiev/)
-#  - icon: GoogleScholar
-#    icon_pack: ai
-#    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
+  - icon: GoogleScholar
+    icon_pack: ai
+    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
 #  - icon: ResearchGate
 #    icon_pack: ai
 #    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)

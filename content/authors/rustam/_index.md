@@ -41,26 +41,25 @@ education:
 social:
  - icon: cv
    icon_pack: ai
-   link: https://physics.itmo.ru/sites/default/files/personality/cv/14038.pdf
+   link: content/authors/rustam/Rustam_Balafendiev_CV-4-1.pdf
  - icon: envelope
    icon_pack: fas
    link: 'mailto:rub8@hi.is'
  - icon: github
    icon_pack: fab
    link: https://github.com/Giguv
-# - icon: elseveir
-#   icon_pack: ai
-#   link: [57221052547](https://www.scopus.com/authid/detail.uri?authorId=57221052547)
  - icon: orcid
    icon_pack: ai
    link: https://orcid.org/0000-0001-5081-5257
-   link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
-#  - icon: ResearcherID
-#    icon_pack: ai
-#    link: [AAS-4785-2021](https://publons.com/researcher/4322529/rustam-balafendiev/)
-  - icon: GoogleScholar
-    icon_pack: ai
-    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
+ - icon: GoogleScholar
+   icon_pack: ai
+   link: https://scholar.google.com/citations?user=UUTDsv4AAAAJ
+ - icon: elseveir
+   icon_pack: ai
+   link: https://www.scopus.com/authid/detail.uri?authorId=57221052547
+ - icon: ResearcherID
+   icon_pack: ai
+   link: https://publons.com/researcher/4322529/rustam-balafendiev/
 #  - icon: ResearchGate
 #    icon_pack: ai
 #    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)

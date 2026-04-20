@@ -25,12 +25,12 @@ interests:
 
 education:
   courses:
-    - course: PhD
+    - course: PhD in Astronomy
       institution: Harvard University, Cambridge, USA
       year: 2025
-    - course: University of Massachussets
-      institution: ELISA Aerospace, USA
-      year: 2020
+    - course: BS in Mechanical Engineering and BS in Astronomy
+      institution: University of Massachussets
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,6 +43,9 @@ social:
   - icon: arxiv
     icon_pack: ai
     link: https://arxiv.org/search/astro-ph?searchtype=author&query=Eiben,+M
+  - icon: orcid
+    icon_pack: brands
+    link: https://orcid.org/0009-0007-6718-1730
   - icon: github
     icon_pack: fab
     link: https://github.com/mirandaeiben 

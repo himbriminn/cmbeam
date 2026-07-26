@@ -16,20 +16,20 @@ date: '2025-11-07T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-11-07T00:00:00Z'
+publishDate: '2026-03-03T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['2']
 
 #
 # Publication name and optional abbreviated publication name.
 #publication: 'Journal of Cosmology and Astroparticle Physics'
 #publication_short: 'JCAP'
 
-abstract: We present results of an extensive suite of numerical simulations that probe square-tiled microwave absorber performance as a function of material properties, frequency, geometry, and unit cell size. The work, which probes both specular reflection and total absorption, highlights the critical importance of the absorber scale size relative to the incidence wavelength while suggesting that material properties have a comparatively weaker impact on overall performance. We show that some absorber designs can achieve 99.5-99.9% frequency-averaged absorption across the 70 to 200 GHz range for normal incidence and that low specular reflectance does not necessarily guarantee optimal absorption performance. Our results indicate that exponential, Klopfenstein, and linear impedance tapers provide comparable performance as long as a unit cell size of 1 to 4 mm is chosen. Simulation results are validated against measurements of specular reflectance.
+abstract: We present the results of an extensive suite of numerical simulations that probe square-tiled microwave absorber performance as a function of material properties, frequency, geometry, and unit cell size. The work, which probes both specular reflection and total absorption, highlights the critical importance of the absorber scale size relative to the incidence wavelength while suggesting that material properties have a comparatively weaker impact on overall performance. We show that some absorber designs can achieve 99.5%–99.9% frequency-averaged absorption across the 70–200 GHz range for normal incidence and that low specular reflectance does not necessarily guarantee optimal absorption performance. Our results indicate that exponential, Klopfenstein, and linear impedance tapers provide comparable performance as long as a unit cell size of 1–4 mm is chosen. Simulation results are validated against measurements of specular reflectance.
 
 # Summary. An optional shortened abstract.
 summary: We present results of an extensive suite of numerical simulations that probe square-tiled microwave absorber performance...
@@ -39,8 +39,8 @@ tags:
 featured: false
 
 links:
-- name: ArXiV
-  url: https://arxiv.org/abs/2511.05309
+- name: Applied Optics
+  url: https://opg.optica.org/ao/abstract.cfm?uri=ao-65-8-2603
 url_pdf: http://arxiv.org/pdf/2511.05309
 url_code: ''
 url_dataset: ''

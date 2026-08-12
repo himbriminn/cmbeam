@@ -7,9 +7,9 @@ Our group has been developing a measurement system that enables wide-angle phase
 
 {{< gallery album="robot2026" >}}
 
-![Link 3 gif](/images/robot.gif)
+![Link 3 gif](/assets/static/images/robot.gif)
 
 
-<img src="/images/robot.gif" alt="Description" width="500">
+<img src="/assets/static/robot.gif" alt="Description" width="500">
 
 <!--more-->

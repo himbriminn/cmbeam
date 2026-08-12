@@ -8,6 +8,6 @@ Our group has been developing a measurement system that enables wide-angle phase
 ![Link 2 gif](/media/robot.gif)
 
 
-<img src="/media/robot.gif" alt="Description" width="500">
+<img src="/static/robot.gif" alt="Description" width="500">
 
 <!--more-->

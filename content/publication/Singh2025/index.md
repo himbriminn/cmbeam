@@ -54,7 +54,7 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: **Figure 2**'
-  focal_point: 'insert text'
+  focal_point: 'Schematic of different geometries studied in this paper'
   preview_only: false
 
 # Associated Projects (optional).

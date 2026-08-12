@@ -49,8 +49,8 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: **Figure 2**'
-  focal_point: 'insert text'
+  caption: 'Image credit: **Figure 1**'
+  focal_point: 'Critical parameter used in hybrid PO calculations'
   preview_only: false
 
 # Associated Projects (optional).

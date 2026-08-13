@@ -9,7 +9,7 @@ Our group has been developing a measurement system that enables wide-angle phase
 
 Some photos from the early days of setting up that system are shown in the album below. 
 
-{{< gallery album="scatterometry2026" >}}
+{{< gallery album="scatterometry2026b" >}}
 
 <!-- {{< gallery album="spie2026" >}} -->
 <!-- <img src="/images/robot.gif" alt="Description" width="500"> -->

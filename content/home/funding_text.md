@@ -28,6 +28,6 @@ design:
     padding: ["40px", "0", "20px", "0"]
 ---
 
-Our efforts are supported by the Science Institute at the University of Iceland, The Stockholm University Physics Department and the Oskar Klein Centre for Cosmoparticle Physics. Our group efforts are funded by the European Research Council, the Icelandic Reseach Fund, the Icelandic Infrastructure Fund, and the Knut and Allice Wallenberg Foundation. We are truly thankful for this support!
+Our group efforts are funded by the European Research Council, the Icelandic Reseach Fund, the Icelandic Infrastructure Fund, and the Knut and Allice Wallenberg Foundation. We are truly thankful for this support!
 
 <!-- ![screen reader text](funding.jpg "") -->

@@ -18,7 +18,7 @@ bio:
 
 interests:
    - CMB Telescope Instrumentation
-   - Optics for sub-millilmeter wavelength
+   - Optics for sub-millimeter wavelength
    - FDTD Simulations
   
 education:

@@ -51,9 +51,9 @@ social:
 #  - icon: ResearcherID
 #    icon_pack: ai
 #    link: [AAS-4785-2021](https://publons.com/researcher/4322529/rustam-balafendiev/)
-#  - icon: GoogleScholar
-#    icon_pack: ai
-#    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=UUTDsv4AAAAJ)
+  - icon: GoogleScholar
+    icon_pack: ai
+    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=O2mATrsAAAAJ&hl=en&oi=ao)
 #  - icon: ResearchGate
 #    icon_pack: ai
 #    link: [Rustam-Balafendiev](https://www.researchgate.net/profile/Rustam-Balafendiev)

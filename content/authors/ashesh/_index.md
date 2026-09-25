@@ -47,9 +47,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0004-5916-1500
-  - icon: GoogleScholar
+  - icon: google-scholar
     icon_pack: ai
-    link: [UUTDsv4AAAAJ](https://scholar.google.com/citations?user=O2mATrsAAAAJ&hl=en&oi=ao)
+    link: 'https://scholar.google.com/citations?user=O2mATrsAAAAJ&hl=en&oi=ao'
 #   link: [0000-0001-5081-5257](https://orcid.org/0000-0001-5081-5257)
 #  - icon: ResearcherID
 #    icon_pack: ai

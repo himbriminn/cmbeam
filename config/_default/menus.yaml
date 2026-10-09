@@ -13,12 +13,12 @@ main:
   - name: News
     url: post
     weight: 20
-  - name: Meetings
-    url: meetings
-    weight: 20
-  - name: Chronicle
-    url: chronicle
-    weight: 25
+  #- name: Meetings
+  #  url: meetings
+  #  weight: 20
+  #- name: Chronicle
+  #  url: chronicle
+  #  weight: 25
   - name: People
     url: people
     weight: 30

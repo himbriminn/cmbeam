@@ -28,6 +28,6 @@ design:
     padding: ["40px", "0", "20px", "0"]
 ---
 
-Our group efforts are funded by the European Research Council, the Icelandic Reseach Fund, the Icelandic Infrastructure Fund, and the Knut and Allice Wallenberg Foundation. We are truly thankful for this support!
+Our group efforts are funded by the European Research Council, the Icelandic Research Fund, the Icelandic Infrastructure Fund, and the Knut and Alice Wallenberg Foundation. We are truly thankful for this support!
 
 <!-- ![screen reader text](funding.jpg "") -->

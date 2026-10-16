@@ -1,5 +1,5 @@
 ---
-title: Half-wave plante non-idealities and realistic beams
+title: Half-wave plate non-idealities and realistic beams
 date: 2021-02-01
 ---
 

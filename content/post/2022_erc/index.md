@@ -6,6 +6,6 @@ share: false
 
 ---
 
-Jón Emil Guðmundsson receives a 2M Euro Starting Grant from the European Resarch Council. Project name: CMBeam.
+Jón Emil Guðmundsson receives a 2M Euro Starting Grant from the European Research Council. Project name: CMBeam.
 
 <!--more-->

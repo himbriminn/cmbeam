@@ -18,7 +18,7 @@ gallery_item:
 
 ---
 
-Group members from Stockholm visited the University of Iceland get to know new members and plan for the CMBeam project. Lot's of great discussions and new experiences!
+Group members from Stockholm visited the University of Iceland to get to know new members and plan for the CMBeam project. Lots of great discussions and new experiences!
 
 
 

@@ -14,5 +14,5 @@ The following list shows a selection of publications made by group members. For 
 
 - Arxiv: [Link](https://arxiv.org/search/?searchtype=author&query=Gudmundsson%2C+J+E&abstracts=show&size=100&order=-announced_date_first)
 - Nasa Ads: [Link](https://ui.adsabs.harvard.edu/#/public-libraries/4rCZIMR5RoOgA4maALHmYQ)
-- Inspire: [Link](http://inspirehep.net/author/profile/J.E.Gudmundsson.1)
+- Inspire: [Link](https://inspirehep.net/authors/1235629)
 - Google Scholar [Link](https://scholar.google.se/citations?user=zBX9pmMAAAAJ&hl=en)

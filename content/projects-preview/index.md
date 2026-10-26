@@ -18,27 +18,19 @@ We study cosmology, astrophysics, and fundamental physics through observations o
 
 There are lots of great introductions to the field, here is one example: [How Ancient Light Reveals the Universe’s Contents](https://www.quantamagazine.org/how-ancient-light-reveals-the-universes-contents-20200128/) 
 
-Future experiments mapping the CMB are designed to revolutionize our understanding of the infant universe, the standard model of particle physics, structure formation, and the nature of dark matter. A key effort involves constraining or detecting the energy scale of cosmic inflation.  A detection would mark a watershed moment in cosmology and high-energy physics, but in order to push constraints significantly past current limits, we need a dramatic change in instrument characterization capabilities — the primary focus of CMBeam.
+Future experiments mapping the CMB are designed to revolutionize our understanding of the infant universe, the standard model of particle physics, structure formation, and the nature of dark matter. A key effort involves constraining or detecting the energy scale of cosmic inflation.  A detection would mark a watershed moment in cosmology and high-energy physics, but in order to push constraints significantly past current limits, we need a dramatic change in instrument characterization capabilities — the primary focus of CMBeam. Measuring its faint polarization signals requires detailed knowledge of the instruments observing them. Small errors in telescope beams, polarization response, or frequency calibration can distort the signals we hope to measure.
 
-Motivated by these fundamental science themes, our research group is engaged in multiple experimental collaborations, including [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), and the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html):
+Motivated by these fundamental science themes, our research group is engaged in multiple experimental collaborations, including [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html), and a complementary programme searching for axion dark matter.
 
 {{< figure src="team-cryostat.jpeg" alt="Members of the group viewed through the cryostat" caption="Building instruments to explore the Universe: members of the group viewed through the opening of our cryogenic testing facility." >}}
 
-## Optical calibration and cryogenic testing
+## Skuggsjá: Optical calibration and cryogenic testing
 
-Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms ([see arXiv:2407.04805](https://arxiv.org/abs/2407.04805)) , a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes ([see arXiv:2407.04613](https://arxiv.org/abs/2407.04613)) and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
-
-## Exploring the universe with microwave light
-
-The cosmic microwave background (CMB) is the oldest light we can observe directly. Its temperature and polarization reveal information about the early universe, cosmic structure, and the matter and energy that shape cosmic evolution.
-
-Measuring its faint polarization signals requires detailed knowledge of the instruments observing them. Small errors in telescope beams, polarization response, or frequency calibration can distort the signals we hope to measure.
-
-Our work addresses these challenges through contributions to the Simons Observatory, Taurus, LiteBIRD, and SPIDER, alongside a complementary programme searching for axion dark matter.
-
-## Skuggsjá: robotic microwave measurements
+Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. 
 
 Skuggsjá is our experimental base at the University of Iceland. The lab combines an anechoic chamber, cryogenic hardware, coherent microwave instrumentation, a vector network analyzer, and six-axis robotic positioning.
+
+The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms ([see arXiv:2407.04805](https://arxiv.org/abs/2407.04805)), a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes ([see arXiv:2407.04613](https://arxiv.org/abs/2407.04613)) and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
 
 Our robotic measurement systems map both the amplitude and phase of electromagnetic fields. These measurements let us reconstruct beam propagation and investigate optical alignment, aberrations, polarization, and unwanted responses beyond the main beam.
 

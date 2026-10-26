@@ -10,11 +10,11 @@ sitemap:
   disable: true
 ---
 
-We develop instruments and measurement techniques to investigate the early universe and the nature of dark matter. Based at the University of Iceland, our group combines experimental microwave optics, cryogenics, electromagnetic simulations, material development, and astronomical data analysis.
+We develop instruments and measurement techniques to investigate the early Universe and the nature of dark matter. Based at the University of Iceland, our group combines experimental microwave optics, cryogenics, electromagnetic simulations, material development, and astronomical data analysis.
 
 Over the past few years, we have established the Skuggsjá microwave laboratory, developed robotic systems for precision optical measurements, and advanced telescope designs for international cosmology experiments.
 
-{{< figure src="team-cryostat.jpeg" alt="Members of the group viewed through the opening of the cryostat" caption="Building instruments to explore the universe: members of the group viewed through the opening of our cryogenic testing facility." >}}
+{{< figure src="team-cryostat.jpeg" alt="Members of the group viewed through the cryostat" caption="Building instruments to explore the Universe: members of the group viewed through the opening of our cryogenic testing facility." >}}
 
 ## Exploring the universe with microwave light
 
@@ -26,7 +26,7 @@ Our work addresses these challenges through contributions to the Simons Observat
 
 ## Skuggsjá: robotic microwave measurements
 
-Skuggsjá is our experimental base at the University of Iceland. The laboratory brings together an anechoic chamber, coherent microwave instrumentation, a vector network analyzer, and six-axis robotic positioning.
+Skuggsjá is our experimental base at the University of Iceland. The lab combines an anechoic chamber, cryogenic hardware, coherent microwave instrumentation, a vector network analyzer, and six-axis robotic positioning.
 
 Our robotic measurement systems map both the amplitude and phase of electromagnetic fields. These measurements let us reconstruct beam propagation and investigate optical alignment, aberrations, polarization, and unwanted responses beyond the main beam.
 
@@ -40,7 +40,7 @@ Read more in our [robotic beam-mapping paper](https://arxiv.org/abs/2407.04805).
 
 The ERC-funded CMBeam project develops techniques for characterizing microwave telescopes at cryogenic temperatures. Many CMB instruments operate only a few degrees above absolute zero, making measurements under representative conditions essential.
 
-Together with Icelandic engineering company Héðinn, we are developing a large cryostat for testing optical components and small telescope assemblies. The system is designed around radiation shields near 40 K and 4 K and will support the development of cryogenic holography.
+Together with Icelandic company Héðinn, we are developing a large cryostat for testing of optical components and refractor telescope assemblies. The system incorporates radiation shields at 40 K and 4 K and will support our aspirations to develop cryogenic holography.
 
 {{< figure src="cryostat-welding.jpeg" alt="A welder works on the cryostat vacuum vessel" caption="Fabrication of the cryostat vacuum vessel at Héðinn, combining local engineering expertise with the requirements of precision microwave experiments." >}}
 

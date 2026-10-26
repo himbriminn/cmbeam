@@ -7,3 +7,4 @@ public/
 assets/jsconfig.json
 static/uploads/.DS_Store
 .DS_Store
+assets/media/.DS_Store

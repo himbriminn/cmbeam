@@ -17,7 +17,7 @@ links:
     url: https://arxiv.org/abs/2608.19337
 url_pdf: https://arxiv.org/pdf/2608.19337
 image:
-  caption: "Fabrication of the cryostat vacuum vessel at Héðinn."
+  caption: "Exploded view of the cryostat and radiation shields. Figure from Guðmundsson et al. (2026)."
   focal_point: 'Smart'
   preview_only: false
 projects: []

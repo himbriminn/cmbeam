@@ -17,7 +17,7 @@ links:
     url: https://arxiv.org/abs/2608.18793
 url_pdf: https://arxiv.org/pdf/2608.18793
 image:
-  caption: "Robotic microwave measurements in the Skuggsjá anechoic chamber."
+  caption: "Geometry of the angular scattering measurement setup. Figure from Eiben et al. (2026)."
   focal_point: 'Smart'
   preview_only: false
 projects: []

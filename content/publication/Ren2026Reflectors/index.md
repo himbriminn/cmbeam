@@ -16,7 +16,7 @@ links:
     url: https://arxiv.org/abs/2608.18998
 url_pdf: https://arxiv.org/pdf/2608.18998
 image:
-  caption: "Simons Observatory Large Aperture Telescope optical model, from Gudmundsson et al. (2021)."
+  caption: "Simons Observatory Large Aperture Telescope reflector model and coordinate systems. Figure from Ren, Gallardo and Guðmundsson (2026)."
   focal_point: 'Smart'
   preview_only: false
 projects: []

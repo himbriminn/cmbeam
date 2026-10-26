@@ -16,7 +16,7 @@ links:
     url: https://arxiv.org/abs/2608.19176
 url_pdf: https://arxiv.org/pdf/2608.19176
 image:
-  caption: "Optical alignment in the Skuggsjá laboratory."
+  caption: "Simulated reflected power for anti-reflection coatings with manufacturing variations. Figure from Balafendiev, Eiben and Guðmundsson (2026)."
   focal_point: 'Smart'
   preview_only: false
 projects: []

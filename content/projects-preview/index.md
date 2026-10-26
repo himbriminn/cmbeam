@@ -10,11 +10,23 @@ sitemap:
   disable: true
 ---
 
-We develop instruments and measurement techniques to investigate the early Universe and the nature of dark matter. Based at the University of Iceland, our group combines experimental microwave optics, cryogenics, electromagnetic simulations, material development, and astronomical data analysis.
+We develop instruments and measurement techniques to investigate the early Universe and the nature of dark matter. Based at the University of Iceland, our group combines experimental microwave optics, cryogenics, electromagnetic simulations, material development, and astronomical data analysis. We tailor project involvement for new members joining the group based on their interests, experties, and desired career paths. 
 
-Over the past few years, we have established the Skuggsjá microwave laboratory, developed robotic systems for precision optical measurements, and advanced telescope designs for international cosmology experiments.
+## Preamble
+
+We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe.
+
+There are lots of great introductions to the field, here is one example: [How Ancient Light Reveals the Universe’s Contents](https://www.quantamagazine.org/how-ancient-light-reveals-the-universes-contents-20200128/) 
+
+Future experiments mapping the cosmic microwave background are designed to revolutionize our understanding of the infant universe, the standard model of particle physics, structure formation, and the nature of dark matter. A key effort involves constraining or detecting the energy scale of cosmic inflation.  A detection would mark a watershed moment in cosmology and high-energy physics, but in order to push constraints significantly past current limits, we need a dramatic change in instrument characterization capabilities — the primary focus of CMBeam.
+
+**Motivated by these fundamental science themes, our research group is engaged in multiple experimental collaborations, including [SPIDER2](https://spider.princeton.edu/), [Taurus](https://icasu.illinois.edu/news/Taurus), the [Simons Observatory](https://en.wikipedia.org/wiki/Simons_Observatory), and the [LiteBIRD satellite](https://www.isas.jaxa.jp/en/missions/spacecraft/future/litebird.html):**
 
 {{< figure src="team-cryostat.jpeg" alt="Members of the group viewed through the cryostat" caption="Building instruments to explore the Universe: members of the group viewed through the opening of our cryogenic testing facility." >}}
+
+## Optical calibration and cryogenic testing
+
+Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms ([see arXiv:2407.04805](https://arxiv.org/abs/2407.04805)) , a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes ([see arXiv:2407.04613](https://arxiv.org/abs/2407.04613)) and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
 
 ## Exploring the universe with microwave light
 
@@ -48,7 +60,7 @@ The project involves thermal and mechanical modelling, vacuum engineering, radia
 
 ## Taurus: optics for a balloon-borne observatory
 
-Our group leads the microwave-optics design effort for Taurus, a NASA-funded balloon experiment studying the polarized microwave sky.
+Our group leads the optics design effort for Taurus, a NASA-funded balloon experiment studying the polarized microwave sky.
 
 Supported by the Icelandic Research Fund, our work covers wide-field refracting telescopes operating across multiple frequency bands. We investigate image quality, beam shape, polarization response, optical efficiency, and performance across the focal plane.
 

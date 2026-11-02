@@ -1,0 +1,3 @@
+Skuggsja Preview is an experimental family adapted from Oxanium by Severin Meyer (copyright 2019 The Oxanium Project Authors), licensed under the SIL Open Font License 1.1. The family is horizontally condensed to suit the Skuggsjá wordmark. Icelandic, Latin and common punctuation are included. The original variable font and script are included to make the adaptation reproducible. This is a visual prototype, not a complete custom typeface traced from the logo.
+
+To rebuild from this directory: install fontTools, then run `python build_skuggsja_font.py`. The script reads `oxanium.ttf` and produces the three TTF variants.

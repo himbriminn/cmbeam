@@ -18,6 +18,8 @@
 .projects-collage{margin:2rem 0}.projects-collage-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:repeat(2,190px);gap:6px;overflow:hidden;border-radius:4px}.projects-collage-grid img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;border-radius:0}.projects-collage-grid img:first-child{grid-column:span 2;grid-row:span 2}.projects-collage-grid img:not(:first-child){grid-column:span 2}.projects-collage figcaption{font-size:13px;line-height:1.5;color:#4a5970;margin-top:9px}@media(max-width:600px){.projects-collage-grid{grid-template-rows:repeat(2,115px);gap:4px}}
 
 .projects-preview-page .article-style{margin-left:auto;margin-right:auto}
+
+.contact-preview-map{width:100%;max-width:100%;height:420px;margin:24px 0;border:0;border-radius:4px;display:block}.contact-map-link{display:inline-block;margin-top:4px}
 </style>
 </head>
 <body>
@@ -130,6 +132,23 @@ async function showNewsGrid(target, asPreview) {
    for (const sheet of doc.querySelectorAll('link[rel="stylesheet"]')) { const href=sheet.getAttribute('href'); if(!href) continue; const u=new URL(href,url); if(u.origin!==location.origin) continue; const link=document.createElement('link');link.rel='stylesheet';link.href=u.href;document.head.insertBefore(link,style); }
    const previewPage = document.importNode(page,true);
    if (/^\/projects-preview\/?$/.test(url.pathname)) { previewPage.classList.add('projects-preview-page'); addProjectsCollage(previewPage); }
+   if (/^\/contact\/?$/.test(url.pathname)) {
+     document.getElementById('preview-title').textContent='Contact';
+     document.title='Contact · Skuggsjá preview';
+     const map=previewPage.querySelector('#map');
+     if (map) {
+       const frame=document.createElement('iframe');
+       frame.className='contact-preview-map';
+       frame.title='Map of Skuggsjá at VR-III, Hjarðarhagi 2, Reykjavík';
+       frame.src='https://maps.google.com/maps?q=64.13899%2C-21.95352&z=15&output=embed';
+       frame.loading='lazy';frame.referrerPolicy='strict-origin-when-cross-origin';
+       const link=document.createElement('a');link.className='contact-map-link';
+       link.href='https://www.google.com/maps/search/?api=1&query=64.13899%2C-21.95352';
+       link.target='_blank';link.rel='noopener noreferrer';link.textContent='Open in Google Maps';
+       map.replaceChildren(frame,link);
+       map.style.height='auto';
+     }
+   }
    target.replaceChildren(previewPage);
  } catch (e) { document.getElementById('preview-title').textContent='Page preview';target.replaceChildren();const p=document.createElement('p');p.className='preview-error';p.textContent='This page could not be loaded in the preview. ';const a=document.createElement('a');a.href=url.href;a.textContent='View the current page';p.append(a);target.append(p); }
 })();

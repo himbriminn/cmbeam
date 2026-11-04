@@ -84,7 +84,9 @@ async function showNewsGrid(target, asPreview) {
  try {
    const response = await fetch(url.href); if (!response.ok) throw Error('Page could not be loaded');
    const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
-   const title = doc.querySelector('h1')?.textContent?.trim() || doc.title.replace(/\s*\|.*$/, '') || 'Skuggsjá';
+   const documentTitle = doc.title.replace(/\s*\|.*$/, '').trim();
+   const pageHeading = Array.from(doc.querySelectorAll('h1')).map(h => h.textContent.trim()).find(text => text && text.toLowerCase() !== 'search');
+   const title = (documentTitle && documentTitle.toLowerCase() !== 'search' ? documentTitle : '') || pageHeading || 'Skuggsjá';
    document.title = title + ' · Skuggsjá preview'; document.getElementById('preview-title').textContent = title;
    const page = doc.querySelector('.page-body') || doc.querySelector('main') || doc.querySelector('article') || doc.querySelector('.universal-wrapper');
    if (!page) throw Error('No page content found');

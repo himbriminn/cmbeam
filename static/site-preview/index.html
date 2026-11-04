@@ -44,10 +44,8 @@ function showTour(target) {
  });target.replaceChildren(intro,list);
 }
 function addProjectsCollage(page) {
- const original = page.querySelector('img[alt="Members of the group viewed through the cryostat"]');
+ const original = page.querySelector('.article-header img.article-banner');
  if (!original) return;
- const figure = original.closest('figure');
- if (!figure) return;
  const photos = [
   ['6inserts.jpg','Cryogenic optical inserts'],
   ['so_sat.jpg','Small-aperture telescope'],
@@ -59,7 +57,7 @@ function addProjectsCollage(page) {
  const grid=document.createElement('div');grid.className='projects-collage-grid';
  photos.forEach(([file,alt])=>{const image=document.createElement('img');image.src='/site-preview/images/'+file;image.alt=alt;image.loading='lazy';grid.append(image)});
  const caption=document.createElement('figcaption');caption.textContent='From optical systems and simulations to metamaterials, resonators, and cryogenics: a selection of the technologies behind our research.';
- replacement.append(grid,caption);figure.replaceWith(replacement);
+ replacement.append(grid,caption);original.replaceWith(replacement);
 }
 async function showNewsGrid(target, asPreview) {
  const response=await fetch('/post/index.xml'); if(!response.ok) return false;

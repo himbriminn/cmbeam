@@ -6,6 +6,7 @@
 <style id="preview-style">
 @font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-Regular.ttf')}@font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-SemiBold.ttf');font-weight:600}@font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-Bold.ttf');font-weight:700}
 :root{--ink:#172f3c;--soft:#49616c;--accent:#286c7a;--line:#dce5e6}*{box-sizing:border-box}body{margin:0!important;background:#fff!important;color:var(--ink)!important;font-family:Skuggsja,system-ui,sans-serif!important;line-height:1.6}a{color:var(--accent)}.preview-note{background:#edf3f2;color:#536b70;text-align:center;font:12px/1.6 Skuggsja,sans-serif;padding:6px 12px}.preview-header{border-bottom:1px solid var(--line);background:#fff}.preview-nav{max-width:1160px;min-height:76px;margin:auto;padding:0 30px;display:flex;align-items:center;justify-content:space-between;gap:28px}.preview-brand{font:600 20px Skuggsja,sans-serif;color:var(--ink);text-decoration:none}.preview-links{display:flex;align-items:center;gap:24px;flex-wrap:wrap;font:600 14px Skuggsja,sans-serif}.preview-links a{color:#395560;text-decoration:none}.preview-links a:hover,.preview-brand:hover{color:var(--accent)}.preview-hero{background:linear-gradient(115deg,#f2f8f7,#fff 74%);padding:55px 0 45px}.preview-shell{width:min(1160px,100%);padding:0 30px;margin:0 auto}.preview-eyebrow{text-transform:uppercase;letter-spacing:.16em;font:700 11px Skuggsja,sans-serif;color:var(--accent);margin:0 0 15px}.preview-hero h1{font:600 clamp(32px,4vw,49px)/1.15 Skuggsja,sans-serif;letter-spacing:-.025em;color:var(--ink);margin:0}.preview-content{min-height:30vh;padding:42px 0 70px}.preview-content h1,.preview-content h2,.preview-content h3,.preview-content h4{font-family:Skuggsja,system-ui,sans-serif;color:var(--ink)}.preview-content h2{margin-top:1.4em}.preview-content img{max-width:100%;height:auto;border-radius:4px}.preview-content .article-container,.preview-content .universal-wrapper{max-width:none;padding-left:0;padding-right:0}.preview-content .home-section{padding:24px 0}.preview-content .home-section:first-child{padding-top:0}.preview-content .article-title{line-height:1.3}.preview-content .card{border-color:var(--line);border-radius:4px;overflow:hidden}.preview-content p{color:var(--soft)}.preview-content .article-style{max-width:850px;font-size:16px}.preview-content .page-body{padding-top:0}.preview-content .article-container h1:first-child,.preview-content>.page-body>.universal-wrapper>h1:first-child{display:none}.preview-footer{border-top:1px solid var(--line);padding:25px 0;color:#71838a;font:12px Skuggsja,sans-serif}.preview-error{padding:30px 0;color:var(--soft)}@media(max-width:760px){.preview-nav{padding:18px 20px;align-items:flex-start;flex-direction:column;gap:12px}.preview-links{gap:8px 16px}.preview-shell{padding:0 20px}.preview-hero{padding:38px 0}.preview-content{padding:30px 0 48px}}
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 24px}.news-card{min-width:0;border-top:3px solid #87b7bd;padding-top:16px}.news-card-image{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:4px;background:#eaf2f1;margin-bottom:15px}.news-card time{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#6d8188}.news-card h2{font:600 22px/1.24 Skuggsja,system-ui,sans-serif;margin:9px 0}.news-card h2 a{color:var(--ink);text-decoration:none}.news-card h2 a:hover{color:var(--accent)}.news-card p{font-size:14px;line-height:1.55;margin:0;color:var(--soft)}.news-more{margin-top:36px;border:1px solid #9db6ba;background:white;color:var(--ink);font:600 14px Skuggsja,system-ui,sans-serif;padding:10px 19px;border-radius:5px;cursor:pointer}.news-more:hover{background:#edf5f4}@media(max-width:760px){.news-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}}@media(max-width:480px){.news-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -14,6 +15,41 @@
 <main><section class="preview-hero"><div class="preview-shell"><p class="preview-eyebrow">University of Iceland · Stockholm University</p><h1 id="preview-title">Loading…</h1></div></section><div class="preview-shell preview-content" id="content" aria-live="polite">Loading page…</div></main>
 <footer class="preview-footer"><div class="preview-shell">© 2026 Jón E. Guðmundsson · University of Iceland &amp; Stockholm University</div></footer>
 <script>
+async function showNewsGrid(target, asPreview) {
+ const response=await fetch('/post/index.xml'); if(!response.ok) return false;
+ const feed=new DOMParser().parseFromString(await response.text(),'application/xml');
+ if(feed.querySelector('parsererror')) return false;
+ const items=Array.from(feed.querySelectorAll('item')); if(!items.length) return false;
+ const grid=document.createElement('div');grid.className='news-grid';
+ const more=document.createElement('button');more.type='button';more.className='news-more';more.textContent='Show more news';
+ target.replaceChildren(grid,more);let index=0;
+ async function imageFor(card,link,url) {
+   try {
+     const response=await fetch(url.href);if(!response.ok)return;
+     const doc=new DOMParser().parseFromString(await response.text(),'text/html');
+     const src=doc.querySelector('meta[property="og:image"]')?.content || doc.querySelector('meta[name="twitter:image"]')?.content || doc.querySelector('.article-header img, .article-container img')?.getAttribute('src');
+     if(!src)return;const imgurl=new URL(src,url);
+     if(imgurl.origin!==location.origin || !/^https?:$/.test(imgurl.protocol))return;
+     const img=document.createElement('img');img.className='news-card-image';img.alt='';img.loading='lazy';img.src=imgurl.href;
+     const imageLink=document.createElement('a');imageLink.href=link.href;imageLink.setAttribute('aria-label','Read '+link.textContent);imageLink.append(img);
+     img.addEventListener('error',()=>imageLink.remove(),{once:true});card.prepend(imageLink);
+   } catch {}
+ }
+ function appendBatch() {
+   for(const item of items.slice(index,index+12)) {
+     let url;try {url=new URL(item.querySelector('link')?.textContent?.trim()||'/post/',location.origin);if(url.origin!==location.origin)continue;}catch{continue}
+     const card=document.createElement('article');card.className='news-card';
+     const time=document.createElement('time');const date=new Date(item.querySelector('pubDate')?.textContent||'');
+     if(!isNaN(date)){time.dateTime=date.toISOString();time.textContent=date.toLocaleDateString('en-GB',{month:'long',year:'numeric',timeZone:'UTC'});}
+     const heading=document.createElement('h2');const link=document.createElement('a');link.href=asPreview(url);link.textContent=item.querySelector('title')?.textContent?.trim()||'News';heading.append(link);
+     const summary=document.createElement('p');const raw=item.querySelector('description')?.textContent||'';const plain=(new DOMParser().parseFromString(raw,'text/html').body.textContent||'').replace(/\\s+/g,' ').trim();
+     summary.textContent=plain.length>165?plain.slice(0,162).trimEnd()+'…':plain;
+     card.append(time,heading,summary);grid.append(card);imageFor(card,link,url);
+   }
+   index+=12;more.hidden=index>=items.length;
+ }
+ more.addEventListener('click',appendBatch);appendBatch();return true;
+}
 (async () => {
  const target = document.getElementById('content');
  const requested = new URLSearchParams(location.search).get('page') || '/skuggsja/';
@@ -21,6 +57,9 @@
  try { url = new URL(requested, location.origin); if (url.origin !== location.origin || !url.pathname.startsWith('/') || url.pathname.startsWith('/site-preview/')) throw Error(); }
  catch { target.textContent = 'This page cannot be displayed in the preview.'; return; }
  const asPreview = u => '/site-preview/?page=' + encodeURIComponent(u.pathname + u.search + u.hash);
+ if (/^\/post\/?$/.test(url.pathname)) {
+   try { if (await showNewsGrid(target, asPreview)) { document.title='Latest news · Skuggsjá preview';document.getElementById('preview-title').textContent='Latest news';return; } } catch {}
+ }
  try {
    const response = await fetch(url.href); if (!response.ok) throw Error('Page could not be loaded');
    const doc = new DOMParser().parseFromString(await response.text(), 'text/html');

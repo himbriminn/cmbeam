@@ -26,13 +26,9 @@ Motivated by these fundamental science themes, our research group is engaged in 
 
 ## Skuggsjá: Optical calibration and cryogenic testing
 
-Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. 
-
-Skuggsjá is our experimental base at the University of Iceland. The lab combines an anechoic chamber, cryogenic hardware, coherent microwave instrumentation, a vector network analyzer, and six-axis robotic positioning.
+Through funding from the European Research Council, the Icelandic Research Council, and the University of Iceland (Háskóli Íslands or HÍ for short), we are setting up a new research infrastructure at HÍ. Skuggsjá is our experimental base at the University of Iceland. The lab combines an anechoic chamber, cryogenic hardware, coherent microwave instrumentation, a vector network analyzer, and six-axis robotic positioning.
 
 The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms ([see arXiv:2407.04805](https://arxiv.org/abs/2407.04805)), a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes ([see arXiv:2407.04613](https://arxiv.org/abs/2407.04613)) and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
-
-Our robotic measurement systems map both the amplitude and phase of electromagnetic fields. These measurements let us reconstruct beam propagation and investigate optical alignment, aberrations, polarization, and unwanted responses beyond the main beam.
 
 {{< figure src="robot-lab.jpeg" alt="Researchers aligning a robotic microwave measurement system in an anechoic chamber" caption="Preparing the robotic microwave measurement system inside Skuggsjá’s anechoic chamber." >}}
 
@@ -42,9 +38,9 @@ Read more in our [robotic beam-mapping paper](https://arxiv.org/abs/2407.04805).
 
 ## CMBeam: cryogenic optical testing
 
-The ERC-funded CMBeam project develops techniques for characterizing microwave telescopes at cryogenic temperatures. Many CMB instruments operate only a few degrees above absolute zero, making measurements under representative conditions essential.
+The ERC-funded CMBeam project (2022-2028) develops techniques for characterizing microwave telescopes at cryogenic temperatures. Many CMB instruments operate only a few degrees above absolute zero, making measurements under representative conditions essential.
 
-Together with Icelandic company Héðinn, we are developing a large cryostat for testing of optical components and refractor telescope assemblies. The system incorporates radiation shields at 40 K and 4 K and will support our aspirations to develop cryogenic holography.
+Together with Icelandic company Héðinn, we have been building a large cryostat for testing of optical components and refractor telescope assemblies. The system incorporates radiation shields at 40 K and 4 K and will support our aspirations to develop cryogenic holography.
 
 {{< figure src="cryostat-welding.jpeg" alt="A welder works on the cryostat vacuum vessel" caption="Fabrication of the cryostat vacuum vessel at Héðinn, combining local engineering expertise with the requirements of precision microwave experiments." >}}
 

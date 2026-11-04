@@ -14,7 +14,7 @@ Our research group at the University of Iceland develops instruments and measure
 
 ## Preamble
 
-We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates our Universe, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB). During the last 50 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the universe.
+We study cosmology, astrophysics, and fundamental physics through observations of the microwave sky. The physical processes that took place in the first epochs in the history of our Universe have left an imprint in a 2.7-Kelvin blackbody radiation field that permeates all space, known as the [cosmic microwave background](https://en.wikipedia.org/wiki/Cosmic_microwave_background) (CMB). In the last 60 years, by carefully observing this radiation with increasingly sensitive instruments, we have succeeded in extracting intricate cosmic detail and established a remarkably successful model of the Universe.
 
 There are lots of great introductions to the field, here is one example: [How Ancient Light Reveals the Universe’s Contents](https://www.quantamagazine.org/how-ancient-light-reveals-the-universes-contents-20200128/) 
 
@@ -62,9 +62,7 @@ Our work spans the Small and Large Aperture Telescopes and draws on laboratory m
 
 ## Simulations: connecting optics to sky maps
 
-How does an imperfect telescope change our view of the microwave sky? We address this question by combining realistic optical models with simulations of astronomical observations.
-
-Our work includes the development and application of [beamconv](https://github.com/AdriJD/beamconv), which simulates observations of the polarized sky using detailed telescope beams. These calculations help us understand how optical asymmetries, unwanted polarization response, and radiation entering away from the main beam affect scientific results.
+How does an imperfect telescope change our view of the microwave sky? We address this question by combining realistic optical models with simulations of astronomical observations. Some of our older work includes the development of an open-source software called [beamconv](https://github.com/AdriJD/beamconv), which simulates observations of the polarized sky using high-fidelity beam maps. These calculations help us understand how optical asymmetries, unwanted polarization response, and radiation entering away from the main beam affect scientific results. This type of work relies heavily on high-performance computing.
 
 ## Broadband microwave absorbers
 

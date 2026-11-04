@@ -20,6 +20,8 @@
 .projects-preview-page .article-style{margin-left:auto;margin-right:auto}
 
 .contact-preview-map{width:100%;max-width:100%;height:420px;margin:24px 0;border:0;border-radius:4px;display:block}.contact-map-link{display:inline-block;margin-top:4px}
+
+.preview-content .contact-team-photo{padding:0;min-height:0;margin:36px 0}.preview-content .contact-team-photo img{display:block;width:100%;height:auto;border-radius:4px}
 </style>
 </head>
 <body>
@@ -135,6 +137,16 @@ async function showNewsGrid(target, asPreview) {
    if (/^\/contact\/?$/.test(url.pathname)) {
      document.getElementById('preview-title').textContent='Contact';
      document.title='Contact · Skuggsjá preview';
+     const photoSection=previewPage.querySelector('section#image');
+     if (photoSection) {
+       photoSection.className='contact-team-photo';
+       photoSection.removeAttribute('style');
+       const photo=document.createElement('img');
+       photo.src='/site-preview/images/contact-team-2026.jpeg';
+       photo.alt='Members of the research group together at an escape room';
+       photo.loading='lazy';
+       photoSection.replaceChildren(photo);
+     }
      const map=previewPage.querySelector('#map');
      if (map) {
        const frame=document.createElement('iframe');

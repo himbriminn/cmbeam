@@ -30,15 +30,13 @@ Through funding from the European Research Council, the Icelandic Research Counc
 
 The infrastructure includes various coherent microwave sources in the 40-400 GHz frequency range, a custom anechoic chamber ([see post](/post/2023_anechoic_chamber)), some robotic arms ([see arXiv:2407.04805](https://arxiv.org/abs/2407.04805)), a vector network analyzer, and a custom cryostat that accommdates small to medium-size refractor telescopes ([see arXiv:2407.04613](https://arxiv.org/abs/2407.04613)) and reimaging optics. This new lab is being devloped with current and future-generation CMB experiments in mind, including CMB experiments such as the balloon-borne experiment Taurus and the LiteBIRD satellite. These CMB experiments give rise to multiple projects in design and testing of novel optical components.
 
-{{< figure src="robot-lab.jpeg" alt="Researchers aligning a robotic microwave measurement system in an anechoic chamber" caption="Preparing the robotic microwave measurement system inside Skuggsjá’s anechoic chamber." >}}
-
-We are extending these methods to characterize transmission, reflection, and scattering from materials and optical assemblies. This work combines instrumentation, robot control, calibration, electromagnetic modelling, and software development.
-
 Read more in our [robotic beam-mapping paper](https://arxiv.org/abs/2407.04805).
+
+{{< figure src="robot-lab.jpeg" alt="Researchers aligning a robotic microwave measurement system in an anechoic chamber" caption="Preparing the robotic microwave measurement system inside Skuggsjá’s anechoic chamber." >}}
 
 ## CMBeam: cryogenic optical testing
 
-The ERC-funded CMBeam project (2022-2028) develops techniques for characterizing microwave telescopes at cryogenic temperatures. Many CMB instruments operate only a few degrees above absolute zero, making measurements under representative conditions essential.
+The ERC-funded CMBeam project (2022-2028) develops techniques for characterizing microwave telescopes at cryogenic temperatures. All CMB telescopes operate at cryogenic temperatures with some optical elements cooled to only a few degrees above absolute zero. Optical measurements under representative conditions are essential as a result.
 
 Together with Icelandic company Héðinn, we have been building a large cryostat for testing of optical components and refractor telescope assemblies. The system incorporates radiation shields at 40 K and 4 K and will support our aspirations to develop cryogenic holography.
 
@@ -48,17 +46,15 @@ The project involves thermal and mechanical modelling, vacuum engineering, radia
 
 ## Taurus: optics for a balloon-borne observatory
 
-Our group leads the optics design effort for Taurus, a NASA-funded balloon experiment studying the polarized microwave sky.
-
-Supported by the Icelandic Research Fund, our work covers wide-field refracting telescopes operating across multiple frequency bands. We investigate image quality, beam shape, polarization response, optical efficiency, and performance across the focal plane.
+Supported by the Icelandic Research Fund, our group leads the optics design effort for Taurus, a NASA-funded balloon experiment studying the polarized microwave sky. We have designed three wide-field refracting telescopes operating across multiple frequency bands. We investigate image quality, beam shape, polarization response, optical efficiency, and performance across the focal plane.
 
 The project connects optical design and physical-optics simulations with material characterization and preparation for cryogenic validation.
 
-{{< figure src="optical-alignment.jpg" alt="An optical assembly being aligned using visible laser references" caption="Precision optical alignment at Skuggsjá. Visible laser references help establish the geometry of a microwave measurement setup." >}}
+{{< figure src="optical-alignment.jpg" alt="An optical assembly being aligned using visible laser references" caption="Precision optical alignment at Skuggsjá. Visible laser references help verify the geometry of a microwave measurement setup." >}}
 
 ## Simons Observatory: calibration and optical systematics
 
-Our contributions to the Simons Observatory focus on understanding telescope response and its impact on scientific measurements. This includes optical modelling, beam characterization, polarization effects, and frequency-dependent calibration.
+Our recent contributions to the Simons Observatory focus on understanding telescope response and its impact on scientific measurements. This includes optical modelling, beam characterization, polarization effects, and frequency-dependent calibration.
 
 A telescope’s beam changes with frequency, and its response extends beyond the bright central region. We develop models and analysis methods that connect these instrumental details to sky-map reconstruction and cosmological interpretation.
 
@@ -84,14 +80,8 @@ Read more in our [broadband absorber study](https://arxiv.org/abs/2511.05309).
 
 ## ALPHA: searching for axion dark matter
 
-We also participate in ALPHA, an international effort to develop a plasma haloscope for detecting axion dark matter.
-
-The experiment uses a tunable electromagnetic structure inside a strong magnetic field to search for a weak microwave signal produced by axion conversion. It combines resonator design, microwave measurements, cryogenics, and low-noise detection.
-
-Jón is a founding member and spokesperson of the ALPHA collaboration. Our involvement connects the group’s microwave expertise with a complementary approach to investigating the unseen universe.
+We also participate in ALPHA, an international effort to develop a plasma haloscope for detecting axion dark matter. The experiment uses a tunable electromagnetic structure inside a strong magnetic field to search for a weak microwave signal produced by axion conversion. It combines resonator design, microwave measurements, cryogenics, and low-noise detection. Jón is a founding member and a former spokesperson of the ALPHA collaboration. 
 
 ## Working with us
 
-Our projects offer opportunities in experimental physics, optical and mechanical design, scientific computing, materials research, and data analysis. Students can pursue hands-on laboratory development, computational investigations, or projects combining both.
-
-We shape student projects around individual interests, experience, and learning goals. To discuss a project, explore a collaboration, or visit Skuggsjá, please [get in touch](/contact/).
+Our projects offer opportunities in experimental physics, optical and mechanical design, scientific computing, materials research, and data science. Students can pursue hands-on laboratory development, computational investigations, or projects combining both. We shape student projects around individual interests, experience, and learning goals. To discuss a project, explore a collaboration, or visit Skuggsjá, please [get in touch](/contact/).

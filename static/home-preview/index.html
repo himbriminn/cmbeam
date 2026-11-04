@@ -47,4 +47,12 @@ async function addNewsImage(card, url) {
     if (link && !card.dataset.imageRequested) { card.dataset.imageRequested = 'true'; addNewsImage(card, link.href); }
   });
 }})();
+document.addEventListener('click', e => {
+ const a=e.target.closest('a'); if(!a || e.defaultPrevented || e.button!==0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target || a.hasAttribute('download')) return;
+ const u=new URL(a.href, location.href);
+ if(u.origin!==location.origin || !['skuggsja','tour','projects','publication','post','people','contact'].includes(u.pathname.split('/')[1])) return;
+ e.preventDefault();
+ const path=u.pathname==='/projects/' ? '/projects-preview/' : u.pathname;
+ location.href='/site-preview/?page='+encodeURIComponent(path+u.search+u.hash);
+});
 </script></body></html>

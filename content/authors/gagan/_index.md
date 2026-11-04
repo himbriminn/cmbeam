@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Alumni
 ---
 
 In my PhD, I have  developed various machining techniques for fabrication of large area metamaterial absorbers. Currently, as a Post Doctorate Researcher, I am working on manufacturing and characterization techniques for metamaterial millimeter wave absorbers. I am interested in developing/improving manufacturing techniques to realize real-life applications in the field of Applied Physics. 

@@ -14,6 +14,14 @@
 
 /* Soft blue and turquoise preview palette. */
 :root{--ink:#222b4c;--soft:#4a5970;--accent:#30299f;--line:#dbe8ec;--paper:#f1f8f8}.hero{background:linear-gradient(115deg,#e7f5f5 0%,#f2f4ff 63%,#fff 100%)}.preview-note{background:#eeeffb;color:#30299f}.card{border-top-color:#71cfc8}.funders span{color:#30299f;background:#eaf7f6;border-color:#c5e8e5}.button.secondary{border-color:#8bbabf;color:#30299f}.card-image{background:#e8f4f4}
+
+/* News stories use the same enclosed card treatment on the home and News pages. */
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-top:3px solid #71cfc8;border-radius:6px;overflow:hidden;box-shadow:0 4px 16px rgba(34,43,76,.06);padding:0}
+.card> a{display:block}
+.card-image{border-radius:0;margin:0}
+.card time{display:block;margin:17px 18px 0}
+.card h3{margin:9px 18px 10px}
+.card p{margin:0 18px 20px}
 </style>
 </head>
 <body>

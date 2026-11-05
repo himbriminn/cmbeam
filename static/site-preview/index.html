@@ -148,7 +148,7 @@ async function showNewsGrid(target, asPreview) {
    const style=document.getElementById('preview-style');
    for (const sheet of doc.querySelectorAll('link[rel="stylesheet"]')) { const href=sheet.getAttribute('href'); if(!href) continue; const u=new URL(href,sourceURL); if(u.origin!==location.origin) continue; const link=document.createElement('link');link.rel='stylesheet';link.href=u.href;document.head.insertBefore(link,style); }
    const previewPage = document.importNode(page,true);
-   if (/^\\/post\\/2026_absorber_paper\\/?$/.test(url.pathname)) {
+   if (/^\/post\/2026_absorber_paper\/?$/.test(url.pathname)) 
      const feature = previewPage.querySelector('img.featured-image');
      if (feature) { feature.src='/legacy/post/2026_absorber_paper/featured.gif'; feature.removeAttribute('srcset'); }
    }

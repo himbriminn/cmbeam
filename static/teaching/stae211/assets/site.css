@@ -8,3 +8,8 @@
 .notes-button.secondary{background:white;color:var(--blue)}
 .notes-button.secondary:hover{background:#e5edf8}
 .notes-help{margin-bottom:0}
+
+/* Indented chapter resources, matching the coursebook navigation. */
+.nav-sub{margin:3px 0 14px 26px;padding-left:10px;border-left:1px solid #c8d1df}
+.nav-link.sub{font-size:14px;padding:6px 10px;margin:2px 0}
+.notes-panel{scroll-margin-top:88px}

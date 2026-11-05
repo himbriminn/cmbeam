@@ -73,7 +73,7 @@ function addProjectsCollage(page) {
  replacement.append(grid,caption);original.replaceWith(replacement);
 }
 async function showNewsGrid(target, asPreview) {
- const response=await fetch('/post/index.xml'); if(!response.ok) return false;
+ const response=await fetch('/legacy/post/index.xml'); if(!response.ok) return false;
  const feed=new DOMParser().parseFromString(await response.text(),'application/xml');
  if(feed.querySelector('parsererror')) return false;
  const items=Array.from(feed.querySelectorAll('item')); if(!items.length) return false;

@@ -103,7 +103,12 @@ async function showNewsGrid(target, asPreview) {
 }
 (async () => {
  const target = document.getElementById('content');
- const requested = new URLSearchParams(location.search).get('page') || '/skuggsja/';
+ const queryPage = new URLSearchParams(location.search).get('page');
+ const currentPath = location.pathname;
+ const defaultPage = currentPath === '/site-preview/' ? '/skuggsja/' :
+   currentPath === '/projects/' || currentPath === '/projects' ? '/projects-preview/' :
+   currentPath.endsWith('/') ? currentPath : currentPath + '/';
+ const requested = queryPage || defaultPage;
  let url;
  try { url = new URL(requested, location.origin); if (url.origin !== location.origin || !url.pathname.startsWith('/') || url.pathname.startsWith('/site-preview/')) throw Error(); }
  catch { target.textContent = 'This page cannot be displayed.'; return; }

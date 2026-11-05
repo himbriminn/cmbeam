@@ -18,9 +18,9 @@ content:
   user_groups:
     - Researchers
     - PhD Students
+    - BSc Students
     - Principal Investigator
     - MSc Students
-    - BSc Students
     - Administration
     - Visitors
     - Alumni

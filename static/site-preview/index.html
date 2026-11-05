@@ -36,6 +36,18 @@
 .news-card time{display:block;margin:17px 18px 0}
 .news-card h2{margin:9px 18px 10px}
 .news-card p{margin:0 18px 20px}
+
+/* Album viewer is independent of the legacy theme scripts. */
+.album-viewer{border:0;padding:0;width:100vw;max-width:none;height:100dvh;max-height:none;background:rgba(10,15,25,.97);color:#fff;overflow:hidden}
+.album-viewer::backdrop{background:rgba(10,15,25,.95)}
+.album-viewer[open]{display:grid;grid-template-columns:56px minmax(0,1fr) 56px;grid-template-rows:56px minmax(0,1fr) auto;align-items:center}
+.album-viewer button{background:#263044;color:white;border:1px solid #7c879c;border-radius:6px;min-width:44px;min-height:44px;font:24px/1 system-ui;cursor:pointer;margin:6px}
+.album-viewer button:focus-visible{outline:3px solid #71cfc8;outline-offset:2px}
+.album-viewer .album-close{grid-column:3;grid-row:1}
+.album-viewer .album-prev{grid-column:1;grid-row:2}
+.album-viewer .album-next{grid-column:3;grid-row:2}
+.album-viewer .album-image{grid-column:2;grid-row:2;width:100%;height:100%;min-height:0;object-fit:contain;touch-action:pan-y}
+.album-viewer .album-caption{grid-column:1/-1;grid-row:3;text-align:center;font:14px/1.5 system-ui;padding:14px 24px;margin:0;max-height:20vh;overflow:auto;color:white}
 </style>
 </head>
 <body>
@@ -44,6 +56,42 @@
 <main><section class="preview-hero"><div class="preview-shell"><p class="preview-eyebrow">University of Iceland</p><h1 id="preview-title">Loading…</h1></div></section><div class="preview-shell preview-content" id="content" aria-live="polite">Loading page…</div></main>
 <footer class="preview-footer"><div class="preview-shell">© 2026 Jón E. Guðmundsson · University of Iceland &amp; Stockholm University</div></footer>
 <script>
+function enableAlbumViewer(page) {
+ const links=Array.from(page.querySelectorAll('a[data-fancybox]')).filter(a=>a.querySelector('img') && /\.(jpe?g|png|webp|gif|avif)(?:[?#]|$)/i.test(a.href));
+ if (!links.length) return;
+ const dialog=document.createElement('dialog');dialog.className='album-viewer';dialog.setAttribute('aria-label','Photo album');
+ dialog.innerHTML='<button type="button" class="album-close" aria-label="Close album" autofocus>×</button><button type="button" class="album-prev" aria-label="Previous image">‹</button><img class="album-image" alt=""><button type="button" class="album-next" aria-label="Next image">›</button><p class="album-caption" aria-live="polite"></p>';
+ document.body.append(dialog);
+ const image=dialog.querySelector('img'),caption=dialog.querySelector('.album-caption');
+ const previous=dialog.querySelector('.album-prev'),next=dialog.querySelector('.album-next');
+ let album=[],index=0,opener,oldOverflow='',touchX=null;
+ function show(i) {
+   index=(i+album.length)%album.length;
+   const link=album[index],thumb=link.querySelector('img');
+   image.src=link.href;image.alt=thumb.alt||'Album photo';
+   const label=link.getAttribute('data-caption') || '';
+   caption.textContent=(index+1)+' / '+album.length+(label?' · '+label:'');
+   previous.hidden=next.hidden=album.length<2;
+ }
+ previous.addEventListener('click',()=>show(index-1));next.addEventListener('click',()=>show(index+1));
+ dialog.querySelector('.album-close').addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('keydown',event=>{
+   if(event.key==='ArrowLeft'){event.preventDefault();show(index-1)}
+   if(event.key==='ArrowRight'){event.preventDefault();show(index+1)}
+ });
+ image.addEventListener('touchstart',event=>{touchX=event.touches.length===1?event.touches[0].clientX:null},{passive:true});
+ image.addEventListener('touchend',event=>{if(touchX!==null && event.changedTouches.length){const delta=event.changedTouches[0].clientX-touchX;if(Math.abs(delta)>50)show(index+(delta<0?1:-1));}touchX=null},{passive:true});
+ dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
+ dialog.addEventListener('close',()=>{document.body.style.overflow=oldOverflow;image.removeAttribute('src');opener?.focus()});
+ links.forEach(link=>link.addEventListener('click',event=>{
+   if(event.button!==0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)return;
+   event.preventDefault();opener=link;
+   const group=link.getAttribute('data-fancybox');
+   album=links.filter(other=>other.getAttribute('data-fancybox')===group);
+   show(album.indexOf(link));oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.showModal();
+ }));
+}
+
 function showTour(target) {
  const slides=[
   {title:'Cryogenic optics',text:'We design, build, and characterize novel optical systems for millimetre-wave applications.',image:'6inserts.jpg',alt:'Cryogenic optical inserts'},
@@ -189,6 +237,7 @@ async function showNewsGrid(target, asPreview) {
      }
    }
    target.replaceChildren(previewPage);
+   enableAlbumViewer(previewPage);
  } catch (e) { document.getElementById('preview-title').textContent='Page';target.replaceChildren();const p=document.createElement('p');p.className='preview-error';p.textContent='This page could not be displayed. ';const a=document.createElement('a');a.href=sourceURL.href;a.textContent='View the original page';p.append(a);target.append(p); }
 })();
 </script>

@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
-<title>Skuggsjá · Site preview</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skuggsjá · CMBeam Research Group</title>
 <style id="preview-style">
 @font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-Regular.ttf')}@font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-SemiBold.ttf');font-weight:600}@font-face{font-family:Skuggsja;src:url('/home-preview/fonts/SkuggsjaPreview-Bold.ttf');font-weight:700}
 :root{--ink:#172f3c;--soft:#49616c;--accent:#286c7a;--line:#dce5e6}*{box-sizing:border-box}body{margin:0!important;background:#fff!important;color:var(--ink)!important;font-family:Skuggsja,system-ui,sans-serif!important;line-height:1.6}a{color:var(--accent)}.preview-note{background:#edf3f2;color:#536b70;text-align:center;font:12px/1.6 Skuggsja,sans-serif;padding:6px 12px}.preview-header{border-bottom:1px solid var(--line);background:#fff}.preview-nav{max-width:1160px;min-height:76px;margin:auto;padding:0 30px;display:flex;align-items:center;justify-content:space-between;gap:28px}.preview-brand{font:600 20px Skuggsja,sans-serif;color:var(--ink);text-decoration:none}.preview-links{display:flex;align-items:center;gap:24px;flex-wrap:wrap;font:600 14px Skuggsja,sans-serif}.preview-links a{color:#395560;text-decoration:none}.preview-links a:hover,.preview-brand:hover{color:var(--accent)}.preview-hero{background:linear-gradient(115deg,#f2f8f7,#fff 74%);padding:55px 0 45px}.preview-shell{width:min(1160px,100%);padding:0 30px;margin:0 auto}.preview-eyebrow{text-transform:uppercase;letter-spacing:.16em;font:700 11px Skuggsja,sans-serif;color:var(--accent);margin:0 0 15px}.preview-hero h1{font:600 clamp(32px,4vw,49px)/1.15 Skuggsja,sans-serif;letter-spacing:-.025em;color:var(--ink);margin:0}.preview-content{min-height:30vh;padding:42px 0 70px}.preview-content h1,.preview-content h2,.preview-content h3,.preview-content h4{font-family:Skuggsja,system-ui,sans-serif;color:var(--ink)}.preview-content h2{margin-top:1.4em}.preview-content img{max-width:100%;height:auto;border-radius:4px}.preview-content .article-container,.preview-content .universal-wrapper{max-width:none;padding-left:0;padding-right:0}.preview-content .home-section{padding:24px 0}.preview-content .home-section:first-child{padding-top:0}.preview-content .article-title{line-height:1.3}.preview-content .card{border-color:var(--line);border-radius:4px;overflow:hidden}.preview-content p{color:var(--soft)}.preview-content .article-style{max-width:850px;font-size:16px}.preview-content .page-body{padding-top:0}.preview-content .article-container h1:first-child,.preview-content>.page-body>.universal-wrapper>h1:first-child{display:none}.preview-footer{border-top:1px solid var(--line);padding:25px 0;color:#71838a;font:12px Skuggsja,sans-serif}.preview-error{padding:30px 0;color:var(--soft)}@media(max-width:760px){.preview-nav{padding:18px 20px;align-items:flex-start;flex-direction:column;gap:12px}.preview-links{gap:8px 16px}.preview-shell{padding:0 20px}.preview-hero{padding:38px 0}.preview-content{padding:30px 0 48px}}
@@ -25,7 +25,7 @@
 </style>
 </head>
 <body>
-<div class="preview-note">Site preview · A draft for discussion</div>
+
 <header class="preview-header"><div class="preview-nav"><a class="preview-brand" href="/home-preview/">Skuggsjá</a><nav class="preview-links" aria-label="Main navigation"><a href="/site-preview/?page=%2Fskuggsja%2F">Skuggsjá</a><a href="/site-preview/?page=%2Ftour%2F">Tour</a><a href="/site-preview/?page=%2Fprojects-preview%2F">Projects</a><a href="/site-preview/?page=%2Fpublication%2F">Publications</a><a href="/site-preview/?page=%2Fpost%2F">News</a><a href="/site-preview/?page=%2Fpeople%2F">People</a><a href="/site-preview/?page=%2Fcontact%2F">Contact</a></nav></div></header>
 <main><section class="preview-hero"><div class="preview-shell"><p class="preview-eyebrow">University of Iceland</p><h1 id="preview-title">Loading…</h1></div></section><div class="preview-shell preview-content" id="content" aria-live="polite">Loading page…</div></main>
 <footer class="preview-footer"><div class="preview-shell">© 2026 Jón E. Guðmundsson · University of Iceland &amp; Stockholm University</div></footer>
@@ -75,10 +75,11 @@ async function showNewsGrid(target, asPreview) {
  target.replaceChildren(grid,more);let index=0;
  async function imageFor(card,link,url) {
    try {
-     const response=await fetch(url.href);if(!response.ok)return;
+     const sourceURL=new URL('/legacy'+url.pathname+url.search,location.origin);
+     const response=await fetch(sourceURL.href);if(!response.ok)return;
      const doc=new DOMParser().parseFromString(await response.text(),'text/html');
      const src=doc.querySelector('meta[property="og:image"]')?.content || doc.querySelector('meta[name="twitter:image"]')?.content || doc.querySelector('.article-header img, .article-container img')?.getAttribute('src');
-     if(!src)return;const imgurl=new URL(src,url);
+     if(!src)return;const imgurl=new URL(src,sourceURL);
      if(imgurl.origin!==location.origin || !/^https?:$/.test(imgurl.protocol))return;
      const img=document.createElement('img');img.className='news-card-image';img.alt='';img.loading='lazy';img.src=imgurl.href;
      const imageLink=document.createElement('a');imageLink.href=link.href;imageLink.setAttribute('aria-label','Read '+link.textContent);imageLink.append(img);
@@ -105,38 +106,40 @@ async function showNewsGrid(target, asPreview) {
  const requested = new URLSearchParams(location.search).get('page') || '/skuggsja/';
  let url;
  try { url = new URL(requested, location.origin); if (url.origin !== location.origin || !url.pathname.startsWith('/') || url.pathname.startsWith('/site-preview/')) throw Error(); }
- catch { target.textContent = 'This page cannot be displayed in the preview.'; return; }
+ catch { target.textContent = 'This page cannot be displayed.'; return; }
  const asPreview = u => '/site-preview/?page=' + encodeURIComponent(u.pathname + u.search + u.hash);
- if (/^\/tour\/?$/.test(url.pathname)) { document.title='Tour · Skuggsjá preview'; document.getElementById('preview-title').textContent='Tour'; showTour(target); return; }
+ const sourceURL = new URL('/legacy' + url.pathname + url.search, location.origin);
+ const canonicalURL = u => new URL((u.pathname.startsWith('/legacy/') ? u.pathname.slice(7) : u.pathname) + u.search + u.hash, location.origin);
+ if (/^\/tour\/?$/.test(url.pathname)) { document.title='Tour · Skuggsjá'; document.getElementById('preview-title').textContent='Tour'; showTour(target); return; }
  if (/^\/post\/?$/.test(url.pathname)) {
-   try { if (await showNewsGrid(target, asPreview)) { document.title='Latest news · Skuggsjá preview';document.getElementById('preview-title').textContent='Latest news';return; } } catch {}
+   try { if (await showNewsGrid(target, asPreview)) { document.title='Latest news · Skuggsjá';document.getElementById('preview-title').textContent='Latest news';return; } } catch {}
  }
  try {
-   const response = await fetch(url.href); if (!response.ok) throw Error('Page could not be loaded');
+   const response = await fetch(sourceURL.href); if (!response.ok) throw Error('Page could not be loaded');
    const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
    const documentTitle = doc.title.replace(/\s*\|.*$/, '').trim();
    const pageHeading = Array.from(doc.querySelectorAll('h1')).map(h => h.textContent.trim()).find(text => text && text.toLowerCase() !== 'search');
    const title = (documentTitle && documentTitle.toLowerCase() !== 'search' ? documentTitle : '') || pageHeading || 'Skuggsjá';
-   document.title = title + ' · Skuggsjá preview'; document.getElementById('preview-title').textContent = title;
+   document.title = title + ' · Skuggsjá'; document.getElementById('preview-title').textContent = title;
    const page = doc.querySelector('.page-body') || doc.querySelector('main') || doc.querySelector('article') || doc.querySelector('.universal-wrapper');
    if (!page) throw Error('No page content found');
    page.querySelectorAll('script,iframe,form,.search-results,.modal,[id="modal"]') .forEach(n=>n.remove());
    page.querySelectorAll('[src],[href],[srcset]').forEach(node => {
      for (const attr of ['src','href']) {
        const value=node.getAttribute(attr); if(!value || value.startsWith('#') || /^(mailto:|tel:|data:|javascript:)/i.test(value)) continue;
-       try { const u=new URL(value,url); if(attr==='href' && u.origin===location.origin && !/\.[a-z0-9]{2,8}$/i.test(u.pathname) && !/^\/(home-preview|site-preview|uploads|media|files)\//.test(u.pathname)) node.setAttribute(attr,asPreview(u)); else node.setAttribute(attr,u.href); } catch {}
+       try { const resolved=new URL(value,sourceURL); const u=canonicalURL(resolved); if(attr==='href' && u.origin===location.origin && !/\.[a-z0-9]{2,8}$/i.test(u.pathname) && !/^\/(home-preview|site-preview|uploads|media|files)\//.test(u.pathname)) node.setAttribute(attr,asPreview(u)); else node.setAttribute(attr,resolved.href); } catch {}
      }
-     if(node.hasAttribute('srcset')) { const set=node.getAttribute('srcset').split(',').map(item=>{const [src,...sizes]=item.trim().split(/\s+/);try{return [new URL(src,url).href,...sizes].join(' ')}catch{return item}}).join(', ');node.setAttribute('srcset',set); }
+     if(node.hasAttribute('srcset')) { const set=node.getAttribute('srcset').split(',').map(item=>{const [src,...sizes]=item.trim().split(/\s+/);try{return [new URL(src,sourceURL).href,...sizes].join(' ')}catch{return item}}).join(', ');node.setAttribute('srcset',set); }
    });
    // Keep the original page's layout styles for complex cards and galleries,
    // with the preview's typography and colors taking precedence.
    const style=document.getElementById('preview-style');
-   for (const sheet of doc.querySelectorAll('link[rel="stylesheet"]')) { const href=sheet.getAttribute('href'); if(!href) continue; const u=new URL(href,url); if(u.origin!==location.origin) continue; const link=document.createElement('link');link.rel='stylesheet';link.href=u.href;document.head.insertBefore(link,style); }
+   for (const sheet of doc.querySelectorAll('link[rel="stylesheet"]')) { const href=sheet.getAttribute('href'); if(!href) continue; const u=new URL(href,sourceURL); if(u.origin!==location.origin) continue; const link=document.createElement('link');link.rel='stylesheet';link.href=u.href;document.head.insertBefore(link,style); }
    const previewPage = document.importNode(page,true);
    if (/^\/projects-preview\/?$/.test(url.pathname)) { previewPage.classList.add('projects-preview-page'); addProjectsCollage(previewPage); }
    if (/^\/contact\/?$/.test(url.pathname)) {
      document.getElementById('preview-title').textContent='Contact';
-     document.title='Contact · Skuggsjá preview';
+     document.title='Contact · Skuggsjá';
      const photoSection=previewPage.querySelector('section#image');
      if (photoSection) {
        photoSection.className='contact-team-photo';
@@ -162,7 +165,7 @@ async function showNewsGrid(target, asPreview) {
      }
    }
    target.replaceChildren(previewPage);
- } catch (e) { document.getElementById('preview-title').textContent='Page preview';target.replaceChildren();const p=document.createElement('p');p.className='preview-error';p.textContent='This page could not be loaded in the preview. ';const a=document.createElement('a');a.href=url.href;a.textContent='View the current page';p.append(a);target.append(p); }
+ } catch (e) { document.getElementById('preview-title').textContent='Page';target.replaceChildren();const p=document.createElement('p');p.className='preview-error';p.textContent='This page could not be displayed. ';const a=document.createElement('a');a.href=sourceURL.href;a.textContent='View the original page';p.append(a);target.append(p); }
 })();
 </script>
 </body></html>

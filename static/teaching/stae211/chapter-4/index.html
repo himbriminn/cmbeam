@@ -94,15 +94,14 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .notebook-content .highlight .il { color: #666 } /* Literal.Number.Integer.Long */</style>
 <section id="namsefni" aria-label="Námsefni í Matplotlib"><div class="notebook-actions"><a href="https://colab.research.google.com/github/jegudmunds/stae211-coursebook/blob/main/Matplotlib.ipynb" target="_blank" rel="noopener noreferrer">Opna vinnubók í Google Colab ↗</a></div><div class="notebook-content"><div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h1 id="Matplotlib"&gt;Matplotlib<a class="anchor-link" href="#Matplotlib">¶</a>&lt;/h1&gt;&lt;p&gt;<em>Síðast uppfært: 2026/01/07</em>&lt;/p&gt;
-
+<h1 id="Matplotlib">Matplotlib<a class="anchor-link" href="#Matplotlib">¶</a></h1><p><em>Síðast uppfært: 2026/01/07</em></p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="Or%C3%B0alisti"&gt;Orðalisti<a class="anchor-link" href="#Or%C3%B0alisti">¶</a>&lt;/h2&gt;&lt;p&gt;Það er frekar erfitt að tala um forritun og Python kóða án þess að sletta ensku. Hér eru þó nokkur íslensk orð sem hægt er að nota í stað ensku útgáfunnar.&lt;/p&gt;
-&lt;p&gt;Sjá: <a href="https://idordabanki.arnastofnun.is/">https://idordabanki.arnastofnun.is/</a>&lt;/p&gt;
+<h2 id="Or%C3%B0alisti">Orðalisti<a class="anchor-link" href="#Or%C3%B0alisti">¶</a></h2><p>Það er frekar erfitt að tala um forritun og Python kóða án þess að sletta ensku. Hér eru þó nokkur íslensk orð sem hægt er að nota í stað ensku útgáfunnar.</p>
+<p>Sjá: <a href="https://idordabanki.arnastofnun.is/">https://idordabanki.arnastofnun.is/</a></p>
 <ul>
 <li>attribute: eigind (kvk)</li>
 <li>data type: gagnatag</li>
@@ -121,18 +120,17 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="0.-Fyrstu-skrefin-%C3%AD-Matplotlib"&gt;0. Fyrstu skrefin í Matplotlib<a class="anchor-link" href="#0.-Fyrstu-skrefin-%C3%AD-Matplotlib">¶</a>&lt;/h2&gt;&lt;p&gt;Þessi vinnubók sækir innblástur úr ýmsum Matplotlib kennsluefni sem eru aðgengilegt á netinu en þó einna helst efni sem er aðgengilegt á <a href="https://matplotlib.org/stable/tutorials/index.html">matplotlib.org</a>. Á næstu vikum munum við nota ýmis hugtök sem eru kynnt í þessari vinnubók til þess að búa til gröf.&lt;/p&gt;
-&lt;p&gt;Eins hvetjum við öll til að rifja upp Python fyrirlestrarnóturnar hans Kristjáns Jónassonar á <a href="https://cs.hi.is/python/">Edbook</a>&lt;/p&gt;
+<h2 id="0.-Fyrstu-skrefin-%C3%AD-Matplotlib">0. Fyrstu skrefin í Matplotlib<a class="anchor-link" href="#0.-Fyrstu-skrefin-%C3%AD-Matplotlib">¶</a></h2><p>Þessi vinnubók sækir innblástur úr ýmsum Matplotlib kennsluefni sem eru aðgengilegt á netinu en þó einna helst efni sem er aðgengilegt á <a href="https://matplotlib.org/stable/tutorials/index.html">matplotlib.org</a>. Á næstu vikum munum við nota ýmis hugtök sem eru kynnt í þessari vinnubók til þess að búa til gröf.</p>
+<p>Eins hvetjum við öll til að rifja upp Python fyrirlestrarnóturnar hans Kristjáns Jónassonar á <a href="https://cs.hi.is/python/">Edbook</a></p>
 <ul>
 <li>Kafli 4 fjallar um grunnhugtök í Python, þar á meðal <code>List</code> tagið sem er notað til að geyma safn af hlutum</li>
 <li>Kafli 8 fjallar um innlestur og útskrift gagna</li>
 <li>Kafli 9 fjallar um gerð teikninga með Matplotlib</li>
 <li>Kafli 10 fjallar um Numpy pakkann, meðal annars <code>numpy.array</code> tagið sem við notum reglulega til að geyma tölulegar upplýsingar</li>
 </ul>
-&lt;p&gt;Efni þessarar vinnubókar má helst finna í köflum 9 og 10 í Python fyrirlestrarnótunum hér fyrir ofan.&lt;/p&gt;
-&lt;p&gt;Við skulum byrja á því að flytja inn (e. import) <code>Matplotlib</code> og <code>Numpy</code> verkfæraeiningarnar (e. module).&lt;/p&gt;
-&lt;p&gt;<em>N.B: <code>Matplotlib</code> er teiknipakki með fjölmörgum verkfæraeiningum og undirverkfæraeiningum (e. sub-module). Við gætum eitt heillri önn í það að kafa ofan í smáatriði þessa víðfeðma forritasafns en í staðinn einbeitum við okkur að nokkrum grunnatriðum.</em>&lt;/p&gt;
-
+<p>Efni þessarar vinnubókar má helst finna í köflum 9 og 10 í Python fyrirlestrarnótunum hér fyrir ofan.</p>
+<p>Við skulum byrja á því að flytja inn (e. import) <code>Matplotlib</code> og <code>Numpy</code> verkfæraeiningarnar (e. module).</p>
+<p><em>N.B: <code>Matplotlib</code> er teiknipakki með fjölmörgum verkfæraeiningum og undirverkfæraeiningum (e. sub-module). Við gætum eitt heillri önn í það að kafa ofan í smáatriði þessa víðfeðma forritasafns en í staðinn einbeitum við okkur að nokkrum grunnatriðum.</em></p>
 </div>
 </div>
 </div>
@@ -150,8 +148,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Það getur verið gagnlegt að sjá hvaða útgáfu af <code>Matplotlib</code> og <code>Numpy</code> við erum að vinna með. Stundum má rekja óvæntar niðurstöður til breytinga í <code>Matplotlib</code>.&lt;/p&gt;
-
+<p>Það getur verið gagnlegt að sjá hvaða útgáfu af <code>Matplotlib</code> og <code>Numpy</code> við erum að vinna með. Stundum má rekja óvæntar niðurstöður til breytinga í <code>Matplotlib</code>.</p>
 </div>
 </div>
 </div>
@@ -186,17 +183,16 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="1.-Numpy-og-t%C3%B6luleg-g%C3%B6gn"&gt;1. Numpy og töluleg gögn<a class="anchor-link" href="#1.-Numpy-og-t%C3%B6luleg-g%C3%B6gn">¶</a>&lt;/h2&gt;
+<h2 id="1.-Numpy-og-t%C3%B6luleg-g%C3%B6gn">1. Numpy og töluleg gögn<a class="anchor-link" href="#1.-Numpy-og-t%C3%B6luleg-g%C3%B6gn">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Þegar við teiknum gröf þá þurfum við venjulega að vinna með gögn á einhverju formi. Við gefum okkur ekki tíma í þessari vinnubók til að fara ýtarlega yfir innlestur og geymslu gagna en við vísum í Kafla 8 úr Python fyrirlestrarnótunum. Það er þó gagnlegt að muna að hægt er að halda utan um tölur á nokkra vegu í Python.&lt;/p&gt;
-&lt;p&gt;Hver er munurinn á Python <code>list</code> og <code>numpy.array</code> hlut?&lt;/p&gt;
-&lt;p&gt;Bæði tögin gera okkur kleift að geyma gögn. Munurinn er aðallega sá að <code>Numpy.array</code> tögin eru talsvert sveigjanlegri og fær um að höndla upplýsingar á hagkvæman hátt. Python <code>list</code> tögin eru grundvallar hugtök í Python tungumálinu á meðan <code>Numpy.array</code> tögin eru skilgreind í <code>Numpy</code> pakkanum.&lt;/p&gt;
-&lt;p&gt;Munurinn á þessum tveimur hlutum er m.a. skilgreindur í smáatriðum <a href="https://www.geeksforgeeks.org/python-lists-vs-numpy-arrays/">hér</a>.&lt;/p&gt;
-
+<p>Þegar við teiknum gröf þá þurfum við venjulega að vinna með gögn á einhverju formi. Við gefum okkur ekki tíma í þessari vinnubók til að fara ýtarlega yfir innlestur og geymslu gagna en við vísum í Kafla 8 úr Python fyrirlestrarnótunum. Það er þó gagnlegt að muna að hægt er að halda utan um tölur á nokkra vegu í Python.</p>
+<p>Hver er munurinn á Python <code>list</code> og <code>numpy.array</code> hlut?</p>
+<p>Bæði tögin gera okkur kleift að geyma gögn. Munurinn er aðallega sá að <code>Numpy.array</code> tögin eru talsvert sveigjanlegri og fær um að höndla upplýsingar á hagkvæman hátt. Python <code>list</code> tögin eru grundvallar hugtök í Python tungumálinu á meðan <code>Numpy.array</code> tögin eru skilgreind í <code>Numpy</code> pakkanum.</p>
+<p>Munurinn á þessum tveimur hlutum er m.a. skilgreindur í smáatriðum <a href="https://www.geeksforgeeks.org/python-lists-vs-numpy-arrays/">hér</a>.</p>
 </div>
 </div>
 </div>
@@ -238,8 +234,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Innbygða Python tagið <code>list</code> getur geymt ýmsar tegundir af hlutum en það getur <code>Numpy.array</code> alls ekki.&lt;/p&gt;
-
+<p>Innbygða Python tagið <code>list</code> getur geymt ýmsar tegundir af hlutum en það getur <code>Numpy.array</code> alls ekki.</p>
 </div>
 </div>
 </div>
@@ -266,8 +261,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Við getum til dæmis athugað hvers konar gagnatag hluturinn <code>l1</code> geymir.&lt;/p&gt;
-
+<p>Við getum til dæmis athugað hvers konar gagnatag hluturinn <code>l1</code> geymir.</p>
 </div>
 </div>
 </div>
@@ -295,8 +289,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Hvað gerist ef við reynum að láta stak með vísi 3 taka gildið 2.5?&lt;/p&gt;
-
+<p>Hvað gerist ef við reynum að láta stak með vísi 3 taka gildið 2.5?</p>
 </div>
 </div>
 </div>
@@ -323,8 +316,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Þessi <code>Numpy.array</code> hlutur hefur breyst en líklega ekki á þann hátt sem við vildum.&lt;/p&gt;
-
+<p>Þessi <code>Numpy.array</code> hlutur hefur breyst en líklega ekki á þann hátt sem við vildum.</p>
 </div>
 </div>
 </div>
@@ -350,8 +342,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Hvað þarf mörg bæti til þess að geyma þessa hluti í minni?&lt;/p&gt;
-
+<p>Hvað þarf mörg bæti til þess að geyma þessa hluti í minni?</p>
 </div>
 </div>
 </div>
@@ -382,8 +373,7 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Hvað ef við erum með talsvert lengri runu?&lt;/p&gt;
-
+<p>Hvað ef við erum með talsvert lengri runu?</p>
 </div>
 </div>
 </div>
@@ -416,23 +406,21 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Takið eftir því að <code>l3</code> tekur upp talsvert minna minni. Hvað veldur þessu?&lt;/p&gt;
-
+<p>Takið eftir því að <code>l3</code> tekur upp talsvert minna minni. Hvað veldur þessu?</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="2.-Hlutbundin-og-%C3%ADf%C3%B3lgin-skilgreining"&gt;2. Hlutbundin og ífólgin skilgreining<a class="anchor-link" href="#2.-Hlutbundin-og-%C3%ADf%C3%B3lgin-skilgreining">¶</a>&lt;/h2&gt;
+<h2 id="2.-Hlutbundin-og-%C3%ADf%C3%B3lgin-skilgreining">2. Hlutbundin og ífólgin skilgreining<a class="anchor-link" href="#2.-Hlutbundin-og-%C3%ADf%C3%B3lgin-skilgreining">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Ath: Stór hluti þessa efnis er tekin úr "<a href="https://matplotlib.org/stable/users/explain/quick_start.html">Quick Start Guide</a>" sem er aðgengilegur á vef Matplotlib.org.&lt;/p&gt;
-&lt;p&gt;Það er hægt að keyra <code>Matplotlib</code> á tvo vegu. Annars vegur getum við notast við hlutbundna forritun þar sem við köllum á aðferðir hluta. Við byrjum t.d. á því að skilgreina <code>Figure</code> og <code>Axes</code> hluti og út frá þeim má kalla á aðferðir eins og <code>Plot</code>. Þetta er dæmi um beina (e. explicit) skilgreiningu á myndhlutum.&lt;/p&gt;
-&lt;p&gt;Einfalt dæmi fyrir neðan:&lt;/p&gt;
-
+<p>Ath: Stór hluti þessa efnis er tekin úr "<a href="https://matplotlib.org/stable/users/explain/quick_start.html">Quick Start Guide</a>" sem er aðgengilegur á vef Matplotlib.org.</p>
+<p>Það er hægt að keyra <code>Matplotlib</code> á tvo vegu. Annars vegur getum við notast við hlutbundna forritun þar sem við köllum á aðferðir hluta. Við byrjum t.d. á því að skilgreina <code>Figure</code> og <code>Axes</code> hluti og út frá þeim má kalla á aðferðir eins og <code>Plot</code>. Þetta er dæmi um beina (e. explicit) skilgreiningu á myndhlutum.</p>
+<p>Einfalt dæmi fyrir neðan:</p>
 </div>
 </div>
 </div>
@@ -464,12 +452,11 @@ range(0, 5)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Hér erum við komin með <code>Figure</code> hlut sem heitir <em>fig</em> og <code>Axes</code> hlut sem heitir <em>ax</em>. Sá síðarnefndi hefur fjölda aðferða sem hægt er að nota til að breyta grafinu, sú best þekkta er líklega <code>plot</code>.&lt;/p&gt;
-&lt;p&gt;Önnur leið sem mörgum finnst þæginleg notast við <code>pyplot</code>. Allar <code>pyplot</code> skipanir vísa í einu og sömu myndina, þá mynd sem er virk á hverjum tímapunkti. Þegar við notum <code>pyplot</code> erum við að nota ífólgnar (e. implicit) skilgreiningar.&lt;/p&gt;
-&lt;p&gt;Þeir sem hafa notað Matlab sjá kannski að <code>matplotlib.pyplot</code> er safn af föllum sem að herma eftir Matlab hegðun.&lt;/p&gt;
-&lt;p&gt;Munurinn á beinum og ífólgnum skilgreiningum myndhluta er skilgreindar í smáatriðum <a href="https://matplotlib.org/stable/users/explain/figure/api_interfaces.html#api-interfaces">hér</a>.&lt;/p&gt;
-&lt;p&gt;Hérna er dæmi sem býr til nákvæmlega sömu mynd og að ofan en notar ífólgnar skilgreiningar:&lt;/p&gt;
-
+<p>Hér erum við komin með <code>Figure</code> hlut sem heitir <em>fig</em> og <code>Axes</code> hlut sem heitir <em>ax</em>. Sá síðarnefndi hefur fjölda aðferða sem hægt er að nota til að breyta grafinu, sú best þekkta er líklega <code>plot</code>.</p>
+<p>Önnur leið sem mörgum finnst þæginleg notast við <code>pyplot</code>. Allar <code>pyplot</code> skipanir vísa í einu og sömu myndina, þá mynd sem er virk á hverjum tímapunkti. Þegar við notum <code>pyplot</code> erum við að nota ífólgnar (e. implicit) skilgreiningar.</p>
+<p>Þeir sem hafa notað Matlab sjá kannski að <code>matplotlib.pyplot</code> er safn af föllum sem að herma eftir Matlab hegðun.</p>
+<p>Munurinn á beinum og ífólgnum skilgreiningum myndhluta er skilgreindar í smáatriðum <a href="https://matplotlib.org/stable/users/explain/figure/api_interfaces.html#api-interfaces">hér</a>.</p>
+<p>Hérna er dæmi sem býr til nákvæmlega sömu mynd og að ofan en notar ífólgnar skilgreiningar:</p>
 </div>
 </div>
 </div>
@@ -515,8 +502,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h3 id="Til-%C3%BEess-a%C3%B0-hamra-%C3%BEetta-inn-%C3%BE%C3%A1-getum-vi%C3%B0-sko%C3%B0a%C3%B0-eftirfarandi-d%C3%A6mi."&gt;Til þess að hamra þetta inn þá getum við skoðað eftirfarandi dæmi.<a class="anchor-link" href="#Til-%C3%BEess-a%C3%B0-hamra-%C3%BEetta-inn-%C3%BE%C3%A1-getum-vi%C3%B0-sko%C3%B0a%C3%B0-eftirfarandi-d%C3%A6mi.">¶</a>&lt;/h3&gt;&lt;p&gt;Hér fyrir neðan notum við hlutbundna (e. object oriented) forritun til að teikna upp graf.&lt;/p&gt;
-
+<h3 id="Til-%C3%BEess-a%C3%B0-hamra-%C3%BEetta-inn-%C3%BE%C3%A1-getum-vi%C3%B0-sko%C3%B0a%C3%B0-eftirfarandi-d%C3%A6mi.">Til þess að hamra þetta inn þá getum við skoðað eftirfarandi dæmi.<a class="anchor-link" href="#Til-%C3%BEess-a%C3%B0-hamra-%C3%BEetta-inn-%C3%BE%C3%A1-getum-vi%C3%B0-sko%C3%B0a%C3%B0-eftirfarandi-d%C3%A6mi.">¶</a></h3><p>Hér fyrir neðan notum við hlutbundna (e. object oriented) forritun til að teikna upp graf.</p>
 </div>
 </div>
 </div>
@@ -555,8 +541,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;En það er hægt að fá sömu niðurstöðu með ífólgnum köllum í pyplot.&lt;/p&gt;
-
+<p>En það er hægt að fá sömu niðurstöðu með ífólgnum köllum í pyplot.</p>
 </div>
 </div>
 </div>
@@ -595,33 +580,30 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Sjálfur nota ég oftast ífólgin köll í skriftum. Í flóknari kóðum er oftast best að nota hlutbundnu aðferðina.&lt;/p&gt;
-
+<p>Sjálfur nota ég oftast ífólgin köll í skriftum. Í flóknari kóðum er oftast best að nota hlutbundnu aðferðina.</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="3.-Myndhlutir"&gt;3. Myndhlutir<a class="anchor-link" href="#3.-Myndhlutir">¶</a>&lt;/h2&gt;
+<h2 id="3.-Myndhlutir">3. Myndhlutir<a class="anchor-link" href="#3.-Myndhlutir">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Við getum nálgast <code>Figure</code> og <code>Axes</code> hlutina með því að kalla á þá með <code>gca</code> og <code>gcf</code> aðferðunum (sjá dæmi fyrir ofan).&lt;/p&gt;
-&lt;p&gt;Matplotlib teiknar gröfin á <code>Figure</code> hluti en hver slíkur hlutur getur haft einn eða fleiri <code>Axes</code> hluti þar sem gögnum er úthlutuð staðsetning út frá hnitum, t.d. x og y hnitum á stöðluðu Kartesíusargrafi.&lt;/p&gt;
-&lt;p&gt;Hver <code>Axes</code> hlutur vísar venjulega í a.m.k. tvo <code>Axis</code> hluti, þeir síðarnefndu skilgreina kvarðana sem ráða því hvar gögn birtast á grafinu. <code>Axis</code> hlutirnir stjórna líka merkingum á ásum hnitakerfisins.&lt;/p&gt;
-&lt;p&gt;<code>Figure</code>, <code>Axes</code> og <code>Axis</code> hlutirnir flokkast allir sem <code>Artist</code> hlutir. Dæmi um hluti sem flokkast sem <code>Artist</code> hlutir má líka nefna <code>Text</code>, <code>Line2D</code> og <code>Patch</code> hluti. Þegar myndakóðinn er þýddur eru allir <code>Artist</code> hlutir teiknaðir á grafið.&lt;/p&gt;
-&lt;p&gt;Ýtarleg umfjöllun um <code>Artist</code> hlutina má finna hér: <a href="https://matplotlib.org/stable/tutorials/artists.html">https://matplotlib.org/stable/tutorials/artists.html</a>&lt;/p&gt;
-&lt;p&gt;<em>NB: Það er einhvers konar ósýnilegt forrit sem sér um að breyta skilaboðunum sem við kóðum eftir matplotlib tungumálinu yfir í mynd sem birtist á skjánum hjá okkur. Þetta er forrit sem við höfum sjaldan áhyggjur af en kallast bakvinnsluforrit (e. <a href="https://matplotlib.org/stable/users/explain/figure/backends.html">backend</a>). Bakvinnsluforritið sem er notað til að búa teikna gröfin fer eftir eftir því á hvernig tölvu við erum að vinna, hvort að við viljum að grafið birtist á töluskjánum okkar eða vistist í einhvers konar myndskrá, o.s.frv.</em>&lt;/p&gt;
-
+<p>Við getum nálgast <code>Figure</code> og <code>Axes</code> hlutina með því að kalla á þá með <code>gca</code> og <code>gcf</code> aðferðunum (sjá dæmi fyrir ofan).</p>
+<p>Matplotlib teiknar gröfin á <code>Figure</code> hluti en hver slíkur hlutur getur haft einn eða fleiri <code>Axes</code> hluti þar sem gögnum er úthlutuð staðsetning út frá hnitum, t.d. x og y hnitum á stöðluðu Kartesíusargrafi.</p>
+<p>Hver <code>Axes</code> hlutur vísar venjulega í a.m.k. tvo <code>Axis</code> hluti, þeir síðarnefndu skilgreina kvarðana sem ráða því hvar gögn birtast á grafinu. <code>Axis</code> hlutirnir stjórna líka merkingum á ásum hnitakerfisins.</p>
+<p><code>Figure</code>, <code>Axes</code> og <code>Axis</code> hlutirnir flokkast allir sem <code>Artist</code> hlutir. Dæmi um hluti sem flokkast sem <code>Artist</code> hlutir má líka nefna <code>Text</code>, <code>Line2D</code> og <code>Patch</code> hluti. Þegar myndakóðinn er þýddur eru allir <code>Artist</code> hlutir teiknaðir á grafið.</p>
+<p>Ýtarleg umfjöllun um <code>Artist</code> hlutina má finna hér: <a href="https://matplotlib.org/stable/tutorials/artists.html">https://matplotlib.org/stable/tutorials/artists.html</a></p>
+<p><em>NB: Það er einhvers konar ósýnilegt forrit sem sér um að breyta skilaboðunum sem við kóðum eftir matplotlib tungumálinu yfir í mynd sem birtist á skjánum hjá okkur. Þetta er forrit sem við höfum sjaldan áhyggjur af en kallast bakvinnsluforrit (e. <a href="https://matplotlib.org/stable/users/explain/figure/backends.html">backend</a>). Bakvinnsluforritið sem er notað til að búa teikna gröfin fer eftir eftir því á hvernig tölvu við erum að vinna, hvort að við viljum að grafið birtist á töluskjánum okkar eða vistist í einhvers konar myndskrá, o.s.frv.</em></p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Við skulum kíkja á dæmi þar sem að við notfærum okkur að allir Matplotlib myndhlutir erfa grundvallar eiginleika sem eru skilgreindir af <code>Artist</code> hlutnum.&lt;/p&gt;
-
+<p>Við skulum kíkja á dæmi þar sem að við notfærum okkur að allir Matplotlib myndhlutir erfa grundvallar eiginleika sem eru skilgreindir af <code>Artist</code> hlutnum.</p>
 </div>
 </div>
 </div>
@@ -680,8 +662,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Það getur verið gagnlegt að horfa á eftirfarandi mynd sem er fengin <a href="https://towardsdatascience.com/the-many-ways-to-call-axes-in-matplotlib-2667a7b06e06">héðan</a>&lt;/p&gt;
-
+<p>Það getur verið gagnlegt að horfa á eftirfarandi mynd sem er fengin <a href="https://towardsdatascience.com/the-many-ways-to-call-axes-in-matplotlib-2667a7b06e06">héðan</a></p>
 </div>
 </div>
 </div>
@@ -699,23 +680,22 @@ Axes(0.125,0.11;0.775x0.77)
 <div class="output_wrapper">
 <div class="output">
 <div class="output_area">
-<div class="output_html rendered_html output_subarea output_execute_result">&lt;img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*CANkzqegZcHv9znE1U4s7A.png"/&gt;</div>
+<div class="output_html rendered_html output_subarea output_execute_result"><img alt="No description has been provided for this image" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*CANkzqegZcHv9znE1U4s7A.png"/></div>
 </div>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="4.-Klass%C3%ADsk-gr%C3%B6f"&gt;4. Klassísk gröf<a class="anchor-link" href="#4.-Klass%C3%ADsk-gr%C3%B6f">¶</a>&lt;/h2&gt;
+<h2 id="4.-Klass%C3%ADsk-gr%C3%B6f">4. Klassísk gröf<a class="anchor-link" href="#4.-Klass%C3%ADsk-gr%C3%B6f">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Við skulum renna yfir nokkra sem hluti sem fólk vill oft stjórna þegar það teiknar upp graf.&lt;/p&gt;
-&lt;p&gt;Það er til dæmis klassískt að vilja hafa gröf með mismunandi línum til að einfalda fólki að greina á milli.&lt;/p&gt;
-&lt;p&gt;Takið eftir því hvernig eftirfarandi dæmi notar skipunina <code>enumerate</code> til þess búa til stak sem hjálpar okkur að vísa í röðina.&lt;/p&gt;
-
+<p>Við skulum renna yfir nokkra sem hluti sem fólk vill oft stjórna þegar það teiknar upp graf.</p>
+<p>Það er til dæmis klassískt að vilja hafa gröf með mismunandi línum til að einfalda fólki að greina á milli.</p>
+<p>Takið eftir því hvernig eftirfarandi dæmi notar skipunina <code>enumerate</code> til þess búa til stak sem hjálpar okkur að vísa í röðina.</p>
 </div>
 </div>
 </div>
@@ -755,8 +735,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Hvað ef að við viljum hafa áhrif á litina sem eru notaðir? Matplotlib er með staðlað litahjól sem hefur verið valið eftir <a href="https://matplotlib.org/stable/users/explain/colors/colormaps.html">kúnstarinnar reglum</a>. Það er t.d. klassískt að vilja teikna upp fjölskyldur af kúrvum með línulegri litaþróun. í dæminu fyrir neðan breytum litnum á hverri kúrvu yfir í lit sem er sóttur úr <code>viridis</code> litahjólinu.&lt;/p&gt;
-
+<p>Hvað ef að við viljum hafa áhrif á litina sem eru notaðir? Matplotlib er með staðlað litahjól sem hefur verið valið eftir <a href="https://matplotlib.org/stable/users/explain/colors/colormaps.html">kúnstarinnar reglum</a>. Það er t.d. klassískt að vilja teikna upp fjölskyldur af kúrvum með línulegri litaþróun. í dæminu fyrir neðan breytum litnum á hverri kúrvu yfir í lit sem er sóttur úr <code>viridis</code> litahjólinu.</p>
 </div>
 </div>
 </div>
@@ -800,8 +779,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Það er klasskískt að vilja sýna mælipunkta frekar heldur en láta línu tengja á milli punktanna eins og í dæmunum fyrir ofan. Þetta gerum við með <code>errorbar</code> fallinu (<a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html">sjá umfjöllun hér</a>) sem tekur á móti óvissugildum á ýmsum formum (bæði samhverf og ósamhverf).&lt;/p&gt;
-
+<p>Það er klasskískt að vilja sýna mælipunkta frekar heldur en láta línu tengja á milli punktanna eins og í dæmunum fyrir ofan. Þetta gerum við með <code>errorbar</code> fallinu (<a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html">sjá umfjöllun hér</a>) sem tekur á móti óvissugildum á ýmsum formum (bæði samhverf og ósamhverf).</p>
 </div>
 </div>
 </div>
@@ -837,15 +815,14 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="5.-St%C3%BDrustykar-e%C3%B0a-lykilor%C3%B0sbreytur"&gt;5. Stýrustykar eða lykilorðsbreytur<a class="anchor-link" href="#5.-St%C3%BDrustykar-e%C3%B0a-lykilor%C3%B0sbreytur">¶</a>&lt;/h2&gt;
+<h2 id="5.-St%C3%BDrustykar-e%C3%B0a-lykilor%C3%B0sbreytur">5. Stýrustykar eða lykilorðsbreytur<a class="anchor-link" href="#5.-St%C3%BDrustykar-e%C3%B0a-lykilor%C3%B0sbreytur">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Takið eftir að fallið <code>plot</code> tekur inn tvær tegundir af breytum. Annars vegar <code>numpy.array</code> hlutina <em>x</em> og <em>y</em> og hins vegar breytu sem er skilgreind með label='texti'. Þessi tegund af breytu er kölluð lykilorðsbreyta. Þegar við skoðum hjálpartextann sem fylgir <code>plot</code> fallinu þá sjáum við fjöldan allan af þessum lykilorðsbreytum — köllum þær <code>kwargs</code> héðan í frá.&lt;/p&gt;
-&lt;p&gt;Ath: Þessar breytur eru líka stundum kallaðar stýristikar.&lt;/p&gt;
-
+<p>Takið eftir að fallið <code>plot</code> tekur inn tvær tegundir af breytum. Annars vegar <code>numpy.array</code> hlutina <em>x</em> og <em>y</em> og hins vegar breytu sem er skilgreind með label='texti'. Þessi tegund af breytu er kölluð lykilorðsbreyta. Þegar við skoðum hjálpartextann sem fylgir <code>plot</code> fallinu þá sjáum við fjöldan allan af þessum lykilorðsbreytum — köllum þær <code>kwargs</code> héðan í frá.</p>
+<p>Ath: Þessar breytur eru líka stundum kallaðar stýristikar.</p>
 </div>
 </div>
 </div>
@@ -861,7 +838,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Dæmi um vinsæl <code>kwargs</code> fyrir <code>ax.plot</code>:&lt;/p&gt;
+<p>Dæmi um vinsæl <code>kwargs</code> fyrir <code>ax.plot</code>:</p>
 <ul>
 <li>alpha</li>
 <li>lw / linewidth</li>
@@ -871,8 +848,7 @@ Axes(0.125,0.11;0.775x0.77)
 <li>ms / markersize</li>
 <li>zorder</li>
 </ul>
-&lt;p&gt;Við getum búið til einfalt graf og séð hvað gerist þegar við breytum þessum hlutum.&lt;/p&gt;
-
+<p>Við getum búið til einfalt graf og séð hvað gerist þegar við breytum þessum hlutum.</p>
 </div>
 </div>
 </div>
@@ -936,8 +912,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h3 id="Hvernig-virka%C3%B0i-aftur-%C3%BEetta-fall?"&gt;Hvernig virkaði aftur þetta fall?<a class="anchor-link" href="#Hvernig-virka%C3%B0i-aftur-%C3%BEetta-fall?">¶</a>&lt;/h3&gt;&lt;p&gt;Það er virkilega gagnlegt að kunna að nota spurningarmerkið í ipython (?). Ef að þú mannst ekki hvernig ákveðið fall virkar þá geturðu keyrt ?nafn.a.falli og fengið gagnlega lýsingu á fallinu sem að kemur beint úr lýsingunni á falli sem að fylgir forritasafninu.&lt;/p&gt;
-
+<h3 id="Hvernig-virka%C3%B0i-aftur-%C3%BEetta-fall?">Hvernig virkaði aftur þetta fall?<a class="anchor-link" href="#Hvernig-virka%C3%B0i-aftur-%C3%BEetta-fall?">¶</a></h3><p>Það er virkilega gagnlegt að kunna að nota spurningarmerkið í ipython (?). Ef að þú mannst ekki hvernig ákveðið fall virkar þá geturðu keyrt ?nafn.a.falli og fengið gagnlega lýsingu á fallinu sem að kemur beint úr lýsingunni á falli sem að fylgir forritasafninu.</p>
 </div>
 </div>
 </div>
@@ -958,15 +933,14 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="6.-Myndir-me%C3%B0-m%C3%B6rgum-gr%C3%B6fum"&gt;6. Myndir með mörgum gröfum<a class="anchor-link" href="#6.-Myndir-me%C3%B0-m%C3%B6rgum-gr%C3%B6fum">¶</a>&lt;/h2&gt;
+<h2 id="6.-Myndir-me%C3%B0-m%C3%B6rgum-gr%C3%B6fum">6. Myndir með mörgum gröfum<a class="anchor-link" href="#6.-Myndir-me%C3%B0-m%C3%B6rgum-gr%C3%B6fum">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Næst skulum við prófa að búa til graf með fleiri en einum <code>Axes</code> hlut með því að nota <code>subplots</code> fallið.&lt;/p&gt;
-&lt;p&gt;N.B: Föllin <code>subplot</code> og <code>subplots</code> eru bæði til og gera örlítið mismunandi hluti.&lt;/p&gt;
-
+<p>Næst skulum við prófa að búa til graf með fleiri en einum <code>Axes</code> hlut með því að nota <code>subplots</code> fallið.</p>
+<p>N.B: Föllin <code>subplot</code> og <code>subplots</code> eru bæði til og gera örlítið mismunandi hluti.</p>
 </div>
 </div>
 </div>
@@ -1065,8 +1039,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Þessir <code>Axes</code> hlutir þurfa ekki allir að spanna jafnstór svæði í ramma <code>Figure</code> hlutarins. Svokallaður <code>gridspec</code> klasi í <code>matplotlib</code> safninu gerir okkur kleift að útfæra alls konar óvenjuleg gröf.&lt;/p&gt;
-
+<p>Þessir <code>Axes</code> hlutir þurfa ekki allir að spanna jafnstór svæði í ramma <code>Figure</code> hlutarins. Svokallaður <code>gridspec</code> klasi í <code>matplotlib</code> safninu gerir okkur kleift að útfæra alls konar óvenjuleg gröf.</p>
 </div>
 </div>
 </div>
@@ -1119,12 +1092,11 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h3 id="Munurinn-%C3%A1-subplot-og-subplots"&gt;Munurinn á subplot og subplots<a class="anchor-link" href="#Munurinn-%C3%A1-subplot-og-subplots">¶</a>&lt;/h3&gt;<ul>
+<h3 id="Munurinn-%C3%A1-subplot-og-subplots">Munurinn á subplot og subplots<a class="anchor-link" href="#Munurinn-%C3%A1-subplot-og-subplots">¶</a></h3><ul>
 <li><code>subplot</code>: bætir <code>Axes</code> hlut við mynd sem er nú þegar til eða sækir</li>
 <li><code>subplots</code>: býr til <code>Figure</code> hlut og lista af <code>axes</code> hlutum</li>
 </ul>
-&lt;p&gt;Það er hægt að nota subplot til þess að búa til graf með fjórum <code>Axes</code> hlutum. Af hverju virkar eftirfarandi dæmi?&lt;/p&gt;
-
+<p>Það er hægt að nota subplot til þess að búa til graf með fjórum <code>Axes</code> hlutum. Af hverju virkar eftirfarandi dæmi?</p>
 </div>
 </div>
 </div>
@@ -1167,8 +1139,7 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Það er algengt að vilja breyta bilinu á milli grafa í mismunandi dálkum eða línum. Það er hægt að gera með <code>tight_layout</code> fallinu sem að er skilgreint fyrir <code>Figure</code> hlutinn eða með því að nota <code>subplots_adjust</code> fallið (sjá dæmi fyrir neðan).&lt;/p&gt;
-
+<p>Það er algengt að vilja breyta bilinu á milli grafa í mismunandi dálkum eða línum. Það er hægt að gera með <code>tight_layout</code> fallinu sem að er skilgreint fyrir <code>Figure</code> hlutinn eða með því að nota <code>subplots_adjust</code> fallið (sjá dæmi fyrir neðan).</p>
 </div>
 </div>
 </div>
@@ -1210,14 +1181,13 @@ Axes(0.125,0.11;0.775x0.77)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;h2 id="7.-Uppbygging-Matplotlib"&gt;7. Uppbygging Matplotlib<a class="anchor-link" href="#7.-Uppbygging-Matplotlib">¶</a>&lt;/h2&gt;
+<h2 id="7.-Uppbygging-Matplotlib">7. Uppbygging Matplotlib<a class="anchor-link" href="#7.-Uppbygging-Matplotlib">¶</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-&lt;p&gt;Eftirfarandi kóði teiknar upp graf lýsir mörgum þeim eiginleikum grafsins sem við getum breytt. Þið þurfið ekki að skilja hverja einustu línu í þessum kóða en ef þið skiljið hverja einustu línu þá eruð þið líklega orðin <code>Matplotlib</code> sérfræðingar.&lt;/p&gt;
-
+<p>Eftirfarandi kóði teiknar upp graf lýsir mörgum þeim eiginleikum grafsins sem við getum breytt. Þið þurfið ekki að skilja hverja einustu línu í þessum kóða en ef þið skiljið hverja einustu línu þá eruð þið líklega orðin <code>Matplotlib</code> sérfræðingar.</p>
 </div>
 </div>
 </div>

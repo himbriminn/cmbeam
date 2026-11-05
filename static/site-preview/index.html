@@ -52,7 +52,7 @@
 </head>
 <body>
 
-<header class="preview-header"><div class="preview-nav"><a class="preview-brand" href="/home-preview/">Skuggsjá</a><nav class="preview-links" aria-label="Main navigation"><a href="/site-preview/?page=%2Fskuggsja%2F">Skuggsjá</a><a href="/site-preview/?page=%2Ftour%2F">Tour</a><a href="/site-preview/?page=%2Fprojects-preview%2F">Projects</a><a href="/site-preview/?page=%2Fpublication%2F">Publications</a><a href="/site-preview/?page=%2Fpost%2F">News</a><a href="/site-preview/?page=%2Fpeople%2F">People</a><a href="/site-preview/?page=%2Fcontact%2F">Contact</a></nav></div></header>
+<header class="preview-header"><div class="preview-nav"><a class="preview-brand" href="/">Skuggsjá</a><nav class="preview-links" aria-label="Main navigation"><a href="/skuggsja/">Skuggsjá</a><a href="/tour/">Tour</a><a href="/projects/">Projects</a><a href="/publication/">Publications</a><a href="/post/">News</a><a href="/people/">People</a><a href="/contact/">Contact</a></nav></div></header>
 <main><section class="preview-hero"><div class="preview-shell"><p class="preview-eyebrow">University of Iceland</p><h1 id="preview-title">Loading…</h1></div></section><div class="preview-shell preview-content" id="content" aria-live="polite">Loading page…</div></main>
 <footer class="preview-footer"><div class="preview-shell">© 2026 Jón E. Guðmundsson · University of Iceland &amp; Stockholm University</div></footer>
 <script>
@@ -174,7 +174,11 @@ async function showNewsGrid(target, asPreview) {
  let url;
  try { url = new URL(requested, location.origin); if (url.origin !== location.origin || !url.pathname.startsWith('/') || url.pathname.startsWith('/site-preview/')) throw Error(); }
  catch { target.textContent = 'This page cannot be displayed.'; return; }
- const asPreview = u => '/site-preview/?page=' + encodeURIComponent(u.pathname + u.search + u.hash);
+ const asPreview = u => (u.pathname.replace(/^\/projects-preview\/?$/, '/projects/')) + u.search + u.hash;
+ // Old preview bookmarks resolve to the public page URLs.
+ if (currentPath === '/site-preview/' || currentPath === '/site-preview' || /^\/projects-preview\/?$/.test(currentPath)) {
+   location.replace(asPreview(url)); return;
+ }
  const sourceURL = new URL('/legacy' + url.pathname + url.search, location.origin);
  const canonicalURL = u => new URL((u.pathname.startsWith('/legacy/') ? u.pathname.slice(7) : u.pathname) + u.search + u.hash, location.origin);
  if (/^\/tour\/?$/.test(url.pathname)) { document.title='Tour · Skuggsjá'; document.getElementById('preview-title').textContent='Tour'; showTour(target); return; }

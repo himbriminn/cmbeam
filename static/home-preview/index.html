@@ -38,9 +38,10 @@ async function addNewsImage(card, url) {
     const response = await fetch(sourceURL.href);
     if (!response.ok) return;
     const page = new DOMParser().parseFromString(await response.text(), 'text/html');
-    const candidate = page.querySelector('meta[property="og:image"]')?.content ||
+    const candidate = pageURL.pathname === '/post/2026_absorber_paper/' ? '/legacy/post/2026_absorber_paper/featured.gif' :
+      (page.querySelector('meta[property="og:image"]')?.content ||
       page.querySelector('meta[name="twitter:image"]')?.content ||
-      page.querySelector('.article-header img, .article-container img')?.getAttribute('src');
+      page.querySelector('.article-header img, .article-container img')?.getAttribute('src'));
     if (!candidate) return;
     const imageURL = new URL(candidate, sourceURL);
     if (imageURL.origin !== location.origin || !/^https?:$/.test(imageURL.protocol)) return;

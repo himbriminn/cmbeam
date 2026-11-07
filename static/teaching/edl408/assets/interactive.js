@@ -26,7 +26,7 @@ function browserCompatibleCode(code) {
     const wget = trimmed.match(/^!wget\s+(\S+)/);
     if (wget) {
       const url = wget[1];
-      const filename = url.split('/teaching/edl408/').pop();
+      const filename = url.split('/').pop();
       converted.push('from pyodide.http import pyfetch');
       converted.push(`_response = await pyfetch(${JSON.stringify(url)})`);
       converted.push(`with open(${JSON.stringify(filename)}, 'wb') as _download:`);

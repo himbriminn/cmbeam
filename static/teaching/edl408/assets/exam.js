@@ -61,7 +61,7 @@
   };
   const chapterMatch = window.location.pathname.match(/\/kaflar\/(?:gagnaurvinnsla|adhvarfsgreining|tidnirof-og-fourier-ummyndanir|tidnirof-og-foldun)\/prof/);
   const chapterBySlug = { "gagnaurvinnsla": 1, "adhvarfsgreining": 2, "tidnirof-og-fourier-ummyndanir": 3, "tidnirof-og-foldun": 4 };
-  const slug = chapterMatch ? chapterMatch[0].split("/teaching/edl408/")[2] : "gagnaurvinnsla";
+  const slug = chapterMatch ? chapterMatch[0].split("/")[2] : "gagnaurvinnsla";
   const exam = exams[chapterBySlug[slug]];
   const questions = exam.questions;
 

@@ -1,5 +1,10 @@
 (()=>{
 const menu=document.querySelector('.menu-button'),scrim=document.querySelector('.sidebar-scrim'),input=document.getElementById('search'),panel=document.getElementById('search-results');
+const sidebar=document.querySelector('#course-sidebar .sidebar-inner');
+const examsLabel=[...document.querySelectorAll('#course-sidebar .sidebar-label')].find(x=>x.textContent.trim()==='Próf');
+const homeworkUrl='/teaching/stae211/heimadaemi/';
+if(sidebar&&examsLabel&&!sidebar.querySelector(`a[href="${homeworkUrl}"]`)){const a=document.createElement('a');a.className='nav-link';a.href=homeworkUrl;const label=document.createElement('span');label.textContent='Heimadæmi';a.append(label);if(location.pathname.replace(/\\/?$/,'/')===homeworkUrl){a.classList.add('active');a.setAttribute('aria-current','page')}examsLabel.before(a)}
+if(Array.isArray(window.SEARCH_INDEX)&&!window.SEARCH_INDEX.some(x=>x.url===homeworkUrl)){window.SEARCH_INDEX.push({title:'Heimadæmi',chapter:'Stæ211',url:homeworkUrl,text:'Skammtur 1 Skammtur 2 Skammtur 3'})}
 function closeNav(){document.body.classList.remove('nav-open');menu.setAttribute('aria-expanded','false')}
 menu.addEventListener('click',()=>{const open=document.body.classList.toggle('nav-open');menu.setAttribute('aria-expanded',String(open))});
 scrim.addEventListener('click',closeNav);

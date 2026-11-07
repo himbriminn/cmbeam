@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="t d">
+ <title id="t">Hringlaga trommuskinna</title><desc id="d">Trommuskinna sýnd sem sporbaugalaga skífa með radíus a.</desc>
+ <rect x="1" y="1" width="758" height="328" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+ <ellipse cx="380" cy="150" rx="250" ry="82" fill="#eff6ff" stroke="#1d4ed8" stroke-width="4"/>
+ <path d="M130 150v80M630 150v80" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+ <line x1="380" y1="150" x2="560" y2="96" stroke="#0f766e" stroke-width="5"/>
+ <circle cx="380" cy="150" r="5" fill="#0f766e"/>
+ <text x="478" y="112" fill="#0f766e" font-family="system-ui,sans-serif" font-size="28" font-style="italic">a</text>
+ <text x="380" y="282" fill="#334155" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle">z(r,θ,t)</text>
+</svg>

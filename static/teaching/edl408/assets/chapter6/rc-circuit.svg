@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d">
+<title id="t">RC-rafrás</title><desc id="d">Spennugjafi, viðnám og þéttir tengd í einfaldri RC-rafrás.</desc>
+<rect x="1" y="1" width="758" height="418" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<g fill="none" stroke="#1e3a8a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M190 315V105H285"/><path d="M465 105H565V185"/><path d="M565 245V315H190"/>
+<circle cx="190" cy="210" r="48"/><path d="M285 105l18-18 30 36 30-36 30 36 30-36 32 18"/>
+<line x1="520" y1="185" x2="610" y2="185"/><line x1="520" y1="245" x2="610" y2="245"/>
+<line x1="155" y1="315" x2="225" y2="315"/><line x1="165" y1="330" x2="215" y2="330"/><line x1="178" y1="345" x2="202" y2="345"/>
+<line x1="530" y1="315" x2="600" y2="315"/><line x1="540" y1="330" x2="590" y2="330"/><line x1="553" y1="345" x2="577" y2="345"/></g>
+<g font-family="system-ui,sans-serif" font-size="27" fill="#0f172a" text-anchor="middle"><text x="190" y="220">V(t)</text><text x="375" y="67">R</text><text x="650" y="225">C</text></g></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="t d">
+<title id="t">Rafeind í kristalgrind</title><desc id="d">Regluleg kristalgrind og hlykkjóttir rafeindaferlar undir rafsviði til hægri.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#e11d48"/></marker></defs>
+<rect x="1" y="1" width="898" height="358" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<g fill="#fff7ed" stroke="#f59e0b" stroke-width="2">
+<circle cx="120" cy="70" r="12"/><circle cx="230" cy="70" r="12"/><circle cx="340" cy="70" r="12"/><circle cx="450" cy="70" r="12"/><circle cx="560" cy="70" r="12"/><circle cx="670" cy="70" r="12"/><circle cx="780" cy="70" r="12"/>
+<circle cx="120" cy="150" r="12"/><circle cx="230" cy="150" r="12"/><circle cx="340" cy="150" r="12"/><circle cx="450" cy="150" r="12"/><circle cx="560" cy="150" r="12"/><circle cx="670" cy="150" r="12"/><circle cx="780" cy="150" r="12"/>
+<circle cx="120" cy="230" r="12"/><circle cx="230" cy="230" r="12"/><circle cx="340" cy="230" r="12"/><circle cx="450" cy="230" r="12"/><circle cx="560" cy="230" r="12"/><circle cx="670" cy="230" r="12"/><circle cx="780" cy="230" r="12"/></g>
+<g fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"><path d="M60 110L145 120L220 70L280 170L380 145L455 70L530 135"/><path d="M65 260L155 190L230 235L330 225L420 270L520 205L615 225"/></g>
+<line x1="140" y1="320" x2="760" y2="320" stroke="#e11d48" stroke-width="5" marker-end="url(#a)"/><text x="450" y="305" fill="#e11d48" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle">E(t), rafsvið</text></svg>
